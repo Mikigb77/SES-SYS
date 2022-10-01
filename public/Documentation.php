@@ -1,2 +1,2 @@
 <?
-require_once(__DIR__ . "/../layout/header.php");
+header("Location: https://ses.systems/informacion-tecnica/");
