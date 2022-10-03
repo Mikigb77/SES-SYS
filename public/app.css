@@ -1,3 +1,24 @@
+@keyframes messy {
+  from {
+    top: -100px;
+    right: -100px;
+  }
+  to {
+    top: 0px;
+    right: 0px;
+  }
+}
+@keyframes messy2 {
+  from {
+    top: -200px;
+    right: 200px;
+  }
+  to {
+    top: -100px;
+    right: 10px;
+  }
+}
+
 body {
   background-color: rgb(255, 136, 0);
   padding: 50px;
@@ -7,5 +28,10 @@ video {
   height: auto;
 }
 .MySection {
+  padding: 20px;
   background-color: rgba(255, 123, 0, 0.899);
+  display: inline-block;
+}
+img {
+  margin: 20px;
 }
