@@ -1,2 +1,2 @@
 <?
-header("Location: /public/");
+echo "Hola";
