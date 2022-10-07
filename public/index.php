@@ -1,5 +1,5 @@
 <?
-require_once(__DIR__ . "/../layout/header.php");
+require_once(__DIR__ . "/../views/header.php");
 function section_end()
 {
     for ($i = 0; $i < 15; ++$i)
@@ -31,13 +31,11 @@ section_end();
 
 <? section_end(); ?>
 
-<div class="MySection">
 
-</div>
 
 <div class="MySection" id="Expo-reb">
     <div style="position:relative;">
-        <img src="/media/images/SES Steel Embed System - Foto expo .jpg" style="position:relative; border-radius:10%; width:30%; height:30%; float:left; animation-name:messy2; animation-duration:3s; animation-fill-mode:forwards;">
+        <img src="/media/images/SES Steel Embed System - Foto expo .jpg" style="position:relative; border-radius:0%; width:30%; height:30%; float:left; animation-name:messy2; animation-duration:3s; animation-fill-mode:forwards;">
         <font size="+3">
             <p>
             <h1>Conoce nuestra consultoria</h1>
