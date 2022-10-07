@@ -3,7 +3,7 @@
         'name' => 'mique/ses-sys',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '956ee9f38c5ebfc53f3c7d249d707e4be82a9209',
+        'reference' => '733e33e7d460793327647cd0fdb0d4268e8c9b98',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'mique/ses-sys' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '956ee9f38c5ebfc53f3c7d249d707e4be82a9209',
+            'reference' => '733e33e7d460793327647cd0fdb0d4268e8c9b98',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
