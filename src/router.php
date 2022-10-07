@@ -24,6 +24,11 @@ class Router
         $currURL = $_SERVER['REQUEST_URI'];
         if (strpos($currURL, '?'))
             $currURL = substr($currURL, 0, strpos($currURL, '?'));
+        if (strpos($currURL, 'public'))
+            $currURL = substr($currURL, strpos($currURL, 'public') + strlen('public'));
+        if ($currURL == '')
+            $currURL = '/';
+
         $method = $_SERVER['REQUEST_METHOD'];
 
         $fn = $method == 'GET' ? $this->getUrl[$currURL] ?? null : $this->postUrl[$currURL] ?? null;
