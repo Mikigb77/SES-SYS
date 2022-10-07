@@ -44,7 +44,7 @@ section_end();
             </p>
         </font>
         <font size="+2">
-            <p>Creado en 2007, JFG Consultors es un despacho especializado en el diseño, cálculo y ejecución de estructuras para edificios. Su equipo multidisciplinar trabaja para arquitectos y promotores en obra nueva, rehabilitación y en trabajos singulares, entre ellos la rehabilitación del Pabellón de la Mercè en el Hospital de Sant Pau o el nuevo tanatorio en Sancho de Ávila. También ha desarrollado proyectos internacionales en Francia, Rusia, Georgia o la República del Congo.</p>
+            <p>Creado en 2007, JFG Consultors es un despacho especializado en el diseño, cálculo y ejecución de estructuras para edificios. Nuestro equipo multidisciplinar trabaja para arquitectos y promotores en obra nueva, rehabilitación y en trabajos singulares, entre ellos la rehabilitación del Pabellón de la Mercè en el Hospital de Sant Pau o el nuevo tanatorio en Sancho de Ávila. También hemos desarrollado proyectos internacionales en Francia, Rusia, Georgia o la República del Congo.</p>
         </font>
     </div>
 </div>
