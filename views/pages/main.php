@@ -5,7 +5,7 @@ function section_end()
         echo "<br>";
 }
 ?>
-<video autoplay muted>
+<video autoplay muted onended="window.location.hash = 'presentation1';">
     <source src="../media/videos/Ses.webm" type="video/webm">
     Video Unsuported!!!
 </video>
