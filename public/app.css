@@ -35,3 +35,11 @@ video {
 img {
   margin: 20px;
 }
+
+.MyFooter {
+  margin-left: -50px;
+  margin-right: -50px;
+  margin-bottom: -67px;
+  background-color: rgb(20, 20, 20);
+  color: whitesmoke;
+}
