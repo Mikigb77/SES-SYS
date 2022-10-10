@@ -5,6 +5,11 @@ use SesSys\Src\Router;
 
 require_once(__DIR__ . "/../vendor/autoload.php");
 
+echo '<pre>';
+var_dump($_SERVER);
+echo '</pre>';
+exit;
+
 $router = new Router;
 
 $router->getUrl('/', [Controller::class, 'main']);
