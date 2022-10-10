@@ -26,6 +26,8 @@ class Router
             $currURL = substr($currURL, 0, strpos($currURL, '?'));
         if (strpos($currURL, 'public'))
             $currURL = substr($currURL, strpos($currURL, 'public') + strlen('public'));
+        if ($currURL[strlen($currURL) - 1] == '/')
+            $currURL = substr($currURL, 0, strlen($currURL) - 2);
         if ($currURL == '')
             $currURL = '/';
 
@@ -35,8 +37,10 @@ class Router
 
         if ($fn != null)
             call_user_func($fn, $this);
-        else
+        else {
             echo '<br><strong><font size="+3"><h1>Page Not Found<h1></font></strong><br>';
+            echo $_SERVER['REQUEST_URI'] . '<br>';
+        }
     }
 
     public function renderView($view)

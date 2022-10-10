@@ -13,6 +13,11 @@ class Controller
 
     static public function Doc()
     {
-        echo "Docu<br>";
+        header('Location: https://ses.systems/informacion-tecnica/');
+    }
+
+    static public function pol_priv(Router $router)
+    {
+        $router->renderView('politPriv');
     }
 }
