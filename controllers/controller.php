@@ -18,6 +18,8 @@ class Controller
 
     static public function pol_priv(Router $router)
     {
+        echo "PRIV";
+        exit;
         $router->renderView('politPriv');
     }
 }
