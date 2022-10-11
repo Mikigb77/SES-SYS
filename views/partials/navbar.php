@@ -11,8 +11,21 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="/">Inicio</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/Documentation">Información técnica</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/Documentation" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Información técnica
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Sistema Mixto</a></li>
+                        <li><a class="dropdown-item" href="#">Sistema Seco</a></li>
+                        <li><a class="dropdown-item" href="#">Sistema Ligero</a></li>
+                        <li><a class="dropdown-item" href="#">Sistema Activo</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Detalles Constructivos</a></li>
+                        <li><a class="dropdown-item" href="#">Homologación: DAU</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -32,7 +45,7 @@
                 </li>
             </ul>
             <form class="d-flex" role="search">
-                <input id="searchInput" class="form-control me-2" type="search" placeholder="search" aria-label="Search" style="background-image:url(/media/images/lupa.png); background-size:35px; background-repeat:no-repeat; text-indent:20px;" onkeypress="hideLupa();">
+                <input id="searchInput" class="form-control me-2" type="search" placeholder="search" aria-label="Search" style="background-image:url(/media/images/lupa.png); background-size:35px; background-repeat:no-repeat; text-indent:20px;" onfocus="hideLupa();" onblur="showLupa();">
                 <button class="btn btn-outline-light" type="submit">Search</button>
             </form>
         </div>
@@ -42,5 +55,11 @@
 <script>
     function hideLupa() {
         document.getElementById("searchInput").setAttribute("style", "");
+    }
+
+    function showLupa() {
+        let x = document.getElementById('searchInput');
+        if (!x.innerText);
+        x.setAttribute("style", "background-image:url(/media/images/lupa.png); background-size:35px; background-repeat:no-repeat; text-indent:20px;");
     }
 </script>

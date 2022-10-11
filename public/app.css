@@ -31,11 +31,11 @@ video {
   padding: 20px;
   background-color: rgba(234, 109, 0, 0.799);
   display: inline-block;
+  width: 100%;
 }
 img {
   margin: 20px;
 }
-
 .MyFooter {
   margin-left: -50px;
   margin-right: -50px;
