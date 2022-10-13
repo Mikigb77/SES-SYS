@@ -54,7 +54,7 @@
 
 <script>
     function hideLupa() {
-        document.getElementById("searchInput").setAttribute("style", "");
+        document.getElementById("searchInput").removeAttribute("style");
     }
 
     function showLupa() {
