@@ -24,7 +24,7 @@ section_end($sectionID);
         <h1 style="text-align:center;"><strong>"Lo más complejo es alcanzar lo sencillo"</strong></h1>
     </font>
     <p style="text-align:right ;">- Joan Francesc Garcia Beltran -</p>
-    <div style="float:left;">
+    <div style="float:left; width:25%;">
         <img src="/media/images/SES Steel Embed System - Foto expo .jpg" alt="..." style="display:inline-block; width:300px; border-radius:10%;">
         <font size="+2">
             <p style="text-align:center;">
@@ -40,12 +40,11 @@ section_end($sectionID);
             </p>
         </font>
     </div>
-    <br>
-    <video id="video-presentacio" controls style="width:50%; border-radius:10%; display:inline-block" poster="/media/images/ses-steel.png" onended="load()">
+    <video id="video-presentacio" controls style="width:45%; border-radius:10%; display:inline-block; margin:20px;" poster="/media/images/ses-steel.png" onended="load()">
         <source src="/media/videos/SES_compressed.mp4" type="video/mp4">
     </video>
 
-    <div style="float:right; background-color:ghostwhite; width:330px; height:500px; border-radius:10%; padding: 20px;">
+    <div style="float:right; background-color:ghostwhite; width:25%; height:500px; border-radius:10%; padding: 20px;">
         <p id="description-text"></p>
     </div>
 
