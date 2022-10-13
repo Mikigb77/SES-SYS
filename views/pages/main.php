@@ -29,13 +29,13 @@ section_end($sectionID);
         <font size="+2">
             <p style="text-align:center;">
                 <b>
-                    <button type="button" class="btn btn-outline-dark" style="text-align:center;" onclick="changeText(1);">SENCILLEZ</button><br>
-                    <button type="button" class="btn btn-outline-dark" style="text-align:center;" onclick="changeText(2);">LIGEREZA</button><br>
-                    <button type="button" class="btn btn-outline-dark" style="text-align:center;" onclick="changeText(3);">RESISTENCIA</button><br>
-                    <button type="button" class="btn btn-outline-dark" style="text-align:center;" onclick="changeText(4);">CALIDAD</button><br>
-                    <button type="button" class="btn btn-outline-dark" style="text-align:center;" onclick="changeText(5);">SOSTENIBILIDAD</button><br>
-                    <button type="button" class="btn btn-outline-dark" style="text-align:center;" onclick="changeText(6);">RENTABILIDAD</button><br>
-                    <button type="button" class="btn btn-outline-dark" style="text-align:center;" onclick="changeText(7);">PRECISIÓN</button><br>
+                    <button type="button" class="btn btn-dark" style="text-align:center;" onclick="changeText(1);">SENCILLEZ</button><br>
+                    <button type="button" class="btn btn-dark" style="text-align:center;" onclick="changeText(2);">LIGEREZA</button><br>
+                    <button type="button" class="btn btn-dark" style="text-align:center;" onclick="changeText(3);">RESISTENCIA</button><br>
+                    <button type="button" class="btn btn-dark" style="text-align:center;" onclick="changeText(4);">CALIDAD</button><br>
+                    <button type="button" class="btn btn-dark" style="text-align:center;" onclick="changeText(5);">SOSTENIBILIDAD</button><br>
+                    <button type="button" class="btn btn-dark" style="text-align:center;" onclick="changeText(6);">RENTABILIDAD</button><br>
+                    <button type="button" class="btn btn-dark" style="text-align:center;" onclick="changeText(7);">PRECISIÓN</button><br>
                 </b>
             </p>
         </font>
