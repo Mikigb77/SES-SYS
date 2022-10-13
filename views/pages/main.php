@@ -40,10 +40,11 @@ section_end($sectionID);
             </p>
         </font>
     </div>
-    <video id="video-presentacio" controls style="width:45%; border-radius:10%; display:inline-block; margin-right:20px;margin-left:20px;" poster="/media/images/ses-steel.png" onended="load()">
-        <source src="/media/videos/SES_compressed.mp4" type="video/mp4">
-    </video>
-
+    <div style="margin:10px; display:inline-block;">
+        <video id="video-presentacio" controls style="width:100%; border-radius:10%; display:inline-block;" poster="/media/images/ses-steel.png" onended="load()">
+            <source src="/media/videos/SES_compressed.mp4" type="video/mp4">
+        </video>
+    </div>
     <div style="float:right; background-color:ghostwhite; width:25%; height:500px; border-radius:10%; padding: 20px;">
         <p id="description-text"></p>
     </div>
