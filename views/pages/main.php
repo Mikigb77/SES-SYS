@@ -40,7 +40,7 @@ section_end($sectionID);
             </p>
         </font>
     </div>
-    <div style="margin-left:20px; margin-right:20px; display:inline-block; width:45%;">
+    <div style="margin-right:20px; display:inline-block; width:45%;">
         <video id="video-presentacio" controls style="width:100%; border-radius:10%; display:inline-block;" poster="/media/images/ses-steel.png" onended="load()">
             <source src="/media/videos/SES_compressed.mp4" type="video/mp4">
         </video>
