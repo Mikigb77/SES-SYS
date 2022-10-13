@@ -24,7 +24,7 @@ section_end($sectionID);
         <h1 style="text-align:center;"><strong>"Lo más complejo es alcanzar lo sencillo"</strong></h1>
     </font>
     <p style="text-align:right ;">- Joan Francesc Garcia Beltran -</p>
-    <div style="float:left; width:25%; margin-right:20px;">
+    <div style="float:left; width:25%;">
         <img src="/media/images/SES Steel Embed System - Foto expo .jpg" alt="..." style="display:inline-block; width:300px; border-radius:10%;">
         <font size="+2">
             <p style="text-align:center;">
