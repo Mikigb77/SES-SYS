@@ -35,7 +35,7 @@ section_end($sectionID);
             </p>
         </font>
     </div>
-    <div style="display:inline-block; width:45%;align-self:center; vertical-align:top; margin-right:2%; margin-left:2%;">
+    <div style="display:inline-block; width:45%; align-self:center; vertical-align:top; margin-right:2%; margin-left:2%;">
         <video id="video-presentacio" controls style="border-radius:10%;" poster="/media/images/ses-steel.png" onended="load()" oncanplay="changeText(1);">
             <source src="/media/videos/SES_compressed.mp4" type="video/mp4">
         </video>
