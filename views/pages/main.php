@@ -27,10 +27,10 @@ section_end($sectionID);
     <br>
     <h3 style="text-align:center;">Descubre otra alternativa a los sistemas de forjado tradicionales</h3>
     <br>
-    <div style="display:inline-block; width:25%; vertical-align:top;">
+    <div style="display:inline-block; width:25%; vertical-align:top; overflow:hidden;">
         <img src="/media/images/SES Steel Embed System - Foto expo.jpg" alt="..." style="width:100%; border-radius:10%;">
         <font size="+2">
-            <p style="text-align:justif; display:inline-block"><b>
+            <p style="text-align:justif;"><b>
                     SES el nuevo sistema integrado de forjado preindustrializado que permite cubrir grandes luces sin apuntalar siendo hasta un 50% más ligero que otras soluciones</b>
             </p>
         </font>

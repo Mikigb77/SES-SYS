@@ -22,3 +22,11 @@ video {
   color: whitesmoke;
   padding: 2%;
 }
+div {
+  padding: 1%;
+}
+@media only screen and (max-width: 600px) {
+  div {
+    display: block;
+  }
+}
