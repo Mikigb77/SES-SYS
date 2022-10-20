@@ -19,7 +19,7 @@ function section_end(&$sectionID)
 <?
 section_end($sectionID);
 ?>
-<div class="MySection">
+<div class="container MySection">
     <font size="+3">
         <h1 style="text-align:center;"><strong>"Lo más complejo es alcanzar lo sencillo"</strong></h1>
     </font>
@@ -27,33 +27,35 @@ section_end($sectionID);
     <br>
     <h3 style="text-align:center;">Descubre otra alternativa a los sistemas de forjado tradicionales</h3>
     <br>
-    <div style="display:inline-block; width:25%; vertical-align:top; overflow:hidden;">
-        <img src="/media/images/SES Steel Embed System - Foto expo.jpg" alt="..." style="width:100%; border-radius:10%;">
-        <font size="+2">
-            <p style="text-align:justif;"><b>
-                    SES el nuevo sistema integrado de forjado preindustrializado que permite cubrir grandes luces sin apuntalar siendo hasta un 50% más ligero que otras soluciones</b>
-            </p>
-        </font>
-    </div>
-    <div style="display:inline-block; width:45%; align-self:center; vertical-align:top; margin-right:2%; margin-left:2%;">
-        <video id="video-presentacio" controls style="border-radius:10%;" poster="/media/images/ses-steel.png" onended="load()" oncanplay="changeText(1);">
-            <source src="/media/videos/SES_compressed.mp4" type="video/mp4">
-        </video>
-        <br><br>
-        <div style="text-align:center; display:inline-block;">
-            <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(1);"><b>SENCILLEZ</b></button>
-            <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(2);"><b>LIGEREZA</b></button>
-            <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(3);"><b>RESISTENCIA</b></button>
-            <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(4);"><b>CALIDAD</b></button>
-            <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(5);"><b>SOSTENIBILIDAD</b></button>
-            <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(6);"><b>RENTABILIDAD</b></button>
-            <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(7);"><b>PRECISIÓN</b></button>
+    <div class="row">
+        <div class="col-md-3">
+            <img src="/media/images/SES Steel Embed System - Foto expo.jpg" alt="..." style="width:100%; border-radius:10%;">
+            <font size="+2">
+                <p style="text-align:justif;"><b>
+                        SES el nuevo sistema integrado de forjado preindustrializado que permite cubrir grandes luces sin apuntalar siendo hasta un 50% más ligero que otras soluciones</b>
+                </p>
+            </font>
         </div>
-    </div>
-    <div style="display:inline-block; background-color:ghostwhite; width:25%; height:auto; border-radius:10%; padding:20px;align-self:flex-end;">
-        <font size="+1">
-            <p id="description-text"></p>
-        </font>
+        <div class="col-md-6">
+            <video id="video-presentacio" controls style="border-radius:10%;" poster="/media/images/ses-steel.png" onended="load()" oncanplay="changeText(1);">
+                <source src="/media/videos/SES_compressed.mp4" type="video/mp4">
+            </video>
+            <br><br>
+            <div style="text-align:center; display:inline-block;">
+                <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(1);"><b>SENCILLEZ</b></button>
+                <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(2);"><b>LIGEREZA</b></button>
+                <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(3);"><b>RESISTENCIA</b></button>
+                <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(4);"><b>CALIDAD</b></button>
+                <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(5);"><b>SOSTENIBILIDAD</b></button>
+                <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(6);"><b>RENTABILIDAD</b></button>
+                <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(7);"><b>PRECISIÓN</b></button>
+            </div>
+        </div>
+        <div class="col-md-3" style="background-color:ghostwhite; height:fit-content; border-radius:10%; padding:1.5%">
+            <font size="+1">
+                <p id="description-text"></p>
+            </font>
+        </div>
     </div>
 
 </div>
