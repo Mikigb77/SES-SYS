@@ -9,7 +9,7 @@ video {
 .MySection {
   padding: 2%;
   background-color: rgba(234, 109, 0, 0.799);
-  display: block;
+  /*display: block;*/
   width: 100%;
   height: fit-content;
 }
@@ -21,11 +21,4 @@ video {
   background-color: #212529;
   color: whitesmoke;
   padding: 2%;
-}
-
-@media only screen and (max-width: 700px) {
-  div {
-    display: block;
-    width: fit-content;
-  }
 }
