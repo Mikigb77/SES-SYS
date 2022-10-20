@@ -27,10 +27,10 @@ section_end($sectionID);
     <br>
     <h3 style="text-align:center;">Descubre otra alternativa a los sistemas de forjado tradicionales</h3>
     <br>
-    <div style="display:inline-block; width:25%; vertical-align:top; margin-top:-1.2%; margin-right:-2%;">
-        <img src="/media/images/SES Steel Embed System - Foto expo.jpg" alt="..." style="width:300px; border-radius:10%;">
+    <div style="display:inline-block; width:25%; vertical-align:top;">
+        <img src="/media/images/SES Steel Embed System - Foto expo.jpg" alt="..." style="width:100%; border-radius:10%;">
         <font size="+2">
-            <p style="text-align:justif; margin-left:9%;margin-right:9%;"><b>
+            <p style="text-align:justif; display:inline-block"><b>
                     SES el nuevo sistema integrado de forjado preindustrializado que permite cubrir grandes luces sin apuntalar siendo hasta un 50% más ligero que otras soluciones</b>
             </p>
         </font>
@@ -40,7 +40,7 @@ section_end($sectionID);
             <source src="/media/videos/SES_compressed.mp4" type="video/mp4">
         </video>
         <br><br>
-        <div style="text-align:center;">
+        <div style="text-align:center; display:inline-block;">
             <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(1);"><b>SENCILLEZ</b></button>
             <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(2);"><b>LIGEREZA</b></button>
             <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(3);"><b>RESISTENCIA</b></button>
@@ -50,7 +50,7 @@ section_end($sectionID);
             <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(7);"><b>PRECISIÓN</b></button>
         </div>
     </div>
-    <div style="display:inline-block; background-color:ghostwhite; width:25%; height:420px; border-radius:10%; padding:20px;align-self:flex-end;">
+    <div style="display:inline-block; background-color:ghostwhite; width:25%; height:auto; border-radius:10%; padding:20px;align-self:flex-end;">
         <font size="+1">
             <p id="description-text"></p>
         </font>

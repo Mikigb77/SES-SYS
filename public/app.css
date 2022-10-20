@@ -1,27 +1,6 @@
-@keyframes messy {
-  from {
-    top: -100px;
-    right: -100px;
-  }
-  to {
-    top: 0px;
-    right: 0px;
-  }
-}
-@keyframes messy2 {
-  from {
-    top: -200px;
-    right: 200px;
-  }
-  to {
-    top: -100px;
-    right: 10px;
-  }
-}
-
 body {
   background-color: rgb(255, 136, 0);
-  padding: 50px;
+  padding: 4.3%;
 }
 video {
   width: 100%;
@@ -30,18 +9,16 @@ video {
 .MySection {
   padding: 2%;
   background-color: rgba(234, 109, 0, 0.799);
-  display: inline-block;
+  display: block;
   width: 100%;
-}
-img {
-  margin: 20px;
+  height: fit-content;
 }
 .MyFooter {
-  margin-left: -50px;
-  margin-right: -50px;
-  margin-bottom: -67px;
+  margin-left: -4.7%;
+  margin-right: -4.7%;
+  margin-bottom: -5%;
   /*background-image: url(/media/images/footer-background.jpg);*/
   background-color: #212529;
   color: whitesmoke;
-  padding: 50px;
+  padding: 2%;
 }
