@@ -51,10 +51,14 @@ section_end($sectionID);
                 <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(7);"><b>PRECISIÓN</b></button>
             </div>
         </div>
-        <div class="col-md-3" style="background-color:ghostwhite; height:fit-content; border-radius:10%; padding:20px;">
-            <font size="+1">
-                <p id="description-text"></p>
-            </font>
+        <div class="col-md-3">
+            <div style="background-color:ghostwhite; height:auto; border-radius:10%; padding:20px;">
+                <font size="+1">
+                    <p id="description-text"></p>
+                </font>
+
+            </div>
+            <img src="/media/images/segell_DAU_h.png" alt="DAU" width="50%" style="float:right; margin:0%;">
         </div>
     </div>
 
