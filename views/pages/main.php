@@ -50,7 +50,7 @@ section_end($sectionID);
             <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(7);"><b>PRECISIÓN</b></button>
         </div>
     </div>
-    <div style="display:inline-block; background-color:ghostwhite; width:25%; height:500px; border-radius:10%; padding:20px;align-self:flex-end;">
+    <div style="display:inline-block; background-color:ghostwhite; width:25%; height:420px; border-radius:10%; padding:20px;align-self:flex-end;">
         <font size="+1">
             <p id="description-text"></p>
         </font>
@@ -58,3 +58,10 @@ section_end($sectionID);
 
 </div>
 <? section_end($sectionID); ?>
+
+<div class="MySection">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, ut reprehenderit quidem quaerat aut voluptatibus suscipit animi inventore sequi perspiciatis natus qui laborum quibusdam voluptatum nemo itaque nam rerum sit?</p>
+    <p>Nemo consectetur adipisci quibusdam voluptatem assumenda velit ipsa earum quaerat tempora autem sit necessitatibus quo repellendus consequatur distinctio voluptates, enim asperiores, quia, deleniti saepe possimus. Minima quod repellendus enim voluptas.</p>
+    <p>Animi impedit libero neque modi! Iure saepe quisquam recusandae consequuntur voluptates incidunt id possimus odio numquam praesentium qui facere sequi beatae nisi vitae tempore officiis quis perspiciatis, voluptas ipsa aspernatur?</p>
+    <p>Blanditiis, autem. Rem accusamus facere dolor culpa et fuga veritatis explicabo animi consectetur, consequatur necessitatibus laudantium ducimus, dolorum ea ullam laborum vitae vero at a eius, doloribus molestiae. Libero, voluptas.</p>
+</div>
