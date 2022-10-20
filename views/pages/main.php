@@ -51,7 +51,7 @@ section_end($sectionID);
                 <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(7);"><b>PRECISIÓN</b></button>
             </div>
         </div>
-        <div class="col-md-3" style="background-color:ghostwhite; height:fit-content; border-radius:10%; padding:1.5%">
+        <div class="col-md-3" style="background-color:ghostwhite; height:fit-content; border-radius:10%; padding:20px;">
             <font size="+1">
                 <p id="description-text"></p>
             </font>
