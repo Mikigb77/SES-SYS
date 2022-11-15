@@ -2,6 +2,7 @@
 for ($i = 0; $i < 5; ++$i)
     echo '<br>';
 ?>
+
 <footer>
     <div class="MyFooter">
         <div style="display:inline-block;">

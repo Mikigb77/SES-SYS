@@ -23,7 +23,7 @@ section_end($sectionID);
     <font size="+3">
         <h1 style="text-align:center;"><strong>"Lo más complejo es alcanzar lo sencillo"</strong></h1>
     </font>
-    <p style="text-align:center ;">By Joan Francesc Garcia Beltran</p>
+    <p style="text-align:center ;"><i>By Joan Francesc García Beltrán</i></p>
     <br>
     <h3 style="text-align:center;">Descubre otra alternativa a los sistemas de forjado tradicionales</h3>
     <br>
@@ -68,11 +68,21 @@ section_end($sectionID);
 <div class="MySection container">
     <div class="row">
         <div>
-            <img src="/media/images/dad_vang.jpg" width="500" style="float:right ;">
-        </div>
-        <div>
+            <img src="/media/images/dad_vang.jpg" width="500" style="float:right; border-radius:10%; margin-left:30px;">
             <font size=+1>
-                <h3>"Un consultor de estructuras debe tener siempre una respuesta ante las posibles necesidades que genere el proyecto"</h3>
+                <h2 style="text-align:justify;"><i><b>"Un consultor de estructuras debe tener siempre una respuesta ante las posibles necesidades que genere el proyecto"</b></i></h2>
+
+                <p style="text-align:center;">
+                    <i>By Joan Francesc García Beltrán</i>
+                </p>
+                <br>
+                <p style="text-align:justify;">
+                    Arquitecto colegiado y miembro de la Asociación de Consultores de Estructuras, fundador de la consultoria de estructuras <a href="https://www.jfgconsultors.com/"><b>JFG Consultors</b></a>, fundada en 2007, ofrece <strong>SES</strong> el nuevo sistema de forjado preindustrializado inteligente capaz de adaptarse a los requerimentos más duros de la construcción,
+                    pensado expresamente para forjados resistentes, cubiertas ligeras y muros.
+                </p>
+                <br>
+                <p style="text-align:right;"><b>Miembro de la Asociación de Consultores de Estructuras</b></p>
+                <a href="https://aceweb.cat/es/noticias/ses-steel-embed-system-forjado-preindustrializado/"><img src="/media/images/logo-ace.jpg" alt="ACE" width="200" style="float:right;"></a>
             </font>
         </div>
     </div>
