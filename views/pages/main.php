@@ -13,14 +13,16 @@ function section_end(&$sectionID)
 }
 ?>
 <br>
-<video id="ini-video" autoplay muted onended="window.location.hash = '1';">
-    <source src="../media/videos/Ses.webm" type="video/webm">
-    Video Unsuported!!!
-</video>
+<div class="container-fluid MySection">
+    <video id="ini-video" autoplay muted onended="window.location.hash = '1';">
+        <source src="../media/videos/Ses.webm" type="video/webm">
+        Video Unsuported!!!
+    </video>
+</div>
 <?
 section_end($sectionID);
 ?>
-<div class="container MySection">
+<div class="container-fluid MySection">
     <font size="+3">
         <h1 style="text-align:center;"><strong>"Lo más complejo es alcanzar lo sencillo"</strong></h1>
     </font>
@@ -66,7 +68,7 @@ section_end($sectionID);
 </div>
 <? section_end($sectionID); ?>
 
-<div class="MySection container">
+<div class="MySection container-fluid">
     <div class="row">
         <div class="col-xs-12">
             <div class="col-md-5" style="float:right;margin-left:2%;">
