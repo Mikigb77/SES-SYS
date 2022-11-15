@@ -34,7 +34,7 @@ section_end($sectionID);
         <div class="col-md-3">
             <img src="/media/images/SES Steel Embed System - Foto expo.jpg" alt="..." style="width:100%; border-radius:10%;">
             <font size="+2">
-                <p style="text-align:justif;"><b><br>
+                <p style="text-align:justify;"><b><br>
                         SES el nuevo sistema integrado de forjado preindustrializado que permite cubrir grandes luces sin apuntalar siendo hasta un 50% más ligero que otras soluciones</b>
                 </p>
             </font>
@@ -45,9 +45,9 @@ section_end($sectionID);
             </video>
             <br><br>
             <div style="text-align:center; display:inline-block;">
-                <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(1);"><b>SENCILLEZ</b></button>
-                <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(2);"><b>LIGEREZA</b></button>
-                <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(3);"><b>RESISTENCIA</b></button>
+                <button type="button" class="btn btn-outline-light" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(1);"><b>SENCILLEZ</b></button>
+                <button type="button" class="btn btn-light" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(2);"><b>LIGEREZA</b></button>
+                <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%; background-color:grey;" onmouseover="changeText(3);"><b>RESISTENCIA</b></button>
                 <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(4);"><b>CALIDAD</b></button>
                 <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(5);"><b>SOSTENIBILIDAD</b></button>
                 <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(6);"><b>RENTABILIDAD</b></button>
@@ -57,7 +57,7 @@ section_end($sectionID);
         <div class="col-md-3">
             <div style="background-color:ghostwhite; height:auto; border-radius:10%; padding:20px;">
                 <font size="+1">
-                    <p id="description-text"></p>
+                    <p id="description-text" style="text-align:justify;"></p>
                 </font>
 
             </div>
@@ -74,7 +74,11 @@ section_end($sectionID);
             <div class="col-md-5" style="float:right;margin-left:2%;">
                 <img src="/media/images/dad_vang.jpg" style="float:right; border-radius:10%; margin-bottom:5%; width:100%">
                 <p style="text-align:right;"><b>Miembro de la Asociación de Consultores de Estructuras</b></p>
-                <a href="https://aceweb.cat/es/noticias/ses-steel-embed-system-forjado-preindustrializado/"><img src="/media/images/logo-ace.jpg" alt="ACE" width="200" style="float:right;"></a>
+
+                <a href="https://aceweb.cat/es/noticias/ses-steel-embed-system-forjado-preindustrializado/" style="color:black;">
+                    <img src="/media/images/logo-ace.jpg" alt="ACE" width="200" style="float:right; margin-left:2%;">
+                    <p style="text-align:right;">Presentación del sistema SES en ACE</p>
+                </a>
             </div>
             <font size=+1>
                 <h2 style="text-align:justify;"><i><b>"Un consultor de estructuras debe tener siempre una respuesta ante las posibles necesidades que genere el proyecto"</b></i></h2>
