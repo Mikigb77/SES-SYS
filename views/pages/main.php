@@ -12,6 +12,7 @@ function section_end(&$sectionID)
     }
 }
 ?>
+<br>
 <video id="ini-video" autoplay muted onended="window.location.hash = '1';">
     <source src="../media/videos/Ses.webm" type="video/webm">
     Video Unsuported!!!
