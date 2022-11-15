@@ -72,7 +72,9 @@ section_end($sectionID);
     <div class="row">
         <div class="col-xs-12">
             <div class="col-md-5" style="float:right;margin-left:2%;">
-                <img src="/media/images/dad_vang.jpg" style="float:right; border-radius:10%;  width:100%">
+                <img src="/media/images/dad_vang.jpg" style="float:right; border-radius:10%; margin-bottom:5%; width:100%">
+                <p style="text-align:right;"><b>Miembro de la Asociación de Consultores de Estructuras</b></p>
+                <a href="https://aceweb.cat/es/noticias/ses-steel-embed-system-forjado-preindustrializado/"><img src="/media/images/logo-ace.jpg" alt="ACE" width="200" style="float:right;"></a>
             </div>
             <font size=+1>
                 <h2 style="text-align:justify;"><i><b>"Un consultor de estructuras debe tener siempre una respuesta ante las posibles necesidades que genere el proyecto"</b></i></h2>
@@ -85,9 +87,6 @@ section_end($sectionID);
                     Arquitecto colegiado y miembro de la Asociación de Consultores de Estructuras, fundador de la consultoria de estructuras <a href="https://www.jfgconsultors.com/"><b>JFG Consultors</b></a>, fundada en 2007, ofrece <strong>SES</strong> el nuevo sistema de forjado preindustrializado inteligente capaz de adaptarse a los requerimentos más duros de la construcción,
                     pensado expresamente para forjados resistentes, cubiertas ligeras y muros.
                 </p>
-                <br>
-                <p style="text-align:right;"><b>Miembro de la Asociación de Consultores de Estructuras</b></p>
-                <a href="https://aceweb.cat/es/noticias/ses-steel-embed-system-forjado-preindustrializado/"><img src="/media/images/logo-ace.jpg" alt="ACE" width="200" style="float:right;"></a>
             </font>
         </div>
     </div>
