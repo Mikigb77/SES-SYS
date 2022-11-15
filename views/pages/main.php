@@ -65,9 +65,15 @@ section_end($sectionID);
 </div>
 <? section_end($sectionID); ?>
 
-<div class="MySection">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, ut reprehenderit quidem quaerat aut voluptatibus suscipit animi inventore sequi perspiciatis natus qui laborum quibusdam voluptatum nemo itaque nam rerum sit?</p>
-    <p>Nemo consectetur adipisci quibusdam voluptatem assumenda velit ipsa earum quaerat tempora autem sit necessitatibus quo repellendus consequatur distinctio voluptates, enim asperiores, quia, deleniti saepe possimus. Minima quod repellendus enim voluptas.</p>
-    <p>Animi impedit libero neque modi! Iure saepe quisquam recusandae consequuntur voluptates incidunt id possimus odio numquam praesentium qui facere sequi beatae nisi vitae tempore officiis quis perspiciatis, voluptas ipsa aspernatur?</p>
-    <p>Blanditiis, autem. Rem accusamus facere dolor culpa et fuga veritatis explicabo animi consectetur, consequatur necessitatibus laudantium ducimus, dolorum ea ullam laborum vitae vero at a eius, doloribus molestiae. Libero, voluptas.</p>
+<div class="MySection container">
+    <div class="row">
+        <div>
+            <img src="/media/images/dad_vang.jpg" width="500" style="float:right ;">
+        </div>
+        <div>
+            <font size=+1>
+                <h3>"Un consultor de estructuras debe tener siempre una respuesta ante las posibles necesidades que genere el proyecto"</h3>
+            </font>
+        </div>
+    </div>
 </div>
