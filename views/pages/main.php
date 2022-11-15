@@ -13,7 +13,7 @@ function section_end(&$sectionID)
 }
 ?>
 <br>
-<div class="container-fluid MySection">
+<div class="container-fluid">
     <video id="ini-video" autoplay muted onended="window.location.hash = '1';">
         <source src="../media/videos/Ses.webm" type="video/webm">
         Video Unsuported!!!
@@ -24,7 +24,7 @@ section_end($sectionID);
 ?>
 <div class="container-fluid MySection">
     <font size="+3">
-        <h1 style="text-align:center;"><strong>"Lo más complejo es alcanzar lo sencillo"</strong></h1>
+        <h1 style="text-align:center;"><strong><i>"Lo más complejo es alcanzar lo sencillo"</i></strong></h1>
     </font>
     <p style="text-align:center ;"><i>By Joan Francesc García Beltrán</i></p>
     <br>
