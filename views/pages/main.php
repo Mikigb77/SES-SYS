@@ -67,8 +67,10 @@ section_end($sectionID);
 
 <div class="MySection container">
     <div class="row">
-        <div class="col-md-12">
-            <img src="/media/images/dad_vang.jpg" width="500" style="float:right; border-radius:10%; margin-left:30px;">
+        <div class="col-xs-12">
+            <div class="col-md-5" style="float:right;margin-left:2%;">
+                <img src="/media/images/dad_vang.jpg" style="float:right; border-radius:10%;  width:100%">
+            </div>
             <font size=+1>
                 <h2 style="text-align:justify;"><i><b>"Un consultor de estructuras debe tener siempre una respuesta ante las posibles necesidades que genere el proyecto"</b></i></h2>
 
