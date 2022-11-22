@@ -39,7 +39,6 @@ class Router
             call_user_func($fn, $this);
         else {
             echo '<br><strong><font size="+3"><h1>Page Not Found<h1></font></strong><br>';
-            echo $_SERVER['REQUEST_URI'] . '<br>';
         }
     }
 

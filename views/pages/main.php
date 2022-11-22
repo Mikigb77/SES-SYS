@@ -60,7 +60,9 @@ section_end($sectionID);
                 </font>
 
             </div>
-            <img src="/media/images/segell_DAU_h.png" alt="DAU" width="50%" style="float:right; margin:0%;">
+            <a href="https://itec.es/certificacion/dau/files/21/126">
+                <img src="/media/images/segell_DAU_h.png" alt="DAU" width="50%" style="float:right; margin:0%;">
+            </a>
         </div>
     </div>
 
