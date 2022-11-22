@@ -13,6 +13,8 @@ $router->getUrl('/Documentation', [Controller::class, 'Doc']);
 $router->postUrl('/Documentation', [Controller::class, 'Doc']);
 $router->postUrl('/politica-de-privacidad', [Controller::class, 'pol_priv']);
 $router->getUrl('/politica-de-privacidad', [Controller::class, 'pol_priv']);
+$router->getUrl('/informacion-tecnica/mixto', [Controller::class, 'tec_mix']);
+$router->postUrl('/informacion-tecnica/mixto', [Controller::class, 'tec_mix']);
 
 
 $router->resolve();

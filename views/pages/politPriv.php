@@ -5,7 +5,7 @@ function endpar()
         echo '<br>';
 }
 ?>
-<div class="MySection" style="padding:30px ;">
+<div class="MySection container">
     <h1><strong>Política de privacidad</strong></h1>
     <hr>
     <br>

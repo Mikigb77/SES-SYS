@@ -20,4 +20,9 @@ class Controller
     {
         $router->renderView('politPriv');
     }
+
+    static public function tec_mix(Router $router)
+    {
+        $router->renderView('tecInfoMix');
+    }
 }

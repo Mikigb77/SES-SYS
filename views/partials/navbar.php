@@ -17,7 +17,7 @@
                             Información técnica
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Sistema Mixto</a></li>
+                            <li><a class="dropdown-item" href="/informacion-tecnica/mixto">Sistema Mixto</a></li>
                             <li><a class="dropdown-item" href="#">Sistema Seco</a></li>
                             <li><a class="dropdown-item" href="#">Sistema Ligero</a></li>
                             <li><a class="dropdown-item" href="#">Sistema Activo</a></li>

@@ -3,17 +3,16 @@ $sectionID = 0;
 function section_end(&$sectionID)
 {
     ++$sectionID;
-    $ID = (string) $sectionID;
-    for ($i = 0; $i < 15; ++$i) {
-        if ($i == 12)
+    for ($i = 0; $i < 5; ++$i) {
+        if ($i == 3) {
+            $ID = (string) $sectionID;
             echo "<br id='$ID'>";
-        else
+        } else
             echo "<br>";
     }
 }
 ?>
-<br>
-<div class="container-fluid">
+<div class="container">
     <video id="ini-video" autoplay muted onended="window.location.hash = '1';">
         <source src="../media/videos/Ses.webm" type="video/webm">
         Video Unsuported!!!
@@ -22,7 +21,7 @@ function section_end(&$sectionID)
 <?
 section_end($sectionID);
 ?>
-<div class="container-fluid MySection">
+<div class="container MySection">
     <font size="+3">
         <h1 style="text-align:center;"><strong><i>"Lo más complejo es alcanzar lo sencillo"</i></strong></h1>
     </font>
@@ -45,9 +44,9 @@ section_end($sectionID);
             </video>
             <br><br>
             <div style="text-align:center; display:inline-block;">
-                <button type="button" class="btn btn-outline-light" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(1);"><b>SENCILLEZ</b></button>
-                <button type="button" class="btn btn-light" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(2);"><b>LIGEREZA</b></button>
-                <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%; background-color:grey;" onmouseover="changeText(3);"><b>RESISTENCIA</b></button>
+                <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(1);"><b>SENCILLEZ</b></button>
+                <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(2);"><b>LIGEREZA</b></button>
+                <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(3);"><b>RESISTENCIA</b></button>
                 <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(4);"><b>CALIDAD</b></button>
                 <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(5);"><b>SOSTENIBILIDAD</b></button>
                 <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%;" onmouseover="changeText(6);"><b>RENTABILIDAD</b></button>
@@ -68,7 +67,7 @@ section_end($sectionID);
 </div>
 <? section_end($sectionID); ?>
 
-<div class="MySection container-fluid">
+<div class="MySection container">
     <div class="row">
         <div class="col-xs-12">
             <div class="col-md-5" style="float:right;margin-left:2%;">
