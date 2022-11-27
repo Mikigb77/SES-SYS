@@ -24,12 +24,11 @@
             <h2 style="text-align:center;"><b>Ficha Técnica</b></h2>
             <hr>
         </div>
-        <div class="col-md-6">
-            <img src="/media/images/joan equip.jpg" alt="..." style="width:65%;">
+        <div class="col-md-6" style="text-align:center;">
+            <img src="/media/images/Tríptic per web mixte.jpg" alt="..." style="width:100%;">
         </div>
         <div class="col-md-6">
-
-            <div>
+            <div style="text-align:center;">
                 <a href="/media/files/SES_mixto_ficha técnica.pdf" target="_blank">
                     <img src="/media/images/SES_mixto_info.jpg" alt="Ficha Técnica SES Mixto" style="width:65%;">
                 </a>
