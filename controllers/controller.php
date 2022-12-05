@@ -25,4 +25,14 @@ class Controller
     {
         $router->renderView('tecInfoMix');
     }
+
+    static public function tec_sec(Router $router)
+    {
+        $router->renderView('tecInfoSec');
+    }
+
+    static public function tec(Router $router)
+    {
+        $router->renderView('tecInfo');
+    }
 }

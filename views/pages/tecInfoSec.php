@@ -3,11 +3,11 @@
         <div class="col-md-12">
             <h1 style="text-align:center;"><b>Información Técnica</b></h1>
             <hr>
-            <h2 style="text-align:center;"><b>Sistema Mixto</b></h2>
+            <h2 style="text-align:center;"><b>Sistema Seco</b></h2>
             <br>
 
             <div>
-                <img src="/media/images/Hand drawings/forjado mixto seccion.jpg" alt="" style="width:50%; float:left; margin-right:5%; border-radius:10%">
+                <img src="/media/images/Hand drawings/Forjado seco seccion.jpg" alt="" style="width:50%; float:left; margin-right:5%; border-radius:10%">
 
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga asperiores debitis reiciendis necessitatibus labore similique temporibus, incidunt dolor quam? Quasi deleniti et delectus quod quaerat maiores tempora! Tempore, voluptatem veniam?</p>
                 <p>Voluptatem sit quidem consequuntur nihil. Eius quis rerum incidunt illum doloremque dignissimos libero quos? Inventore quae dolore impedit totam, laborum accusamus animi ipsam consectetur libero atque dicta veniam magnam deserunt?</p>
@@ -17,7 +17,7 @@
                 <font size=+1>
                     <p style="text-align:right;">
                         <b>Documentación técnica</b>
-                        <a href="/media/files/SES_mixto_ficha técnica.pdf" target="_blank">
+                        <a href="/media/files/SES_seco_ficha técnica.pdf" target="_blank">
                             <button type="button" class="btn btn-outline-dark"><b>Descargar</b></button>
                         </a>
                     </p>
@@ -41,13 +41,13 @@
             <hr>
         </div>
         <div class="col-md-12" style="text-align:center;">
-            <img src="/media/images/Tríptic per web mixte.jpg" alt="..." style="width:900px;">
+            <img src="/media/images/Tríptic per a web sec.jpg" alt="..." style="width:900px;">
             <br><br><br>
         </div>
         <div class="col-md-12">
             <div style="text-align:center;">
-                <a href="/media/files/SES_mixto_ficha técnica.pdf" target="_blank">
-                    <img src="/media/images/Documentation/SES_mixto_ficha técnica_imag.jpg" alt="Ficha Técnica SES Mixto" style="width:750px;">
+                <a href="/media/files/SES_seco_ficha técnica.pdf" target="_blank">
+                    <img src="/media/images/Documentation/SES_seco_ficha técnica_imag.jpg" alt="Ficha Técnica SES Mixto" style="width:750px;">
                 </a>
             </div>
             <br>
@@ -55,7 +55,7 @@
                 <font size=+1>
                     <p>
                         <b>Documentación técnica</b>
-                        <a href="/media/files/SES_mixto_ficha técnica.pdf" target="_blank">
+                        <a href="/media/files/SES_seco_ficha técnica.pdf" target="_blank">
                             <button type="button" class="btn btn-outline-dark"><b>Descargar</b></button>
                         </a>
                     </p>

@@ -15,6 +15,10 @@ $router->postUrl('/politica-de-privacidad', [Controller::class, 'pol_priv']);
 $router->getUrl('/politica-de-privacidad', [Controller::class, 'pol_priv']);
 $router->getUrl('/informacion-tecnica/mixto', [Controller::class, 'tec_mix']);
 $router->postUrl('/informacion-tecnica/mixto', [Controller::class, 'tec_mix']);
+$router->getUrl('/informacion-tecnica/seco', [Controller::class, 'tec_sec']);
+$router->postUrl('/informacion-tecnica/seco', [Controller::class, 'tec_sec']);
+$router->getUrl('/informacion-tecnica', [Controller::class, 'tec']);
+$router->postUrl('/informacion-tecnica', [Controller::class, 'tec']);
 
 
 $router->resolve();
