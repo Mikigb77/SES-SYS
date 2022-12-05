@@ -8,7 +8,7 @@ for ($i = 0; $i < 5; ++$i)
     <div class="row">
         <div class="col-md-4">
             <div>
-                <img src="/media/images/icon-ses.png" alt="JFG Consultors" style="width:50%;">
+                <img src="/media/images/Logos/icon-ses.png" alt="JFG Consultors" style="width:50%;">
                 <br>
                 <a href="/politica-de-privacidad">Política de privacidad</a>
             </div>

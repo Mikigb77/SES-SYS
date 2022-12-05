@@ -8,7 +8,7 @@
     <meta name="author" content="Miquel Garcia Bardají">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SES-SYS</title>
-    <link rel="icon" type="image/x-icon" href="/media/images/icon-ses.png">
+    <link rel="icon" type="image/x-icon" href="/media/images/Logos/icon-ses.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="/public/app.css" rel="stylesheet">
 </head>

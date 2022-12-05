@@ -32,9 +32,9 @@ section_end($sectionID);
     <div class="row">
         <div class="col-md-3">
             <img src="/media/images/SES Steel Embed System - Foto expo.jpg" alt="..." style="width:100%; border-radius:10%;">
-            <font size="+2">
-                <p style="text-align:justify;"><b><br>
-                        SES el nuevo sistema integrado de forjado preindustrializado que permite cubrir grandes luces sin apuntalar siendo hasta un 50% más ligero que otras soluciones</b>
+            <font size=+1>
+                <p style="text-align:center;"><strong><br>
+                        SES el nuevo sistema integrado de forjado preindustrializado que permite cubrir grandes luces sin apuntalar siendo hasta un 50% más ligero que otras soluciones</strong>
                 </p>
             </font>
         </div>
@@ -60,24 +60,71 @@ section_end($sectionID);
                 </font>
 
             </div>
-            <a href="https://itec.es/certificacion/dau/files/21/126" target="_blank">
-                <img src="/media/images/segell_DAU_h.png" alt="DAU" width="50%" style="float:right; margin:0%;">
+            <a href="/media/files/SES_SWH-SEF- DAU.pdf" target="_blank">
+                <img src="/media/images/Logos/segell_DAU_h.png" alt="DAU" width="50%" style="float:right; margin:0%;">
             </a>
         </div>
     </div>
 
 </div>
 <? section_end($sectionID); ?>
+<div class="MySection container">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/media/images/Rooftop/sostre img1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/media/images/Rooftop/sostre img2.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/media/images/Rooftop/sostre img3.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/media/images/Rooftop/sostre img4.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/media/images/Rooftop/sostre img5.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/media/images/Rooftop/sostre img6.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<? section_end($sectionID); ?>
 
 <div class="MySection container">
     <div class="row">
         <div class="col-xs-12">
             <div class="col-md-5" style="float:right;margin-left:2%;">
-                <img src="/media/images/dad_vang.jpg" style="float:right; border-radius:10%; margin-bottom:5%; width:100%">
+                <img src="/media/images/Dad/dad_vang.jpg" style="float:right; border-radius:10%; margin-bottom:5%; width:100%">
                 <p style="text-align:right;"><b>Miembro de la Asociación de Consultores de Estructuras</b></p>
 
                 <a href="https://aceweb.cat/es/noticias/ses-steel-embed-system-forjado-preindustrializado/" style="color:black;">
-                    <img src="/media/images/logo-ace.jpg" alt="ACE" width="200" style="float:right; margin-left:2%;">
+                    <img src="/media/images/Logos/logo-ace.jpg" alt="ACE" width="200" style="float:right; margin-left:2%;">
                     <p style="text-align:right;">Presentación del sistema SES en ACE</p>
                 </a>
             </div>

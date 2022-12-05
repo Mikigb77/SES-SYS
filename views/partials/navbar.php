@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">
-                <img src="/media/images/icon-ses.png" alt="SES System" style="width: 40px; padding:0%; margin-left:0%; margin-right:0%; margin-top:0%; margin-bottom:0%;">
+                <img src="/media/images/Logos/icon-ses.png" alt="SES System" style="width: 40px; margin:0%;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
