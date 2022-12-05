@@ -19,7 +19,11 @@
 <br><br><br><br>
 <div class="MySection container">
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-12">
+            <h2 style="text-align:center;">Sistemas</h2>
+            <hr>
+        </div>
+        <div class="col-md-6">
             <div class="hover">
                 <a href="/informacion-tecnica/mixto">
                     <img class="MyImage" src="/media/images/Hand drawings/forjado mixto seccion.jpg" alt="<b>Mixto</b>" style="width:100%; border-radius:10%;">
@@ -31,7 +35,7 @@
                 </a>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="hover">
                 <a href="/informacion-tecnica/seco">
                     <img class="MyImage" src="/media/images/Hand drawings/Forjado seco seccion.jpg" alt="<b>Seco</b>" style="width:100%; border-radius:10%;">
