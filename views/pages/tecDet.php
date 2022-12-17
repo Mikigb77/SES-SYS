@@ -1,3 +1,9 @@
+<style>
+    img {
+        width: 100%;
+        border-radius: 10%;
+    }
+</style>
 <div class="MySection container">
     <h1 style="text-align:center;">Detalles Constructivos</h1>
     <hr>
@@ -6,23 +12,18 @@
             <img src="/media/images/Hand drawings/all.jpg" alt="Detalles">
         </div>
         <div class="col-md-8">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor tempore ratione eligendi cumque, sequi voluptate dolorum quibusdam porro vero modi ullam? Ipsa beatae quibusdam obcaecati saepe corporis eaque quos quam.</p>
-            <p>Molestiae, autem! Consequatur veritatis velit necessitatibus est adipisci, voluptatibus perferendis sit dolorum incidunt aspernatur quia, iusto quaerat temporibus reiciendis ipsum corrupti, fugit porro vitae dolor error. Id placeat eos magnam?</p>
-            <p>Iure saepe fuga sequi ipsam ex beatae sunt optio blanditiis voluptatibus. At quasi quae eius maiores sunt unde quod vel quis ab culpa, neque deserunt dolorem provident! Velit, et reiciendis!</p>
-            <p>Quia modi molestias sint magni quae nemo, cupiditate eveniet veniam sapiente rerum facere illo harum commodi exercitationem. Fugit consequuntur cum qui nesciunt error deleniti quaerat corporis? Repellendus ducimus officiis vero?</p>
+            <p style="text-align:justify;">
+                El sistema SWH-SEF constituye una solución de forjado de altísimas prestaciones en su tipo SWH-SEF mixto y extremadamente ligero en su versión SWH-SEF seco. El forjado integra las funciones estructurales así como de resistencia al fuego y de apariencia limpia y pulida desde su puesta en obra. De geometría inteligente, reduce a la mínima expresión el material empleado para maximizar su rendimiento bajo la forma de un forjado plano o inclinado de instalación ultra rápida.</p>
         </div>
     </div>
 </div>
-
-<style>
-    img {
-        width: 100%;
-    }
-</style>
 <br><br><br><br>
 <div class="MySection container">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-6">
+
+        </div>
+        <div class="col-md-6">
             <h2 style="text-align:center;">Mixto</h2>
             <hr>
             <div class="hover">
