@@ -9,10 +9,27 @@
             <img src="/media/images/Hand drawings/all.jpg" alt="" style="width:100%; border-radius:10%;">
         </div>
         <div class="col-md-9">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis aspernatur at quod dignissimos, pariatur numquam aliquam beatae molestias ratione aliquid impedit inventore quidem voluptatem nam dolorum dicta atque! Harum, rerum!</p>
-            <p>Officia corporis, amet neque magnam inventore, hic sed, exercitationem accusamus laboriosam perspiciatis consectetur quae ut animi laborum itaque. Consectetur eius magni vitae nisi, necessitatibus a pariatur sint veritatis ducimus deserunt.</p>
-            <p>Consequatur vel id sequi amet minima, necessitatibus consequuntur quasi eaque assumenda vitae doloremque doloribus, porro iste maxime impedit debitis dolorem dicta. Repellat porro voluptate labore molestiae eveniet soluta reiciendis sunt.</p>
-            <p>Ullam ipsa sunt expedita animi eius laboriosam quas autem, mollitia pariatur quae sequi corrupti esse ratione et impedit unde. Esse cupiditate quis dolore officiis illo ab, incidunt ullam temporibus adipisci?</p>
+            <font size=+2>
+                <p>
+                    El sistema SWH-SEF constituye una solución de forjado de altísimas prestaciones en su tipo SWH-SEF mixto y extremadamente ligero en su versión SWH-SEF seco. El forjado integra las funciones estructurales así como de resistencia al fuego y de apariencia limpia y pulida desde su puesta en obra. De geometría inteligente, reduce a la mínima expresión el material empleado para maximizar su rendimiento bajo la forma de un forjado plano o inclinado de instalación ultra rápida.
+
+                </p>
+                <div style="text-align:center;">
+                    <br>
+                    <div>
+                        <a href="/informacion-tecnica/mixto">
+                            <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%; width:100%">Mixto</button>
+                        </a>
+                    </div>
+                    <br>
+                    <div>
+                        <a href="/informacion-tecnica/seco">
+                            <button type="button" class="btn btn-outline-dark" style="text-align:center;margin-bottom:0.5%; width: 100%">Seco</button>
+                        </a>
+                    </div>
+
+                </div>
+            </font>
         </div>
     </div>
 </div>
