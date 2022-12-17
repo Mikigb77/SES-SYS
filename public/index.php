@@ -19,6 +19,8 @@ $router->getUrl('/informacion-tecnica/seco', [Controller::class, 'tec_sec']);
 $router->postUrl('/informacion-tecnica/seco', [Controller::class, 'tec_sec']);
 $router->getUrl('/informacion-tecnica', [Controller::class, 'tec']);
 $router->postUrl('/informacion-tecnica', [Controller::class, 'tec']);
+$router->getUrl('/informacion-tecnica/detalles-constructivos', [Controller::class, 'tec_det']);
+$router->postUrl('/informacion-tecnica/detalles-constructivos', [Controller::class, 'tec_det']);
 
 
 $router->resolve();

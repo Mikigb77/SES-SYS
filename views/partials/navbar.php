@@ -23,7 +23,7 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Detalles Constructivos</a></li>
+                            <li><a class="dropdown-item" href="/informacion-tecnica/detalles-constructivos">Detalles Constructivos</a></li>
                             <li><a class="dropdown-item" href="/media/files/SES_SWH-SEF- DAU.pdf" target="_blanck">Homologación: DAU</a></li>
                         </ul>
                     </li>

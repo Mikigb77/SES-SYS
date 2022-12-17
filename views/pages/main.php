@@ -127,6 +127,7 @@ section_end($sectionID);
                     <img src="/media/images/Logos/logo-ace.jpg" alt="ACE" width="200" style="float:right; margin-left:2%;">
                     <p style="text-align:right;">Presentación del sistema SES en ACE</p>
                 </a>
+                <br>
             </div>
             <font size=+1>
                 <h2 style="text-align:justify;"><i><b>"Un consultor de estructuras debe tener siempre una respuesta ante las posibles necesidades que genere el proyecto"</b></i></h2>

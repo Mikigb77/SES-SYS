@@ -35,4 +35,9 @@ class Controller
     {
         $router->renderView('tecInfo');
     }
+
+    static public function tec_det(Router $router)
+    {
+        $router->renderView('tecDet');
+    }
 }
