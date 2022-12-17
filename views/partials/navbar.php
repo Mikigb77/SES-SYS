@@ -20,13 +20,11 @@
                             <li><a class="dropdown-item" href="/informacion-tecnica">Índice</a></li>
                             <li><a class="dropdown-item" href="/informacion-tecnica/mixto">Sistema Mixto</a></li>
                             <li><a class="dropdown-item" href="/informacion-tecnica/seco">Sistema Seco</a></li>
-                            <li><a class="dropdown-item" href="#">Sistema Ligero</a></li>
-                            <li><a class="dropdown-item" href="#">Sistema Activo</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item" href="#">Detalles Constructivos</a></li>
-                            <li><a class="dropdown-item" href="#">Homologación: DAU</a></li>
+                            <li><a class="dropdown-item" href="/media/files/SES_SWH-SEF- DAU.pdf" target="_blanck">Homologación: DAU</a></li>
                         </ul>
                     </li>
 
