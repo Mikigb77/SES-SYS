@@ -29,9 +29,9 @@
                     </li>
 
                 </ul>
-                <form class="d-flex" role="search">
-                    <input id="searchInput" class="form-control me-2" type="search" placeholder="search" aria-label="Search" style="background-image:url(/media/images/lupa.png); background-size:35px; background-repeat:no-repeat; text-indent:20px;" onfocus="hideLupa();" onblur="showLupa();">
-                    <button class="btn btn-outline-light" type="submit">Search</button>
+                <form class="d-flex" role="search" hidden aria-hidden="true">
+                    <input hidden id="searchInput" class="form-control me-2" type="search" placeholder="search" aria-label="Search" style="background-image:url(/media/images/lupa.png); background-size:35px; background-repeat:no-repeat; text-indent:20px;" onfocus="hideLupa();" onblur="showLupa();">
+                    <button hidden class="btn btn-outline-light" type="submit">Search</button>
                 </form>
             </div>
         </div>

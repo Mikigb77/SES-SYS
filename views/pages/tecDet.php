@@ -12,18 +12,17 @@
             <img src="/media/images/Hand drawings/all.jpg" alt="Detalles">
         </div>
         <div class="col-md-8">
-            <p style="text-align:justify;">
-                El sistema SWH-SEF constituye una solución de forjado de altísimas prestaciones en su tipo SWH-SEF mixto y extremadamente ligero en su versión SWH-SEF seco. El forjado integra las funciones estructurales así como de resistencia al fuego y de apariencia limpia y pulida desde su puesta en obra. De geometría inteligente, reduce a la mínima expresión el material empleado para maximizar su rendimiento bajo la forma de un forjado plano o inclinado de instalación ultra rápida.</p>
+            <font size=+2>
+                <p style="text-align:justify;">
+                    El sistema SWH-SEF constituye una solución de forjado de altísimas prestaciones en su tipo SWH-SEF mixto y extremadamente ligero en su versión SWH-SEF seco. El forjado integra las funciones estructurales así como de resistencia al fuego y de apariencia limpia y pulida desde su puesta en obra. De geometría inteligente, reduce a la mínima expresión el material empleado para maximizar su rendimiento bajo la forma de un forjado plano o inclinado de instalación ultra rápida.</p>
+            </font>
         </div>
     </div>
 </div>
 <br><br><br><br>
 <div class="MySection container">
     <div class="row">
-        <div class="col-md-6">
-
-        </div>
-        <div class="col-md-6">
+        <div class="col-md-12">
             <h2 style="text-align:center;">Mixto</h2>
             <hr>
             <div class="hover">
