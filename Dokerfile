@@ -1,4 +1,0 @@
-FROM: php
-WORKDIR /app
-RUN yarn install --production \
-	&& apt-get install composer -y
