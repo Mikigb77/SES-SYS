@@ -27,7 +27,9 @@
                             <li><a class="dropdown-item" href="/media/files/SES_SWH-SEF- DAU.pdf" target="_blanck">Homologación: DAU</a></li>
                         </ul>
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/contacto/">Contacto</a>
+                    </li>
                 </ul>
                 <form class="d-flex" role="search" hidden aria-hidden="true">
                     <input hidden id="searchInput" class="form-control me-2" type="search" placeholder="search" aria-label="Search" style="background-image:url(/media/images/lupa.png); background-size:35px; background-repeat:no-repeat; text-indent:20px;" onfocus="hideLupa();" onblur="showLupa();">

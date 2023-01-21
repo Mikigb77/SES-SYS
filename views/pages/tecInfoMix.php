@@ -41,13 +41,13 @@
             <hr>
         </div>
         <div class="col-md-12" style="text-align:center;">
-            <img src="/media/images/Tríptic per web mixte.jpg" alt="..." style="width:900px;">
+            <img src="/media/images/Tríptic per web mixte.jpg" alt="..." style="width:100%;">
             <br><br><br>
         </div>
         <div class="col-md-12">
             <div style="text-align:center;">
                 <a href="/media/files/SES_mixto_ficha técnica.pdf" target="_blank">
-                    <img src="/media/images/Documentation/SES_mixto_ficha técnica_imag.jpg" alt="Ficha Técnica SES Mixto" style="width:750px;">
+                    <img src="/media/images/Documentation/SES_mixto_ficha técnica_imag.jpg" alt="Ficha Técnica SES Mixto" style="width:100%;">
                 </a>
             </div>
             <br>

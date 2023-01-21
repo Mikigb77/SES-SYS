@@ -21,6 +21,10 @@ $router->getUrl('/informacion-tecnica/', [Controller::class, 'tec']);
 $router->postUrl('/informacion-tecnica/', [Controller::class, 'tec']);
 $router->getUrl('/informacion-tecnica/detalles-constructivos/', [Controller::class, 'tec_det']);
 $router->postUrl('/informacion-tecnica/detalles-constructivos/', [Controller::class, 'tec_det']);
+$router->postUrl('/contacto/', [Controller::class, 'contact']);
+$router->getUrl('/contacto/', [Controller::class, 'contact']);
+
+
 
 
 $router->resolve();

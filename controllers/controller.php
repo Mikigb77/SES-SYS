@@ -40,4 +40,9 @@ class Controller
     {
         $router->renderView('tecDet');
     }
+
+    static public function contact(Router $router)
+    {
+        $router->renderView('contact');
+    }
 }

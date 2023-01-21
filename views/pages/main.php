@@ -31,7 +31,9 @@ section_end($sectionID);
     <br>
     <div class="row">
         <div class="col-md-3">
-            <img src="/media/images/SES Steel Embed System - Foto expo.jpg" alt="..." style="width:100%; border-radius:10%;">
+            <a href="/informacion-tecnica/">
+                <img src="/media/images/SES Steel Embed System - Foto expo.jpg" alt="..." style="width:100%; border-radius:10%;">
+            </a>
             <font size=+1>
                 <p style="text-align:center;"><strong><br>
                         SES el nuevo sistema integrado de forjado preindustrializado que permite cubrir grandes luces sin apuntalar siendo hasta un 50% más ligero que otras soluciones</strong>
