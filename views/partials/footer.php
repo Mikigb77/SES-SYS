@@ -10,7 +10,7 @@ for ($i = 0; $i < 5; ++$i)
             <div>
                 <img src="/media/images/Logos/icon-ses.png" alt="JFG Consultors" style="width:50%;">
                 <br>
-                <a href="/politica-de-privacidad">Política de privacidad</a>
+                <a href="/politica-de-privacidad/">Política de privacidad</a>
             </div>
         </div>
         <div class="col-md-4">
