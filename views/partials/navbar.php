@@ -13,17 +13,17 @@
                         <a class="nav-link active" aria-current="page" href="/">Inicio</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="/Documentation" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="/Documentation/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Información técnica
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/informacion-tecnica">Índice</a></li>
-                            <li><a class="dropdown-item" href="/informacion-tecnica/mixto">Sistema Mixto</a></li>
-                            <li><a class="dropdown-item" href="/informacion-tecnica/seco">Sistema Seco</a></li>
+                            <li><a class="dropdown-item" href="/informacion-tecnica/">Índice</a></li>
+                            <li><a class="dropdown-item" href="/informacion-tecnica/mixto/">Sistema Mixto</a></li>
+                            <li><a class="dropdown-item" href="/informacion-tecnica/seco/">Sistema Seco</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="/informacion-tecnica/detalles-constructivos">Detalles Constructivos</a></li>
+                            <li><a class="dropdown-item" href="/informacion-tecnica/detalles-constructivos/">Detalles Constructivos</a></li>
                             <li><a class="dropdown-item" href="/media/files/SES_SWH-SEF- DAU.pdf" target="_blanck">Homologación: DAU</a></li>
                         </ul>
                     </li>

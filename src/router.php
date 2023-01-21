@@ -24,12 +24,12 @@ class Router
         $currURL = $_SERVER['REQUEST_URI'];
         if (strpos($currURL, '?'))
             $currURL = substr($currURL, 0, strpos($currURL, '?'));
-        if (strpos($currURL, 'public'))
+        /*if (strpos($currURL, 'public'))
             $currURL = substr($currURL, strpos($currURL, 'public') + strlen('public'));
         if ($currURL[strlen($currURL) - 1] == '/')
             $currURL = substr($currURL, 0, strlen($currURL) - 2);
         if ($currURL == '')
-            $currURL = '/';
+            $currURL = '/';*/
 
         $method = $_SERVER['REQUEST_METHOD'];
 
@@ -39,6 +39,7 @@ class Router
             call_user_func($fn, $this);
         else {
             echo '<br><strong><font size="+3"><h1>Page Not Found<h1></font></strong><br>';
+            echo "Requested: " . $currURL . "<br>";
         }
     }
 
