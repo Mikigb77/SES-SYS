@@ -6,12 +6,10 @@
             <h2 style="text-align:center;"><b>Sistema Seco</b></h2>
             <br>
 
-            <div>
+            <div style="text-align: justify;">
                 <img src="/media/images/Hand drawings/Forjado seco seccion.jpg" alt="" style="width:50%; float:left; margin-right:5%; border-radius:10%">
-
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga asperiores debitis reiciendis necessitatibus labore similique temporibus, incidunt dolor quam? Quasi deleniti et delectus quod quaerat maiores tempora! Tempore, voluptatem veniam?</p>
-                <p>Voluptatem sit quidem consequuntur nihil. Eius quis rerum incidunt illum doloremque dignissimos libero quos? Inventore quae dolore impedit totam, laborum accusamus animi ipsam consectetur libero atque dicta veniam magnam deserunt?</p>
-                <p>Neque mollitia nulla consectetur vitae error maiores quis eum temporibus unde? Maiores aspernatur nulla sequi eum ab commodi molestias beatae possimus maxime saepe culpa, fuga qui libero, repellat consequatur eaque!</p>
+                <p>El forjado se construye mediante chapas metálicas galvanizadas conformadas en frio en forma de bandeja, ensamblando las unas con las otras. El conjunto se protege por la cara inferior con una placa de madera tipo OSB/3 que facilita el transporte, el montaje, mejora el comportamiento a incendio y constituye un acabado liso y limpio en obra. En el seno de las bandejas se incorpora, en taller, un casetón de EPS con la finalidad de aligerar el forjado.<br>En este sistema se confiere la capacidad resistente únicamente a la sección de chapas metálicas, de forma que deve garanticarse su protección frente al fuego.</p>
+                <p>Se completa con un tablero OSB en la cara superior y se instala directamente sobre la estructura portante mediante fijaciónes metálicas.<br>Opcionalmente se puede substituir el tablero superior de OSB por mortero ligero de forma que se obtiene un acabado superior cementoso. En este caso el mortero tampoco colabora en la función resistente del forjado.</p>
             </div>
             <div>
                 <font size=+1>

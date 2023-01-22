@@ -58,7 +58,7 @@ section_end($sectionID);
         </div>
         <div class="col-md-3">
             <div style="background-color:ghostwhite; height:auto; border-radius:10%; padding:20px;">
-                <font size="+1">
+                <font size="">
                     <p id="description-text" style="text-align:justify;"></p>
                 </font>
 
@@ -140,8 +140,8 @@ section_end($sectionID);
                 </p>
                 <br>
                 <p style="text-align:justify;">
-                    Arquitecto colegiado y miembro de la Asociación de Consultores de Estructuras, fundador de la consultoria de estructuras <a href="https://www.jfgconsultors.com/"><b>JFG Consultors</b></a>, fundada en 2007, ofrece <strong>SES</strong> el nuevo sistema de forjado preindustrializado inteligente capaz de adaptarse a los requerimentos más duros de la construcción,
-                    pensado expresamente para forjados resistentes, cubiertas ligeras y muros.
+                    Arquitecto colegiado y miembro de la Asociación de Consultores de Estructuras, fundador de la consultoria de estructuras <a href="https://www.jfgconsultors.com/"><img src="/media/images/Logos/Logo_JFG_No_background.svg" alt="JFG Consultors"></a>, fundada en 2007, ofrece <strong>SES</strong> el nuevo sistema de forjado preindustrializado inteligente capaz de adaptarse a los requerimentos más duros de la construcción,
+                    pensado expresamente para forjados y cubiertas ligeras.
                 </p>
             </font>
         </div>

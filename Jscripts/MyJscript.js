@@ -4,13 +4,13 @@ function changeText(id) {
     case 1:
       text = "<h4><strong>Sencillez</strong></h4><hr>";
       text += nl2br(
-        "Sistema integrado de forjado que combina inteligentemente el diseño de las piezas de madera OSB, chapa de acero galvanizada, poliestireno expandido EPS y hormigón.\n\nEl forjado presenta las variantes mixta, acabada con hghormigón, o seca, sustituyendo el hormigón por otra placa de madera en la cara superior, adaptándose a las necesidades del proyecto."
+        "Sistema integrado de forjado que combina inteligentemente el diseño de las piezas de madera OSB, chapa de acero galvanizada, poliestireno expandido EPS y hormigón.\n\nEl forjado presenta las variantes mixta, acabada con hormigón, o seca, sustituyendo el hormigón por otra placa de madera OSB en la cara superior, adaptándose a las necesidades del proyecto."
       );
       break;
     case 2:
       text = "<h4><strong>Ligereza</strong></h4><hr>";
       text += nl2br(
-        "El bajísimo peso propio del forjado resulta una opción muy atractiva para la ejecución de remontas en estructuras muy solicitadas.\n\nEl sistema es hasta un 33% más ligero que la solución equivalente en forjado colaborante, un 50% más ligero que el forjado reticular equivalente y hasta un 65% más ligero que una losa maciza con las mismas prestaciones."
+        "El bajísimo peso propio del forjado resulta una opción muy atractiva para la ejecución de estructuras en las que el peso propio del forjado es determinante, como en remontas, edificios en altura, zonas sísmicas, o con cimentaciones en suelos con baja capacidad resistente.\n\nEl sistema es hasta un 33% más ligero que la solución equivalente en forjado colaborante, un 50% más ligero que el forjado reticular equivalente y hasta un 65% más ligero que una losa maciza con las mismas prestaciones."
       );
       break;
     case 3:
@@ -34,7 +34,7 @@ function changeText(id) {
     case 6:
       text = "<h4><strong>Rentabilidad</strong></h4><hr>";
       text += nl2br(
-        "EL SES permite optimizar costes indirectos de ejecución gracias a su implementación ultrarápida y mínima manipulación en obra.\n\nHasta 10 veces más superfície cubierta por día respecto a la solución equivalente de forjado reticular."
+        "EL SES permite optimizar costes indirectos de ejecución gracias a su implementación extremadamente rápida y mínima manipulación en obra.\n\nPermite cubrir en el mismo tiempo hasta 10 veces más superfície que la solución equivalente de forjado reticular."
       );
       break;
     case 7:
@@ -46,7 +46,7 @@ function changeText(id) {
     default:
       text = "<h4><strong>Sencillez</strong></h4><hr>";
       text += nl2br(
-        "Sistema integrado de forjado que combina inteligentemente el diseño de las piezas de madera OSB, chapa de acero galvanizada, poliestireno expandido EPS y hormigón.\n\nEl forjado presenta las variantes mixta - hormigonada - o seca, sustituyendo el hormigón por otra placa de madera, adaptándose a las necesidades del proyecto."
+        "Sistema integrado de forjado que combina inteligentemente el diseño de las piezas de madera OSB, chapa de acero galvanizada, poliestireno expandido EPS y hormigón.\n\nEl forjado presenta las variantes mixta, acabada con hormigón, o seca, sustituyendo el hormigón por otra placa de madera OSB en la cara superior, adaptándose a las necesidades del proyecto."
       );
       break;
   }

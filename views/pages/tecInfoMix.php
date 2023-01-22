@@ -6,12 +6,13 @@
             <h2 style="text-align:center;"><b>Sistema Mixto</b></h2>
             <br>
 
-            <div>
+            <div style="text-align: justify;">
                 <img src="/media/images/Hand drawings/forjado mixto seccion.jpg" alt="" style="width:50%; float:left; margin-right:5%; border-radius:10%">
-
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga asperiores debitis reiciendis necessitatibus labore similique temporibus, incidunt dolor quam? Quasi deleniti et delectus quod quaerat maiores tempora! Tempore, voluptatem veniam?</p>
-                <p>Voluptatem sit quidem consequuntur nihil. Eius quis rerum incidunt illum doloremque dignissimos libero quos? Inventore quae dolore impedit totam, laborum accusamus animi ipsam consectetur libero atque dicta veniam magnam deserunt?</p>
-                <p>Neque mollitia nulla consectetur vitae error maiores quis eum temporibus unde? Maiores aspernatur nulla sequi eum ab commodi molestias beatae possimus maxime saepe culpa, fuga qui libero, repellat consequatur eaque!</p>
+                <p>El forjado se construye mediante chapas metálicas galvanizadas conformadas en frio en forma de bandeja, ensamblando las unas con las otras.
+                    El conjunto se protege por la cara inferior con una placa de madera tipo OSB/3 que facilita el transporte, el montaje, mejora el comportamiento a incendio y constituye un acabado liso y limpio en obra.
+                    En el seno de las bandejas se incorpora, en taller, un casetón de EPS con la finalidad de aligerar el forjado.
+                </p>
+                <p>El sistema mixto se completa en obra con un armado longitudinal en los nervios de hormigón, un malllazo o una malla superior y el propio hormigón de la capa de compresión.<br>La sección resistente es la compuesta por hormigón y acero. Asimismo la armadura en los nervios es la que ofrece resistencia frente al fuego.</p>
             </div>
             <div>
                 <font size=+1>
