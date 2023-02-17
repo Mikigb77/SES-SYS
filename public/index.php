@@ -1,4 +1,4 @@
-<?
+<?php
 
 use SesSys\Controllers\Controller;
 use SesSys\Src\Router;

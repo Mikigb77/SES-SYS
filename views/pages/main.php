@@ -1,4 +1,4 @@
-<?
+<?php
 $sectionID = 0;
 function section_end(&$sectionID)
 {
@@ -18,7 +18,7 @@ function section_end(&$sectionID)
         Video Unsuported!!!
     </video>
 </div>
-<?
+<?php
 section_end($sectionID);
 ?>
 <div class="container MySection">
@@ -70,7 +70,7 @@ section_end($sectionID);
     </div>
 
 </div>
-<? section_end($sectionID); ?>
+<?php section_end($sectionID); ?>
 <div class="MySection container">
     <div class="row">
         <div class="col-md-2"></div>
@@ -117,7 +117,7 @@ section_end($sectionID);
     </div>
 </div>
 
-<? section_end($sectionID); ?>
+<?php section_end($sectionID); ?>
 
 <div class="MySection container">
     <div class="row">
@@ -128,7 +128,7 @@ section_end($sectionID);
 
                 <a href="https://aceweb.cat/es/noticias/ses-steel-embed-system-forjado-preindustrializado/" style="color:black;">
                     <img src="/media/images/Logos/logo-ace.jpg" alt="ACE" width="200" style="float:right; margin-left:2%;">
-                    <p style="text-align:right;">Presentación del sistema SES en ACE</p>
+                    <p style="text-align:right;"><b>Presentación del sistema SES en ACE</b></p>
                 </a>
                 <br>
             </div>

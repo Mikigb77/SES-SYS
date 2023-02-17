@@ -1,4 +1,4 @@
-<?
+<?php
 require_once(__DIR__ . "/src/router.php");
 require_once(__DIR__ . "/controllers/controller.php");
 ini_set('display_errors', 1);
