@@ -62,7 +62,7 @@
         </div>
         <div class="col-md-6">
 
-            <form action="https://mailthis.to/Miki" method="POST" encType="multipart/form-data">
+            <form action="https://mailthis.to/SES-JFG" method="POST" encType="multipart/form-data">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Nombre</label>
                     <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
