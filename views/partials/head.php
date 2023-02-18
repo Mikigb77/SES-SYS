@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="description" content="Nuevo forgado ligero preindustrializado más ecológico, económico, simple, preciso, resistente y de muy rápida ejecución.">
-    <meta name="keywords" content="steel embed system, ses, forjado, preindustrializado, nuevo sistema, Rebuild, consultor, ACE, estructura, estructures, construcción, hormigón, acer, acero, galvanizado, DAU, ITEC, SWH-SEF, edificació, JFG, chapa, calculo, EPS, OSB, Planicer, Brau, Culleré i Sala">
+    <meta name="keywords" content="steel embed system, ses, SES, forjado, preindustrializado, nuevo sistema, Rebuild, consultor, ACE, estructura, estructures, construcción, hormigón, acer, acero, galvanizado, DAU, ITEC, SWH-SEF, edificació, JFG, chapa, calculo, EPS, OSB, Planicer, Brau, Culleré i Sala">
     <meta name="author" content="Miquel Garcia Bardají">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SES-SYS</title>

@@ -14,7 +14,7 @@
         <div class="col-md-8">
             <font size=+2>
                 <p style="text-align:justify;">
-                    El sistema SWH-SEF constituye una solución de forjado de altísimas prestaciones en su tipo SWH-SEF mixto y extremadamente ligero en su versión SWH-SEF seco. El forjado integra las funciones estructurales así como de resistencia al fuego y de apariencia limpia y pulida desde su puesta en obra. De geometría inteligente, reduce a la mínima expresión el material empleado para maximizar su rendimiento bajo la forma de un forjado plano o inclinado de instalación ultra rápida.</p>
+                    El sistema SES constituye una solución de forjado de altísimas prestaciones en su tipo SES mixto y extremadamente ligero en su versión SES seco. El forjado integra las funciones estructurales así como de resistencia al fuego y de apariencia limpia y pulida desde su puesta en obra. De geometría inteligente, reduce a la mínima expresión el material empleado para maximizar su rendimiento bajo la forma de un forjado plano o inclinado de instalación ultra rápida.</p>
             </font>
         </div>
     </div>
