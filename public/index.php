@@ -23,6 +23,8 @@ $router->getUrl('/informacion-tecnica/detalles-constructivos/', [Controller::cla
 $router->postUrl('/informacion-tecnica/detalles-constructivos/', [Controller::class, 'tec_det']);
 $router->postUrl('/contacto/', [Controller::class, 'contact']);
 $router->getUrl('/contacto/', [Controller::class, 'contact']);
+$router->getUrl('/noticias/', [Controller::class, 'news']);
+$router->postUrl('/noticias/', [Controller::class, 'news']);
 
 
 

@@ -15,7 +15,6 @@ function section_end(&$sectionID)
 <div class="container">
     <video id="ini-video" autoplay muted onended="window.location.hash = '1';">
         <source src="../media/videos/Ses.webm" type="video/webm">
-        Video Unsuported!!!
     </video>
 </div>
 <?php
@@ -44,6 +43,7 @@ section_end($sectionID);
 
             <video id="video-presentacio" controls style="border-radius:10%;" poster="/media/images/ses-steel.png" onended="load()" oncanplay="changeText(1);">
                 <source src="/media/videos/SES-Complete.mp4" type="video/mp4">
+                <source src="/media/videos/SES_compressed.mp4" type="video/mp4">
             </video>
             <br><br>
             <div style="text-align:center; display:inline-block;">

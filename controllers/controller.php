@@ -45,4 +45,8 @@ class Controller
     {
         $router->renderView('contact');
     }
+    static public function news(Router $router)
+    {
+        $router->renderView('news');
+    }
 }
