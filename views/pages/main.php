@@ -41,7 +41,7 @@ section_end($sectionID);
         </div>
         <div class="col-md-6">
 
-            <video id="video-presentacio" controls style="border-radius:10%;" poster="/media/images/ses-steel.png" onended="load()" oncanplay="changeText(1);">
+            <video id="video-presentacio" controls style="border-radius:10%;" poster="/media/images/ses-steel.png" onended="load()" oncanplay="changeText(1); setVideoVolume('video-presentacio', 0.5);">
                 <source src="/media/videos/SES-Complete.mp4" type="video/mp4">
                 <source src="/media/videos/SES_compressed.mp4" type="video/mp4">
             </video>

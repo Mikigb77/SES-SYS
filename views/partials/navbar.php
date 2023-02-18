@@ -28,6 +28,9 @@
                         </ul>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/noticias/">Notícias</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="/contacto/">Contacto</a>
                     </li>
                 </ul>

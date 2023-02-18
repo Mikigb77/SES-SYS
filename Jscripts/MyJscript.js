@@ -65,3 +65,8 @@ function nl2br(str, is_xhtml) {
     "$1" + breakTag + "$2"
   );
 }
+
+function setVideoVolume(id, volume) {
+  let video = document.getElementById(id);
+  video.volume = volume;
+}
