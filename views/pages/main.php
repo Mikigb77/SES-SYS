@@ -20,7 +20,7 @@ function section_end(&$sectionID)
 <?php
 section_end($sectionID);
 ?>
-<div class="container MySection">
+<div class="container MySection" style="height: fit-content;">
     <font size="+3">
         <h1 style="text-align:center;"><strong><i>"Lo más complejo es alcanzar lo sencillo"</i></strong></h1>
     </font>
@@ -63,13 +63,92 @@ section_end($sectionID);
                 </font>
 
             </div>
-            <a href="/media/files/SES_SWH-SEF- DAU.pdf" target="_blank">
-                <img src="/media/images/Logos/segell_DAU_h.png" alt="DAU" width="50%" style="float:right; margin:0%;">
-            </a>
+            <div>
+                <a href="/media/files/SES_SWH-SEF- DAU.pdf" target="_blank">
+                    <img src="/media/images/Logos/segell_DAU_h.png" alt="DAU" width="50%" style="float:right; margin:0%;">
+                </a>
+            </div>
         </div>
     </div>
 
 </div>
+<?php section_end($sectionID); ?>
+<div class="container MySection">
+    <div class="row">
+        <div class="col-md-3">
+            <div style="background-color:ghostwhite; height:auto; border-radius:10%; padding:20px; text-align:justify;">
+                <h4><strong>Nuestro objetivo</strong></h4>
+                <hr>
+                <p>
+                    El sistema SES para forjados integra las funciones estructurales de resistencia al fuego y de apariencia limpia y pulida desde su puesta en obra. Este forjado está diseñado para obtener el máximo rendimiento de sus componentes. Reduce al mínimo el peso propio del forjado, así como el tiempo y equipo necesarios para su puesta en obra.
+                    De geometría inteligente, reduce a la mínima expresión el material empleado para maximizar su rendimiento bajo la forma de un forjado plano o inclinado de muy fácil instalación.
+
+                </p>
+            </div>
+
+        </div>
+        <div class="col-md-6">
+            <div>
+                <img src="/media/images/Logos/Marca SteelEmbedSystem.jpg" alt="" style="width: 100%;">
+            </div>
+            <div>
+                <br>
+                <img src="/media/images/RooftopPresentation/JFG_SWH-SEF-presentacio retallada.jpg" alt="" style="width:100%;border-radius:0%;">
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="text-align: center;">
+                    <br>
+                    <h5>Componentes</h5>
+                    <hr>
+                </div>
+                <div class="col-md-4">
+
+                    <div class="hover">
+                        <img class="MyImage" src="/media/images/RooftopPresentation/Chapa.jpg" alt="" style=" width:100%; border-radius: 10%;">
+                        <div class="middle">
+                            <div class="text">
+                                Chapas metálicas galvanizadas
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+
+                    <div class="hover">
+                        <img class="MyImage" src="/media/images/RooftopPresentation/CasetonEPS.jpg" alt="" style="width:100%; border-radius: 10%;">
+                        <div class="middle">
+                            <div class="text">
+                                Casetones de EPS (Poliestireno expandido)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hover">
+                        <img class="MyImage" src="/media/images/RooftopPresentation/tableroMaderaTexture.jpg" alt="" style=" width:100%; border-radius: 10%;">
+                        <div class="middle">
+                            <div class="text">
+                                Tableros de madera OSB/3
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div style="background-color:ghostwhite; height:auto; border-radius:10%; padding:20px; text-align:justify;">
+                <h4><strong>En qué consiste</strong></h4>
+                <hr>
+                <p>
+                    Pensado para forjados y cubiertas ligeras. Hemos diseñado un elemento resistente a los esfuerzos de flexión y cortante formado por varias chapas metálicas perfiladas en frío. Éstas, tienen forma de bandeja y se ensamblan entre ellas para formar placas de diferentes anchos. El conjunto se aligera con casetones de EPS, y se termina por su cara inferior con un tablero de madera OSB que confiere rigidez al conjunto. Si el sistema es SES-MIXTO la capa superior se termina con hormigón y si es SES-SECO con otro tablero de madera OSB igual que el inferior.
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
 <?php section_end($sectionID); ?>
 <div class="MySection container">
     <div class="row">

@@ -40,7 +40,7 @@ class Router
         else {
             echo '<br><strong><font size="+3"><h1>Page Not Found<h1></font></strong><br>';
             echo "Requested: " . $currURL . "<br>";
-            header("Location: https://ses.systems/");
+            header("Location: /");
         }
     }
 
