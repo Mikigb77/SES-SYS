@@ -1,10 +1,14 @@
 <div class="MySection container">
     <div class="row">
         <div class="col-md-12">
-            <h1 style="text-align:center;"><b>Información Técnica</b></h1>
-            <hr>
-            <h2 style="text-align:center;"><b>Sistema Seco</b></h2>
-            <br>
+            <div style="text-align: center;">
+                <h1 style="text-align:center;"><b>Información Técnica</b></h1>
+                <hr>
+                <h2 style="text-align:center;"><b>Sistema Seco</b></h2>
+                <h4>Modelo SED</h4>
+                <p>(Steel EPS Dry)</p>
+                <br>
+            </div>
 
             <div style="text-align: justify;">
                 <img src="/media/images/Hand drawings/Forjado seco seccion.jpg" alt="" style="width:50%; float:left; margin-right:5%; border-radius:10%">

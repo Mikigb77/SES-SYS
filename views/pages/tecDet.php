@@ -35,17 +35,7 @@
                     </a>
                 </div>
             </div>
-            <div class="hover">
-                <br>
-                <img src="/media/images/Hand drawings/mixto-section.jpg" alt="..." class="MyImage">
-                <div class="middle">
-                    <a href="/informacion-tecnica/mixto" style="color:white; text-decoration:none;">
-                        <div class="text">
-                            Información Mixto
-                        </div>
-                    </a>
-                </div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -57,17 +47,6 @@
             <hr>
             <div class="hover">
                 <img src="/media/images/Hand drawings/Forjado seco seccion.jpg" alt="..." class="MyImage">
-                <div class="middle">
-                    <a href="/informacion-tecnica/seco" style="text-decoration:none; color:white;">
-                        <div class="text">
-                            Información Seco
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <br>
-            <div class="hover">
-                <img src="/media/images/Hand drawings/seco-section.jpg" alt="..." class="MyImage">
                 <div class="middle">
                     <a href="/informacion-tecnica/seco" style="text-decoration:none; color:white;">
                         <div class="text">
