@@ -12,8 +12,9 @@
                     <p>Publicación en cuadrenos de estructuras.</p>
                     <p>Nº 75</p>
                     <div>
-                        <a href="https://aceweb.cat/es/solicitud-revista/" target="_blank">
-                            <button type="button" class="btn btn-outline-dark"><strong>Solicita la Revista</strong></button>
+                        <!---old href="https://aceweb.cat/es/solicitud-revista/"---->
+                        <a href="#" target="_blank">
+                            <button type="button" class="btn btn-outline-dark" disabled><strong>Solicita la Revista</strong></button>
                         </a>
                     </div>
                     <div>
