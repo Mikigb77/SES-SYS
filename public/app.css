@@ -19,7 +19,7 @@ video {
 }
 .MySection {
   padding: 2%;
-  background-color: rgba(234, 109, 0, 0.799);
+  background-color: rgba(255, 103, 32, 0.799);
   width: 100%;
   height: fit-content;
 }
@@ -64,4 +64,38 @@ span.carousel-control-next-icon {
 
 span.carousel-control-prev-icon {
   background-color: black;
+}
+
+.button-to-top {
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  border-radius: 20%;
+  background-color: #212529;
+  color: whitesmoke;
+  font-size: 1vw;
+}
+
+.navbar {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  z-index: 99;
+}
+
+@media (max-width: 750px) {
+  .button-to-top {
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    border-radius: 20%;
+    background-color: #212529;
+    color: whitesmoke;
+    font-size: 1.5vw;
+  }
+  .navbar {
+    position: static;
+    top: 0%;
+    margin-top: -5%;
+  }
 }

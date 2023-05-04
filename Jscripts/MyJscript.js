@@ -70,3 +70,10 @@ function setVideoVolume(id, volume) {
   let video = document.getElementById(id);
   video.volume = volume;
 }
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}

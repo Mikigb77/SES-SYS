@@ -12,8 +12,8 @@ function section_end(&$sectionID)
     }
 }
 ?>
-<div class="container">
-    <video id="ini-video" autoplay muted onended="window.location.hash = '1';">
+<div class="container" style="padding: 0%;">
+    <video id="ini-video" autoplay muted onended="window.location.hash = '1';" style="width:100%;">
         <source src="../media/videos/Ses.webm" type="video/webm">
     </video>
 </div>
