@@ -13,7 +13,7 @@
                     <p>Nº 75</p>
                     <div>
                         <!---old href="https://aceweb.cat/es/solicitud-revista/"---->
-                        <a href="#" target="_blank">
+                        <a href="#">
                             <button type="button" class="btn btn-outline-dark" disabled><strong>Solicita la Revista</strong></button>
                         </a>
                     </div>
