@@ -16,12 +16,34 @@
                     text-align: center;
                     color: whitesmoke;
                 }
+
+                .centerText {
+                    font-size: larger;
+                }
+
+                @media (max-width: 768px) {
+                    .centered {
+                        position: static;
+                        text-align: center;
+                        transform: translate(0%, -100%);
+                        -ms-transform: translate(0%, -100%);
+                    }
+
+                    .hover {
+                        max-width: fit-content;
+
+                    }
+
+                    .centerText {
+                        font-size: xx-small;
+                    }
+                }
             </style>
             <div class="hover" style="background-color: black;">
                 <font size="+2">
                     <img src="/media/images/Office/oficina.webp" alt="" style="width: 100%; opacity:0.5;">
 
-                    <div class="centered" style="color:whitesmoke; text-align:center;">
+                    <div class="centered centerText" style="color:whitesmoke; text-align:center;">
 
                         <img src="/media/images/Logos/LogoJFG.jpg" alt="" style="width:50%; margin-bottom:5%;">
 

@@ -72,6 +72,7 @@ section_end($sectionID);
     </div>
 
 </div>
+
 <?php section_end($sectionID); ?>
 <div class="container MySection">
     <div class="row">
@@ -151,6 +152,17 @@ section_end($sectionID);
 
 <?php section_end($sectionID); ?>
 <div class="MySection container">
+    <font size="+3">
+        <h1 style="text-align:center;"><strong>¿Porqué elegir el sistema SES?</strong></h1>
+        <br>
+    </font>
+    <h3 style="text-align: center;">Vea las fotos y videos realizados directamente en la obra y no dude en <a href="/contacto/"><b>consultarnos</b></a></h3>
+    <br>
+    <div class="row">
+        <br>
+        <h3 style="text-align: center;">Las imágenes y opiniones de expertos profesionales en la ejecución de obras es nuestra mejor carta de presentación.</h3>
+        <h3 style="text-align: center;"><strong>¡COMPRUÉBELO!</strong></h3>
+    </div>
     <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
@@ -195,9 +207,44 @@ section_end($sectionID);
         </div>
     </div>
 </div>
+<!----
+<?php
+//section_end($sectionID); 
+?>
+<div class="container MySection">
+    <font size="+3">
+        <h1 style="text-align:center;"><strong>La mejor inversión, para la mejor satisfacción personal, siendo pionero con nosotros.<br>¡Avancémonos al futuro!</strong></h1>
+        <br>
+    </font>
+    <h3 style="text-align: center;">
+        <strong>
+            ¿Qué ofrecemos?
+        </strong>
+        <br>
+        ANTES:
+        <br>
+        * Con nuestra experiencia estudiaremos la mejor opción entre nuestros sisstemas.
+        <br>
+        * Tendrá opción a poder ampliar nuestra colaboración si necesita que le asesoremos con la estructura.
+        <br>
+        <br>
+        DURANTE:
+        <br>
+        * Nuestro equipo técnico desde la consultoría JFG Consultors, le acompañará para resolver cualquier duda o necesidad de forma personalizada y garantizándole el control de calidad.
+        Además ofrecemos la supervisión y Dirección de Obra para tener el servicio más completo y óptimo.
+        <br>
+        <br>
+        ¿Qué necesita?
+        <br>
+        * Nosotros le asesoramos con soluciones alternativas más ecológicas, mejores, más avanzadas y más económicas, optimizando el tiempo de ejecución de obra y el de sus empleados profesionales, obteniendo mayor productividad.
+        <br>
+        * Nos ocupamos de la mejor estructura para su proyecto y Usted podrá dedicar más tiempo a lo que realmente le gusta y conoce más a fondo.
+        <br>
 
+    </h3>
+</div>
+---->
 <?php section_end($sectionID); ?>
-
 <div class="MySection container">
     <div class="row">
         <div class="col-xs-12">
@@ -205,7 +252,7 @@ section_end($sectionID);
                 <img src="/media/images/Dad/dad_vang.jpg" style="float:right; border-radius:10%; margin-bottom:5%; width:100%">
                 <p style="text-align:right;"><b>Miembro de la Asociación de Consultores de Estructuras</b></p>
 
-                <a href="https://aceweb.cat/es/noticias/ses-steel-embed-system-forjado-preindustrializado/" style="color:black;">
+                <a href="https://aceweb.cat/es/noticias/ses-steel-embed-system-forjado-preindustrializado/" style="color:black;" target="_blank">
                     <img src="/media/images/Logos/logo-ace.jpg" alt="ACE" width="200" style="float:right; margin-left:2%;">
                     <p style="text-align:right;"><b>Presentación del sistema SES en ACE</b></p>
                 </a>
