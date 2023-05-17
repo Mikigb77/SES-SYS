@@ -65,6 +65,7 @@ video {
 .carousel-control-next {
   margin-right: -10%;
 }
+/*
 span.carousel-control-next-icon {
   background-color: black;
 }
@@ -72,6 +73,7 @@ span.carousel-control-next-icon {
 span.carousel-control-prev-icon {
   background-color: black;
 }
+*/
 
 .button-to-top {
   position: fixed;

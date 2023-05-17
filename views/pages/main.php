@@ -203,7 +203,7 @@ section_end($sectionID);
         </div>
     </div>
 </div>
-
+<!--
 <?php
 section_end($sectionID);
 ?>
@@ -249,6 +249,7 @@ section_end($sectionID);
 
     </h3>
 </div>
+                    -->
 <?php section_end($sectionID); ?>
 <div class="MySection container">
     <div class="row">
@@ -271,7 +272,7 @@ section_end($sectionID);
                 </p>
                 <br>
                 <p style="text-align:justify;">
-                    Arquitecto colegiado y miembro de la Asociación de Consultores de Estructuras, fundador de la consultoria de estructuras <a href="https://www.jfgconsultors.com/"><img src="/media/images/Logos/Logo_JFG_No_background.svg" alt="JFG Consultors"></a>, fundada en 2007, ofrece <strong>SES</strong> el nuevo sistema de forjado preindustrializado inteligente capaz de adaptarse a los requerimentos más duros de la construcción,
+                    Arquitecto colegiado y miembro de la Asociación de Consultores de Estructuras, fundador de la consultoria de estructuras <a href="https://www.jfgconsultors.com/" target="_blank"><img src="/media/images/Logos/Logo_JFG_No_background.svg" alt="JFG Consultors"></a>, fundada en 2007, ofrece <strong>SES</strong> el nuevo sistema de forjado preindustrializado inteligente capaz de adaptarse a los requerimentos más duros de la construcción,
                     pensado expresamente para forjados y cubiertas ligeras.
                 </p>
             </font>
