@@ -167,12 +167,12 @@ section_end($sectionID);
         <div class="col-md-2"></div>
         <div class="col-md-8">
             <?php
-            $directory = __DIR__ . '/../../media/images/Rooftop/carrousel1/'; // Replace with the actual directory path
+            $directory = __DIR__ . '/../../media/images/carrousel1/'; // Replace with the actual directory path
             $files = scandir($directory);
             $files = array_diff($files, array('.', '..')); // Exclude current and parent directory
             $carrouselImages = array();
             foreach ($files as $value) {
-                $carrouselImages[] =  '/media/images/Rooftop/carrousel1/' . $value;
+                $carrouselImages[] =  '/media/images/carrousel1/' . $value;
             }
             ?>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">

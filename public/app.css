@@ -58,6 +58,13 @@ video {
 }
 
 /*to move carrousel*/
+.carousel-control-prev {
+  margin-left: -10%;
+}
+
+.carousel-control-next {
+  margin-right: -10%;
+}
 span.carousel-control-next-icon {
   background-color: black;
 }
