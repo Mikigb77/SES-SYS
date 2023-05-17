@@ -6,8 +6,19 @@
     <div class="row">
         <div class="col-md-12">
             <style>
+                .hover {
+                    background-color: black;
+                    display: inline-block;
+                    /* Add this line */
+                }
+
+                .hover img {
+                    max-width: 100%;
+                    height: auto;
+                    opacity: 0.5;
+                }
+
                 .centered {
-                    opacity: 1;
                     position: absolute;
                     top: 50%;
                     left: 50%;
@@ -15,27 +26,24 @@
                     -ms-transform: translate(-50%, -50%);
                     text-align: center;
                     color: whitesmoke;
-                }
-
-                .centerText {
+                    width: 100%;
+                    max-width: 100%;
+                    /* Add this line */
                     font-size: larger;
                 }
 
                 @media (max-width: 768px) {
                     .centered {
                         position: static;
-                        text-align: center;
-                        transform: translate(0%, -100%);
-                        -ms-transform: translate(0%, -100%);
+                        transform: translate(0%, -50%);
+                        -ms-transform: translate(0%, -50%);
+                        font-size: small;
                     }
 
                     .hover {
-                        max-width: fit-content;
+                        max-width: 100%;
+                        height: auto;
 
-                    }
-
-                    .centerText {
-                        font-size: xx-small;
                     }
                 }
             </style>
@@ -45,7 +53,7 @@
 
                     <div class="centered centerText" style="color:whitesmoke; text-align:center;">
 
-                        <img src="/media/images/Logos/LogoJFG.jpg" alt="" style="width:50%; margin-bottom:5%;">
+                        <img src="/media/images/Logos/LogoJFG.jpg" alt="" style="width:40%; margin-bottom:5%; opacity:1;">
 
                         <p>C/ Sant Antoni Maria Claret, 24, 3ªplanta</p>
                         <p>08037 Barcelona</p>

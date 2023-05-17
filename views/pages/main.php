@@ -77,7 +77,7 @@ section_end($sectionID);
 <div class="container MySection">
     <div class="row">
         <div class="col-md-3">
-            <div style="background-color:ghostwhite; height:auto; border-radius:10%; padding:20px; text-align:justify;">
+            <div style="background-color:ghostwhite; height:auto; border-radius:0%; padding:20px; text-align:justify;">
                 <h4><strong>Nuestro objetivo</strong></h4>
                 <hr>
                 <p>
@@ -105,7 +105,7 @@ section_end($sectionID);
                 <div class="col-md-4">
 
                     <div class="hover">
-                        <img class="MyImage" src="/media/images/RooftopPresentation/Chapa.jpg" alt="" style=" width:100%; border-radius: 10%;">
+                        <img class="MyImage" src="/media/images/RooftopPresentation/Chapa.jpg" alt="" style=" width:100%; border-radius: 0%;">
                         <div class="middle">
                             <div class="text">
                                 Chapas metálicas galvanizadas
@@ -116,7 +116,7 @@ section_end($sectionID);
                 <div class="col-md-4">
 
                     <div class="hover">
-                        <img class="MyImage" src="/media/images/RooftopPresentation/CasetonEPS.jpg" alt="" style="width:100%; border-radius: 10%;">
+                        <img class="MyImage" src="/media/images/RooftopPresentation/CasetonEPS.jpg" alt="" style="width:100%; border-radius: 0%;">
                         <div class="middle">
                             <div class="text">
                                 Casetones de EPS (Poliestireno expandido)
@@ -126,7 +126,7 @@ section_end($sectionID);
                 </div>
                 <div class="col-md-4">
                     <div class="hover">
-                        <img class="MyImage" src="/media/images/RooftopPresentation/tableroMaderaTexture.jpg" alt="" style=" width:100%; border-radius: 10%;">
+                        <img class="MyImage" src="/media/images/RooftopPresentation/tableroMaderaTexture.jpg" alt="" style=" width:100%; border-radius: 0%;">
                         <div class="middle">
                             <div class="text">
                                 Tableros de madera OSB/3
@@ -137,7 +137,7 @@ section_end($sectionID);
             </div>
         </div>
         <div class="col-md-3">
-            <div style="background-color:ghostwhite; height:auto; border-radius:10%; padding:20px; text-align:justify;">
+            <div style="background-color:ghostwhite; height:auto; border-radius:0%; padding:20px; text-align:justify;">
                 <h4><strong>En qué consiste</strong></h4>
                 <hr>
                 <p>
@@ -166,34 +166,30 @@ section_end($sectionID);
     <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
+            <?php
+            $directory = __DIR__ . '/../../media/images/Rooftop/carrousel1/'; // Replace with the actual directory path
+            $files = scandir($directory);
+            $files = array_diff($files, array('.', '..')); // Exclude current and parent directory
+            $carrouselImages = array();
+            foreach ($files as $value) {
+                $carrouselImages[] =  '/media/images/Rooftop/carrousel1/' . $value;
+            }
+            ?>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <?php foreach ($carrouselImages as $key => $value) :
+                        if ($key == 0) { ?>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button><?php } else { ?>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="<?php echo $key; ?>" aria-label="Slide <?php echo ($key + 1); ?>"></button><?php } ?>
+
+                    <?php endforeach; ?>
                 </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="/media/images/Rooftop/sostre img1.jpeg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/media/images/Rooftop/sostre img2.jpeg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/media/images/Rooftop/sostre img3.jpeg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/media/images/Rooftop/sostre img4.jpeg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/media/images/Rooftop/sostre img5.jpeg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/media/images/Rooftop/sostre img6.jpeg" class="d-block w-100" alt="...">
-                    </div>
+                    <?php foreach ($carrouselImages as $key => $value) : ?>
+                        <div class="carousel-item <?php if ($key == 0) echo 'active'; ?>">
+                            <img src="<?php echo $value; ?>" class="d-block w-100" alt="...">
+                        </div>
+                    <?php endforeach; ?>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -207,9 +203,9 @@ section_end($sectionID);
         </div>
     </div>
 </div>
-<!----
+
 <?php
-//section_end($sectionID); 
+section_end($sectionID);
 ?>
 <div class="container MySection">
     <font size="+3">
@@ -220,30 +216,39 @@ section_end($sectionID);
         <strong>
             ¿Qué ofrecemos?
         </strong>
-        <br>
-        ANTES:
-        <br>
-        * Con nuestra experiencia estudiaremos la mejor opción entre nuestros sisstemas.
-        <br>
-        * Tendrá opción a poder ampliar nuestra colaboración si necesita que le asesoremos con la estructura.
-        <br>
-        <br>
-        DURANTE:
-        <br>
-        * Nuestro equipo técnico desde la consultoría JFG Consultors, le acompañará para resolver cualquier duda o necesidad de forma personalizada y garantizándole el control de calidad.
-        Además ofrecemos la supervisión y Dirección de Obra para tener el servicio más completo y óptimo.
-        <br>
-        <br>
-        ¿Qué necesita?
-        <br>
-        * Nosotros le asesoramos con soluciones alternativas más ecológicas, mejores, más avanzadas y más económicas, optimizando el tiempo de ejecución de obra y el de sus empleados profesionales, obteniendo mayor productividad.
-        <br>
-        * Nos ocupamos de la mejor estructura para su proyecto y Usted podrá dedicar más tiempo a lo que realmente le gusta y conoce más a fondo.
-        <br>
+        <p>
+            ANTES:
+            <br>
+            * Con nuestra experiencia estudiaremos la mejor opción entre nuestros sisstemas.
+            <br>
+            * Tendrá opción a poder ampliar nuestra colaboración si necesita que le asesoremos con la estructura.
+            <br>
+
+        </p>
+        <p>
+            DURANTE:
+            <br>
+            * Nuestro equipo técnico desde la consultoría JFG Consultors, le acompañará para resolver cualquier duda o necesidad de forma personalizada y garantizándole el control de calidad.
+            Además ofrecemos la supervisión y Dirección de Obra para tener el servicio más completo y óptimo.
+            <br>
+        </p>
+        <p>
+            DESPUÉS:
+            <br>
+            Asesoramiento ante cualquier cambio o reforma futura.
+            <br>
+        </p>
+        <p>
+            <strong>¿Qué necesita?</strong>
+            <br>
+            * Nosotros le asesoramos con soluciones alternativas más ecológicas, mejores, más avanzadas y más económicas, optimizando el tiempo de ejecución de obra y el de sus empleados profesionales, obteniendo mayor productividad.
+            <br>
+            * Nos ocupamos de la mejor estructura para su proyecto y Usted podrá dedicar más tiempo a lo que realmente le gusta y conoce más a fondo.
+            <br>
+        </p>
 
     </h3>
 </div>
----->
 <?php section_end($sectionID); ?>
 <div class="MySection container">
     <div class="row">
