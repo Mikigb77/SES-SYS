@@ -37,7 +37,7 @@
                         position: static;
                         transform: translate(0%, -50%);
                         -ms-transform: translate(0%, -50%);
-                        font-size: small;
+                        font-size: medium;
                     }
 
                     .hover {
@@ -49,11 +49,11 @@
             </style>
             <div class="hover" style="background-color: black;">
                 <font size="+2">
-                    <img src="/media/images/Office/oficina.webp" alt="" style="width: 100%; opacity:0.5;">
+                    <img src="/media/images/Office/oficina.webp" alt="" style="width: 100%; opacity:0.5; border-radius:0%;">
 
                     <div class="centered centerText" style="color:whitesmoke; text-align:center;">
 
-                        <img src="/media/images/Logos/LogoJFG.jpg" alt="" style="width:40%; margin-bottom:5%; opacity:1;">
+                        <img src="/media/images/Logos/Logo_JFG_No_background.svg" alt="" style="width:40%; margin-bottom:5%; opacity:1;">
 
                         <p>C/ Sant Antoni Maria Claret, 24, 3ªplanta</p>
                         <p>08037 Barcelona</p>
@@ -79,7 +79,7 @@
             <h2>¿Dónde estamos?</h2>
         </div>
         <div class="col-md-6">
-            <h2>¿Quieres saber más?</h2>
+            <h2>¿Quiere saber más?</h2>
         </div>
         <hr>
         <br>

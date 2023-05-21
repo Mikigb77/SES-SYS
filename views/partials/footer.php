@@ -36,8 +36,11 @@ for ($i = 0; $i < 5; ++$i)
                     }
                 </style>
                 <div>
-                    <a href="https://es.linkedin.com/posts/jfgconsultors_disponible-en-youtube-ses-steel-embed-activity-6950129179287826432-hiw8">
+                    <a href="https://es.linkedin.com/posts/jfgconsultors_disponible-en-youtube-ses-steel-embed-activity-6950129179287826432-hiw8" target="_blank" style="text-decoration: none;">
                         <img class="FooterImg" src="/media/images/Logos/Linkedin.png" alt="">
+                    </a>
+                    <a href="https://www.youtube.com/@SteelEmbedSystem" target="_balank" style="text-decoration: none;">
+                        <img class="FooterImg" src="/media/images/Logos/youtube-icon-logo-symbol.jpg" alt="" style="border-radius:100%;">
                     </a>
                 </div>
             </div>
@@ -45,6 +48,24 @@ for ($i = 0; $i < 5; ++$i)
             <div>
                 <a href="/politica-de-privacidad/">Todos los derechos reservados</a>
             </div>
+
         </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <p style="text-align: center;">
+                Diseño de producto y control de calidad:<br>
+                Joan Francesc Garcia Beltrán
+            </p>
+        </div>
+        <div class="col-md-4" style="text-align: center;">
+            <p>
+                Distribuidor en España:<br><br>
+                <a href="https://planicer.com/es/" target="_blank">
+                    <img class="FooterImg" src="/media/images/Logos/logo-planicer-construccions-metalliques.png" alt="" style="width:50%">
+                </a>
+            </p>
+        </div>
+    </div>
 
 </footer>

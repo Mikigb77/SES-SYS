@@ -12,22 +12,16 @@
                     <p>Publicación en cuadrenos de estructuras.</p>
                     <p>Nº 75</p>
                     <div>
-                        <!---old href="https://aceweb.cat/es/solicitud-revista/"---->
-                        <a href="#">
-                            <button type="button" class="btn btn-outline-dark" disabled><strong>Solicita la Revista</strong></button>
-                        </a>
-                    </div>
-                    <div>
-                        <br>
-                        <p>* Apartir de julio 2023 estará disponible en digital desde aquí.</p>
-                        <a href="#">
-                            <button type="button" class="btn btn-outline-dark" disabled><strong>Leer online</strong></button>
+                        <p>* A partir de julio 2023 estará disponible en tienda desde aquí.</p>
+                        <p>** Descuento para socios hasta el 80%.</p>
+                        <a href="https://aceweb.cat/es/categoria-producto/cuaderno-de-estructuras/" target="_blank">
+                            <button type="button" class="btn btn-outline-dark"><strong>Solicita la Revista</strong></button>
                         </a>
                     </div>
 
                 </div>
                 <div class="col-md-6">
-                    <a href="https://aceweb.cat/es/solicitud-revista/" target="_blank">
+                    <a href="https://aceweb.cat/es/categoria-producto/cuaderno-de-estructuras/" target="_blank">
                         <img src="/media/images/ACE-PortadaRev.jpg" alt="" style="width:100%;">
                     </a>
                 </div>
@@ -49,7 +43,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xTBe5_u3AQU?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; border-radius:10%;"></iframe>
+                    <iframe width="560" height="350" src="https://www.youtube.com/embed/xTBe5_u3AQU?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; border-radius:0%;"></iframe>
 
                 </div>
             </div>
@@ -60,12 +54,12 @@
                     <div class="col-md-6" style="text-align: center;">
                         <h3>ACE</h3>
                         <p>05/22</p>
-                        <p>Sessión en ACE:</p>
+                        <p>Presentación del sistema SES en una sesión de formación ACE.</p>
                         <p><strong>SES Steel Embeed System</strong></p>
                         <p>Forjado preindustrializado</p>
                     </div>
                     <div class="col-md-6">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tD7euT4iC3A?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; border-radius:10%;"></iframe>
+                        <iframe width="560" height="350" src="https://www.youtube.com/embed/tD7euT4iC3A?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; border-radius:0%;"></iframe>
                     </div>
                 </div>
             </div>
@@ -84,7 +78,7 @@
                         </div>
                     </div>
                     <div class="col-md-6" style="text-align: center;">
-                        <img src="/media/images/Logos/ses-e-ficiencia.jpg" alt="E-ficiencia" style="width:100%;">
+                        <img src="/media/images/Logos/ses-e-ficiencia.jpg" alt="E-ficiencia" style="width:100%;display: flex; justify-content: center; align-items: center;">
                     </div>
 
                 </div>
