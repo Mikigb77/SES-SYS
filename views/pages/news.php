@@ -10,7 +10,7 @@
                     <h3>Construmat</h3>
                     <p>05/23</p>
                     <p>Feria de Barcelona</p>
-                    <p>(del 23-25)</p>
+                    <p>(del 23-25)<br><strong>Steel Embed System</strong><br>Stand A55</p>
                     <div>
                         <p>* Invitación <strong>GRATUITA</strong> disponible para profesionales:</p>
                         <a href="https://registration.firabarcelona.com/?cod_prom=WOTUNLQV#/es_ES/J025023/WEB" target="_blank">
@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-md-6">
                     <a href="https://registration.firabarcelona.com/?cod_prom=WOTUNLQV#/es_ES/J025023/WEB" target="_blank">
-                        <img src="/media/images/Construmat.jpeg" alt="" style="width:100%;">
+                        <img src="/media/images/Construmat-def.jpeg" alt="" style="width:100%;">
                     </a>
                 </div>
             </div>
