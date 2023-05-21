@@ -13,7 +13,7 @@ for ($i = 0; $i < 5; ++$i)
             <br>
             <p style="text-align: center;">
                 Diseño de producto y control de calidad:<br>
-                Joan Francesc Garcia Beltrán
+                Joan Francesc Garcia Beltrán<br>
                 <a href="https://www.jfgconsultors.com/" target="_blank"><img src="/media/images/Logos/Logo_JFG_No_background.svg" alt="JFG Consultors"></a>
             </p>
         </div>
