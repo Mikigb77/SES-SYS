@@ -42,7 +42,8 @@ section_end($sectionID);
         <div class="col-md-6">
 
             <video id="video-presentacio" controls style="border-radius:10%;" poster="/media/images/ses-steel.png" onended="load()" oncanplay="changeText(1); setVideoVolume('video-presentacio', 0.5);">
-                <source src="/media/videos/SES-Complete.mp4" type="video/mp4">
+                <source src="/media/videos/SES-Presentacion.mp4" type="video/mp4">
+                <source src="/media/videos/SES_compressed.mp4" type="video/mp4">
                 <source src="/media/videos/SES_compressed.mp4" type="video/mp4">
             </video>
             <br><br>
@@ -77,7 +78,7 @@ section_end($sectionID);
 <div class="container MySection">
     <div class="row">
         <div class="col-md-3">
-            <div style="background-color:ghostwhite; height:auto; border-radius:0%; padding:20px; text-align:justify;">
+            <div style="background-color:ghostwhite; height:auto; border-radius:10%; padding:20px; text-align:justify;">
                 <h4><strong>Nuestro objetivo</strong></h4>
                 <hr>
                 <p>
@@ -90,11 +91,15 @@ section_end($sectionID);
         </div>
         <div class="col-md-6">
             <div>
-                <img src="/media/images/Logos/Marca SteelEmbedSystem.jpg" alt="" style="width: 100%;">
+                <!--- <img src="/media/images/Logos/Marca SteelEmbedSystem.jpg" alt="" style="width: 100%;">--->
+                <font size="+3">
+                    <h1 style="text-align:center;"><strong><i>Steel Embed System</i></strong></h1>
+                    <hr>
+                </font>
             </div>
             <div>
                 <br>
-                <img src="/media/images/RooftopPresentation/JFG_SWH-SEF-presentacio retallada.jpg" alt="" style="width:100%;border-radius:0%;">
+                <img src="/media/images/RooftopPresentation/JFG_SWH-SEF-presentacio retallada.jpg" alt="" style="width:100%;border-radius:10%;">
             </div>
             <div class="row">
                 <div class="col-md-12" style="text-align: center;">
@@ -105,7 +110,7 @@ section_end($sectionID);
                 <div class="col-md-4">
 
                     <div class="hover">
-                        <img class="MyImage" src="/media/images/RooftopPresentation/Chapa.jpg" alt="" style=" width:100%; border-radius: 0%;">
+                        <img class="MyImage" src="/media/images/RooftopPresentation/Chapa.jpg" alt="" style=" width:100%; border-radius: 10%;">
                         <div class="middle">
                             <div class="text">
                                 Chapas metálicas galvanizadas
@@ -116,7 +121,7 @@ section_end($sectionID);
                 <div class="col-md-4">
 
                     <div class="hover">
-                        <img class="MyImage" src="/media/images/RooftopPresentation/CasetonEPS.jpg" alt="" style="width:100%; border-radius: 0%;">
+                        <img class="MyImage" src="/media/images/RooftopPresentation/CasetonEPS.jpg" alt="" style="width:100%; border-radius: 10%;">
                         <div class="middle">
                             <div class="text">
                                 Casetones de EPS (Poliestireno expandido)
@@ -126,7 +131,7 @@ section_end($sectionID);
                 </div>
                 <div class="col-md-4">
                     <div class="hover">
-                        <img class="MyImage" src="/media/images/RooftopPresentation/tableroMaderaTexture.jpg" alt="" style=" width:100%; border-radius: 0%;">
+                        <img class="MyImage" src="/media/images/RooftopPresentation/tableroMaderaTexture.jpg" alt="" style=" width:100%; border-radius: 10%;">
                         <div class="middle">
                             <div class="text">
                                 Tableros de madera OSB/3
@@ -137,7 +142,7 @@ section_end($sectionID);
             </div>
         </div>
         <div class="col-md-3">
-            <div style="background-color:ghostwhite; height:auto; border-radius:0%; padding:20px; text-align:justify;">
+            <div style="background-color:ghostwhite; height:auto; border-radius:10%; padding:20px; text-align:justify;">
                 <h4><strong>En qué consiste</strong></h4>
                 <hr>
                 <p>
@@ -156,38 +161,65 @@ section_end($sectionID);
         <h1 style="text-align:center;"><strong>¿Porqué elegir el sistema SES?</strong></h1>
         <br>
     </font>
-    <h3 style="text-align: center;">Vea las fotos y videos realizados directamente en la obra y no dude en <a href="/contacto/"><b>consultarnos</b></a></h3>
-    <br>
     <div class="row">
         <br>
-        <h3 style="text-align: center;">Las imágenes y opiniones de expertos profesionales en la ejecución de obras es nuestra mejor carta de presentación.</h3>
+        <h3 style="text-align: center;">Las imágenes y opiniones de expertos profesionales en la ejecución de obra es nuestra mejor carta de presentación.</h3>
         <h3 style="text-align: center;"><strong>¡COMPRUÉBELO!</strong></h3>
     </div>
     <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
             <?php
-            $directory = __DIR__ . '/../../media/images/carrousel1/'; // Replace with the actual directory path
-            $files = scandir($directory);
-            $files = array_diff($files, array('.', '..')); // Exclude current and parent directory
+            $directoryI = __DIR__ . '/../../media/images/carrousel1/'; // Replace with the actual directoryI$directoryI path
+            $filesI = scandir($directoryI);
+            $filesI = array_diff($filesI, array('.', '..')); // Exclude current and parent directoryI$directoryI
+            $directoryV = __DIR__ . '/../../media/videos/carrousel1/';
+            $filesV = scandir($directoryV);
+            $filesV = array_diff($filesV, array('.', '..'));
             $carrouselImages = array();
-            foreach ($files as $value) {
+            $carrouselVideo = array();
+            foreach ($filesI as $value) {
                 $carrouselImages[] =  '/media/images/carrousel1/' . $value;
             }
+            foreach ($filesV as $value) {
+                $carrouselVideo[] = '/media/videos/carrousel1/' . $value;
+            }
             ?>
+
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
-                    <?php foreach ($carrouselImages as $key => $value) :
+                    <?php
+                    for ($key = 0; $key < sizeof($carrouselImages) + sizeof($carrouselVideo); ++$key) :
                         if ($key == 0) { ?>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button><?php } else { ?>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="<?php echo $key; ?>" aria-label="Slide <?php echo ($key + 1); ?>"></button><?php } ?>
 
-                    <?php endforeach; ?>
+                    <?php endfor; ?>
                 </div>
                 <div class="carousel-inner">
+                    <style>
+                        .carousel-video {
+                            max-width: 100%;
+                            height: auto;
+                            max-height: 300px;
+                            /* Adjust the height as desired */
+                        }
+
+                        .carousel-control-prev,
+                        .carousel-control-next {
+                            z-index: 1;
+                        }
+                    </style>
+                    <?php foreach ($carrouselVideo as $key => $value) : ?>
+                        <div style="text-align: center;" class="carousel-item <?php if ($key == 0) echo 'active'; ?>">
+                            <video id="<?php $val = explode('/', $carrouselVideo[0]);
+                                        $val = $val[sizeof($val) - 1];
+                                        echo $val; ?>" class="carrousel-video" src="<?php echo $value; ?>" oncanplay="setVideoVolume('<?php echo $val ?>', 0.5);" controls style="width: 50%;"></video>
+                        </div>
+                    <?php endforeach; ?>
                     <?php foreach ($carrouselImages as $key => $value) : ?>
-                        <div class="carousel-item <?php if ($key == 0) echo 'active'; ?>">
-                            <img src="<?php echo $value; ?>" class="d-block w-100" alt="...">
+                        <div class="carousel-item <?php if ($key == 0 && sizeof($carrouselVideo) == 0) echo 'active'; ?>">
+                            <img src="<?php echo $value; ?>" class="d-block w-100" alt="..." style="border-radius: 10%;">
                         </div>
                     <?php endforeach; ?>
                 </div>
@@ -208,59 +240,90 @@ section_end($sectionID);
 section_end($sectionID);
 ?>
 <div class="container MySection">
-    <font size="+3">
-        <h1 style="text-align:center;"><strong>La mejor inversión, para la mejor satisfacción personal, siendo pionero con nosotros.<br>¡Avancémonos al futuro!</strong></h1>
-        <br>
-    </font>
-    <h3 style="text-align: center;">
-        <strong>
-            ¿Qué ofrecemos?
-        </strong>
-        <p>
-            ANTES:
+    <div class="row">
+        <font size="+3">
+            <h1 style="text-align:center;"><strong>La mejor inversión, la mejor satisfacción personal<br> ¡Sé pionero con nosotros y<br>avancémonos al futuro!</strong></h1>
             <br>
-            * Con nuestra experiencia estudiaremos la mejor opción entre nuestros sisstemas.
-            <br>
-            * Tendrá opción a poder ampliar nuestra colaboración si necesita que le asesoremos con la estructura.
-            <br>
+        </font>
+        <h2 style="text-align: center;">
+            <strong>
+                ¿Qué ofrecemos?
+            </strong>
 
-        </p>
-        <p>
-            DURANTE:
-            <br>
-            * Nuestro equipo técnico desde la consultoría JFG Consultors, le acompañará para resolver cualquier duda o necesidad de forma personalizada y garantizándole el control de calidad.
-            Además ofrecemos la supervisión y Dirección de Obra para tener el servicio más completo y óptimo.
-            <br>
-        </p>
-        <p>
-            DESPUÉS:
-            <br>
-            Asesoramiento ante cualquier cambio o reforma futura.
-            <br>
-        </p>
-        <p>
-            <strong>¿Qué necesita?</strong>
-            <br>
-            * Nosotros le asesoramos con soluciones alternativas más ecológicas, mejores, más avanzadas y más económicas, optimizando el tiempo de ejecución de obra y el de sus empleados profesionales, obteniendo mayor productividad.
-            <br>
-            * Nos ocupamos de la mejor estructura para su proyecto y Usted podrá dedicar más tiempo a lo que realmente le gusta y conoce más a fondo.
-            <br>
-        </p>
+        </h2>
 
-    </h3>
+    </div>
+    <?php echo '<br>'; ?>
+    <div class="row">
+        <div class=" col-md-4">
+            <img src="/media/images/Abans.JPG" alt="Antes" style="width:100%; border-radius:10%;">
+        </div>
+        <div class="col-md-8">
+            <h4><b>DISEÑO:</b></h4>
+            <font size="+1">
+                <p>
+                    * Con nuestra experiencia estudiaremos la mejor opción entre nuestros sistemas.
+                    <br>
+                    * Ofrecemos las soluciones alternativas más ecológicas, más avanzadas, simples y económicas, optimizando el tiempo de ejecución en obra mejorando la productividad.
+                    <br>
+                    * Diseñamos el mejor forjado para integrarlo y dar respuesta a las necesidades de su proyecto.
+                    <br>
+                    * Además nuestra consultoria tecnica de estructuras, con más de 30 años de experiencia, le ofrece el asesoramiento que sea requerido.
+                    <br>
+                </p>
+            </font>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h4><b>ANÁLISIS:</b></h4>
+            <font size="+1">
+
+                <p>
+                    * Nuestro equipo técnico desde la consultoría JFG Consultors, analiza detalladamente cada una de las propuestas para optimizar tanto el dimensionado de nuestros forjados como, si se desea, el de la totalidad de la estructura.
+                    <br>
+                    * Se verifican exhaustivamente nuestros productos para garantizar un estricto control de calidad.
+                    <br>
+                </p>
+            </font>
+        </div>
+        <div class="col-md-4">
+            <img src="/media/images/Durante.JPG" alt="Durante" style="width:100%; border-radius:10%;">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="/media/images/Despues.jpg" alt="Despues" style="width:100%; border-radius:10%;">
+        </div>
+        <div class="col-md-8">
+            <h4><b>PUESTA EN OBRA:</b></h4>
+            <font size="+1">
+
+                <p>
+                    * Además, le ofrecemos nuestra supervisión y colaboración con la Dirección de Obra para ofrecer el servicio más completo.
+                    <br>
+                    * Soporte y asesoramiento técnico personalizado para cualquier tipologia de edificación: rehabilitaciones, remontas y obra nueva.
+                    <br>
+                </p>
+            </font>
+        </div>
+    </div>
+</div>
+
+
 </div>
 
 <?php section_end($sectionID); ?>
-<div class="MySection container">
+<div class=" MySection container">
     <div class="row">
         <div class="col-xs-12">
             <div class="col-md-5" style="float:right;margin-left:2%;">
                 <img src="/media/images/Dad/dad_vang.jpg" style="float:right; border-radius:10%; margin-bottom:5%; width:100%">
                 <p style="text-align:right;"><b>Miembro de la Asociación de Consultores de Estructuras</b></p>
 
-                <a href="https://aceweb.cat/es/noticias/ses-steel-embed-system-forjado-preindustrializado/" style="color:black;" target="_blank">
+                <a href="https://aceweb.cat/es/noticias/ses-steel-embed-system-forjado-preindustrializado/" target="_blank" style="text-decoration: none; color:black;">
+                    <p style="text-align:right;"><b>Presentación del sistema SES en la<br>Asociación de Consultores de Estructuras</b></p>
                     <img src="/media/images/Logos/logo-ace.jpg" alt="ACE" width="200" style="float:right; margin-left:2%;">
-                    <p style="text-align:right;"><b>Presentación del sistema SES en ACE</b></p>
                 </a>
                 <br>
             </div>
