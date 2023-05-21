@@ -43,7 +43,7 @@ section_end($sectionID);
 
             <video id="video-presentacio" controls style="border-radius:10%;" poster="/media/images/ses-steel.png" onended="load()" oncanplay="changeText(1); setVideoVolume('video-presentacio', 0.5);">
                 <source src="/media/videos/SES-Presentacion.mp4" type="video/mp4">
-                <source src="/media/videos/SES_compressed.mp4" type="video/mp4">
+                <source src="/media/videos/SES-presentacio_compressed.mp4" type="video/mp4">
                 <source src="/media/videos/SES_compressed.mp4" type="video/mp4">
             </video>
             <br><br>
