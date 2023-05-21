@@ -203,7 +203,7 @@ section_end($sectionID);
         </div>
     </div>
 </div>
-<!--
+
 <?php
 section_end($sectionID);
 ?>
@@ -249,7 +249,7 @@ section_end($sectionID);
 
     </h3>
 </div>
-                    -->
+
 <?php section_end($sectionID); ?>
 <div class="MySection container">
     <div class="row">
