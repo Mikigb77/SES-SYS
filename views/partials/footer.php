@@ -4,15 +4,20 @@ for ($i = 0; $i < 5; ++$i)
 ?>
 <article></article>
 
-<!----https://es.linkedin.com/posts/jfgconsultors_disponible-en-youtube-ses-steel-embed-activity-6950129179287826432-hiw8--->
 <footer class="MyFooter container-fluid">
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-3">
             <div>
                 <img src="/media/images/Logos/SES_tarjeta Firma.png" alt="" style="width:100%;">
             </div>
+            <br>
+            <p style="text-align: center;">
+                Diseño de producto y control de calidad:<br>
+                Joan Francesc Garcia Beltrán
+                <a href="https://www.jfgconsultors.com/" target="_blank"><img src="/media/images/Logos/Logo_JFG_No_background.svg" alt="JFG Consultors"></a>
+            </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
             <div style="text-align: center;">
                 <p>
                     Contacto:<br>
@@ -27,7 +32,15 @@ for ($i = 0; $i < 5; ++$i)
                 </p>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3" style="text-align: center;">
+            <p>
+                Distribuidor en España:<br><br>
+                <a href="https://planicer.com/es/" target="_blank">
+                    <img class="FooterImg" src="/media/images/Logos/logo-planicer-construccions-metalliques.png" alt="" style="width:60%">
+                </a>
+            </p>
+        </div>
+        <div class="col-md-3">
             <div>
                 <style>
                     .FooterImg {
@@ -49,22 +62,6 @@ for ($i = 0; $i < 5; ++$i)
                 <a href="/politica-de-privacidad/">Todos los derechos reservados</a>
             </div>
 
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
-            <p style="text-align: center;">
-                Diseño de producto y control de calidad:<br>
-                Joan Francesc Garcia Beltrán
-            </p>
-        </div>
-        <div class="col-md-4" style="text-align: center;">
-            <p>
-                Distribuidor en España:<br><br>
-                <a href="https://planicer.com/es/" target="_blank">
-                    <img class="FooterImg" src="/media/images/Logos/logo-planicer-construccions-metalliques.png" alt="" style="width:50%">
-                </a>
-            </p>
         </div>
     </div>
 
