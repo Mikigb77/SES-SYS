@@ -59,7 +59,7 @@ class Router
     public function renderView($view)
     {
         //check the language:
-        //$this->checkLanguage();
+        $this->checkLanguage();
         ob_start();
         require_once(__DIR__ . "/../views/pages/$view.php");
         $output = ob_get_clean();

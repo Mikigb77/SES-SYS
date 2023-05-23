@@ -1,33 +1,7 @@
-<?php
-
-/**
- * changes the value of lang to $value
- */
-function changeLang($value)
-{
-    $currentURL = $_SERVER['REQUEST_URI'];
-
-    // Desired key and value for the query parameter
-    $desiredKey = 'lang';
-    $desiredValue = $value;
-
-    // Check if the parameter already exists in the URL
-    if (strpos($currentURL, $desiredKey . '=') !== false) {
-        // Parameter already exists, replace its value
-        $newURL = preg_replace('/(' . $desiredKey . '=)[^&]+/', '$1' . $desiredValue, $currentURL);
-    } else {
-        // Parameter does not exist, add it to the URL
-        $separator = (strpos($currentURL, '?') !== false) ? '&' : '?';
-        $newURL = $currentURL . $separator . $desiredKey . '=' . $desiredValue;
-    }
-
-    return $newURL;
-}
-?>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand" href="<?php echo retainGET("/"); ?>">
                 <img src="/media/images/Logos/icon-ses.png" alt="SES System" style="width: 40px; margin:0%;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,28 +10,28 @@ function changeLang($value)
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="<?php echo retainGET("/"); ?>">Inicio</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="/Documentation/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="<?php echo retainGET('/Documentation/'); ?>" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Información técnica
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/informacion-tecnica/">Índice</a></li>
-                            <li><a class="dropdown-item" href="/informacion-tecnica/mixto/">Sistema Mixto</a></li>
-                            <li><a class="dropdown-item" href="/informacion-tecnica/seco/">Sistema Seco</a></li>
+                            <li><a class="dropdown-item" href="<?php echo retainGET("/informacion-tecnica/"); ?>">Índice</a></li>
+                            <li><a class="dropdown-item" href="<?php echo retainGET("/informacion-tecnica/mixto/"); ?>">Sistema Mixto</a></li>
+                            <li><a class="dropdown-item" href="<?php echo retainGET("/informacion-tecnica/seco/"); ?>">Sistema Seco</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="/informacion-tecnica/detalles-constructivos/">Detalles Constructivos</a></li>
-                            <li><a class="dropdown-item" href="/media/files/SES_SWH-SEF- DAU.pdf" target="_blanck">Homologación: DAU</a></li>
+                            <li><a class="dropdown-item" href="<?php echo retainGET("/informacion-tecnica/detalles-constructivos/"); ?>">Detalles Constructivos</a></li>
+                            <li><a class="dropdown-item" href="<?php echo retainGET("/media/files/SES_SWH-SEF- DAU.pdf"); ?>" target="_blanck">Homologación: DAU</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="/noticias/">Notícias y Eventos</a>
+                        <a class="nav-link " aria-current="page" href="<?php echo retainGET("/noticias/"); ?>">Notícias y Eventos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="/contacto/">Contacto</a>
+                        <a class="nav-link " aria-current="page" href="<?php echo retainGET("/contacto/"); ?>">Contacto</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search" hidden aria-hidden="true">

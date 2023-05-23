@@ -4,6 +4,7 @@ use SesSys\Controllers\Controller;
 use SesSys\Src\Router;
 
 require_once(__DIR__ . "/../vendor/autoload.php");
+require_once(__DIR__ . '/../PHP/MyphpScripts.php');
 
 $router = new Router;
 
