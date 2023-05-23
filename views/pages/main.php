@@ -181,9 +181,10 @@ section_end($sectionID);
             foreach ($filesI as $value) {
                 $carrouselImages[] =  '/media/images/carrousel1/' . $value;
             }
-            foreach ($filesV as $value) {
-                $carrouselVideo[] = '/media/videos/carrousel1/' . $value;
-            }
+            if (!$filesV)
+                foreach ($filesV as $value) {
+                    $carrouselVideo[] = '/media/videos/carrousel1/' . $value;
+                }
             ?>
 
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">

@@ -1,3 +1,29 @@
+<?php
+
+/**
+ * changes the value of lang to $value
+ */
+function changeLang($value)
+{
+    $currentURL = $_SERVER['REQUEST_URI'];
+
+    // Desired key and value for the query parameter
+    $desiredKey = 'lang';
+    $desiredValue = $value;
+
+    // Check if the parameter already exists in the URL
+    if (strpos($currentURL, $desiredKey . '=') !== false) {
+        // Parameter already exists, replace its value
+        $newURL = preg_replace('/(' . $desiredKey . '=)[^&]+/', '$1' . $desiredValue, $currentURL);
+    } else {
+        // Parameter does not exist, add it to the URL
+        $separator = (strpos($currentURL, '?') !== false) ? '&' : '?';
+        $newURL = $currentURL . $separator . $desiredKey . '=' . $desiredValue;
+    }
+
+    return $newURL;
+}
+?>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -38,6 +64,10 @@
                     <input hidden id="searchInput" class="form-control me-2" type="search" placeholder="search" aria-label="Search" style="background-image:url(/media/images/lupa.png); background-size:35px; background-repeat:no-repeat; text-indent:20px;" onfocus="hideLupa();" onblur="showLupa();">
                     <button hidden class="btn btn-outline-light" type="submit">Search</button>
                 </form>
+                <div class="navbar-text">
+                    <a href="<?php echo changeLang('es_ES'); ?>">ES</a>
+                    <a href="<?php echo changeLang('en_US'); ?>">EN</a>
+                </div>
             </div>
         </div>
     </nav>

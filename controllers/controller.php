@@ -49,4 +49,8 @@ class Controller
     {
         $router->renderView('news');
     }
+    static public function test(Router $router)
+    {
+        $router->renderView('test');
+    }
 }

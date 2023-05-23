@@ -24,12 +24,6 @@ class Router
         $currURL = $_SERVER['REQUEST_URI'];
         if (strpos($currURL, '?'))
             $currURL = substr($currURL, 0, strpos($currURL, '?'));
-        /*if (strpos($currURL, 'public'))
-            $currURL = substr($currURL, strpos($currURL, 'public') + strlen('public'));
-        if ($currURL[strlen($currURL) - 1] == '/')
-            $currURL = substr($currURL, 0, strlen($currURL) - 2);
-        if ($currURL == '')
-            $currURL = '/';*/
 
         $method = $_SERVER['REQUEST_METHOD'];
 
@@ -44,8 +38,28 @@ class Router
         }
     }
 
+    private function checkLanguage()
+    {
+        $lang = $lang ?? 'es_ES';
+        if (!empty($_GET)) {
+            $lang = $_GET['lang'];
+            putenv("LANG=" . $lang);
+            setlocale(LC_ALL, $lang);
+            $domain = "messages";
+            $localeDir = '';
+            bindtextdomain($domain, $localeDir);
+            if ($lang == "en_US") {
+                $localeDir = __DIR__ . '/../locales';
+                bindtextdomain($domain, $localeDir);
+                bind_textdomain_codeset($domain, 'UTF-8');
+                textdomain($domain);
+            }
+        }
+    }
     public function renderView($view)
     {
+        //check the language:
+        //$this->checkLanguage();
         ob_start();
         require_once(__DIR__ . "/../views/pages/$view.php");
         $output = ob_get_clean();

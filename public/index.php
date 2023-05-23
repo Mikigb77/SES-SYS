@@ -25,8 +25,8 @@ $router->postUrl('/contacto/', [Controller::class, 'contact']);
 $router->getUrl('/contacto/', [Controller::class, 'contact']);
 $router->getUrl('/noticias/', [Controller::class, 'news']);
 $router->postUrl('/noticias/', [Controller::class, 'news']);
-
-
+$router->getUrl(('/test/'), [Controller::class, 'test']);
+$router->postUrl(('/test/'), [Controller::class, 'test']);
 
 
 $router->resolve();
