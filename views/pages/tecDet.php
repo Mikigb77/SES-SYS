@@ -1,20 +1,15 @@
-<style>
-    img {
-        width: 100%;
-        border-radius: 10%;
-    }
-</style>
 <div class="MySection container">
-    <h1 style="text-align:center;">Detalles Constructivos</h1>
+    <h1 style="text-align:center;"><?php echo gettext('Detalles Constructivos'); ?></h1>
     <hr>
     <div class="row">
         <div class="col-md-4">
-            <img src="/media/images/Hand drawings/all.jpg" alt="Detalles">
+            <img style="width:100%; border-radius:10%;" src="/media/images/Hand drawings/all.jpg" alt="<?php echo gettext('Detalles'); ?>">
         </div>
         <div class="col-md-8">
             <font size=+2>
                 <p style="text-align:justify;">
-                    El sistema SES constituye una solución de forjado de altísimas prestaciones en su tipo SES mixto y extremadamente ligero en su versión SES seco. El forjado integra las funciones estructurales así como de resistencia al fuego y de apariencia limpia y pulida desde su puesta en obra. De geometría inteligente, reduce a la mínima expresión el material empleado para maximizar su rendimiento bajo la forma de un forjado plano o inclinado de instalación ultra rápida.</p>
+                    <?php echo gettext('El sistema SES constituye una solución de forjado de altísimas prestaciones en su tipo SES mixto y extremadamente ligero en su versión SES seco. El forjado integra las funciones estructurales así como de resistencia al fuego y de apariencia limpia y pulida desde su puesta en obra. De geometría inteligente, reduce a la mínima expresión el material empleado para maximizar su rendimiento bajo la forma de un forjado plano o inclinado de instalación ultra rápida.'); ?>
+                </p>
             </font>
         </div>
     </div>
@@ -23,14 +18,14 @@
 <div class="MySection container">
     <div class="row">
         <div class="col-md-12">
-            <h2 style="text-align:center;">Mixto</h2>
+            <h2 style="text-align:center;"><?php echo gettext('Mixto'); ?></h2>
             <hr>
             <div class="hover">
-                <img src="/media/images/Hand drawings/forjado mixto seccion.jpg" alt="..." class="MyImage">
+                <img style="width:100%; border-radius:10%;" src="/media/images/Hand drawings/forjado mixto seccion.jpg" alt="..." class="MyImage">
                 <div class="middle">
-                    <a href="/informacion-tecnica/mixto/" style="color:white; text-decoration:none;">
+                    <a href="<?php echo retainGET('/informacion-tecnica/mixto/'); ?>" style="color:white; text-decoration:none;">
                         <div class="text">
-                            Información Mixto
+                            <?php echo gettext('Información Mixto'); ?>
                         </div>
                     </a>
                 </div>
@@ -43,14 +38,14 @@
 <div class="container MySection">
     <div class="row">
         <div class="col-md-12">
-            <h2 style="text-align:center;">Seco</h2>
+            <h2 style="text-align:center;"><?php echo gettext('Seco'); ?></h2>
             <hr>
             <div class="hover">
-                <img src="/media/images/Hand drawings/Forjado seco seccion.jpg" alt="..." class="MyImage">
+                <img style="width:100%; border-radius:10%;" src="/media/images/Hand drawings/Forjado seco seccion.jpg" alt="..." class="MyImage">
                 <div class="middle">
-                    <a href="/informacion-tecnica/seco/" style="text-decoration:none; color:white;">
+                    <a href="<?php echo retainGET('/informacion-tecnica/seco/'); ?>" style="text-decoration:none; color:white;">
                         <div class="text">
-                            Información Seco
+                            <?php echo gettext('Información Seco'); ?>
                         </div>
                     </a>
                 </div>

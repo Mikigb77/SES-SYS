@@ -54,6 +54,62 @@ function changeText(id) {
   x.innerHTML = text;
 }
 
+function changeTextEN(id) {
+  let text = "";
+  switch (id) {
+    case 1:
+      text = "<h4><strong>Simplicity</strong></h4><hr>";
+      text += nl2br(
+        "The integrated forging system intelligently combines the design of OSB wood pieces, galvanized steel sheet, expanded polystyrene EPS, and concrete.\n\nThe forging presents mixed variants, finished with concrete, or dry, replacing the concrete with another OSB wood board on the upper surface, adapting to the project's requirements."
+      );
+      break;
+    case 2:
+      text = "<h4><strong>Lightness</strong></h4><hr>";
+      text += nl2br(
+        "The extremely low self-weight of the forging makes it an appealing choice for structures where the self-weight of the forging is crucial, such as lifts, high-rise buildings, seismic zones, or foundations on soils with low bearing capacity.\n\nThe system is up to 33% lighter than the equivalent solution in collaborative forging, 50% lighter than the equivalent ribbed forging, and up to 65% lighter than a solid slab with the same performance."
+      );
+      break;
+    case 3:
+      text = "<h4><strong>Resistance</strong></h4><hr>";
+      text += nl2br(
+        "The SES allows covering spans of up to 7m with static loads of 580kg/m<sup>2</sup> without shoring, making it ideal for public, residential, and parking applications.\n\nFor larger spans of up to 11.5m, residential loads can be achieved with shoring during the assembly phase, featuring highly appealing forging edges."
+      );
+      break;
+    case 4:
+      text = "<h4><strong>Quality</strong></h4><hr>";
+      text += nl2br(
+        "The system maximizes performance in a single system, offering high structural performance, accredited fire protection of RE-120'+REI90', and a clean, polished visible finish since its construction."
+      );
+      break;
+    case 5:
+      text = "<h4><strong>Sustainability</strong></h4><hr>";
+      text += nl2br(
+        "Even in the mixed version of the forging, the system provides up to 20% savings in manufacturing emissions compared to other common construction solutions.\n\nThe CO<sub>2</sub> savings during the manufacturing of the SES system is equivalent to planting 3100 trees in a year for every building of 2500m<sup>2</sup>."
+      );
+      break;
+    case 6:
+      text = "<h4><strong>Profitability</strong></h4><hr>";
+      text += nl2br(
+        "The SES enables optimizing indirect execution costs thanks to its extremely fast implementation and minimal on-site manipulation.\n\nIt allows covering up to 10 times more surface area in the same time as the equivalent ribbed forging solution."
+      );
+      break;
+    case 7:
+      text = "<h4><strong>Precision</strong></h4><hr>";
+      text += nl2br(
+        "The plates have an adjustable width to fit the structure's dimensions. They can be simply supported on metal frames, concrete, or existing and new load-bearing walls.\n\nThe system is easily executed in complex projects such as lifts, seismic zones, and temporary structures requiring disassembly."
+      );
+      break;
+    default:
+      text = "<h4><strong>Simplicity</strong></h4><hr>";
+      text += nl2br(
+        "The integrated forging system intelligently combines the design of OSB wood pieces, galvanized steel sheet, expanded polystyrene EPS, and concrete.\n\nThe forging presents mixed variants, finished with concrete, or dry, replacing the concrete with another OSB wood board on the upper surface, adapting to the project's requirements."
+      );
+      break;
+  }
+  let x = document.getElementById("description-text");
+  x.innerHTML = text;
+}
+
 function nl2br(str, is_xhtml) {
   if (typeof str === "undefined" || str === null) {
     return "";

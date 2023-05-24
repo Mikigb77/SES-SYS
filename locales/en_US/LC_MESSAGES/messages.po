@@ -1,2 +1,549 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
 msgid "Hola Mundo"
 msgstr "Hellow World"
+
+msgid "Lo más complejo es alcanzar lo sencillo"
+msgstr "The most complex thing is to achieve simplicity"
+
+msgid "Descubre otra alternativa a los sistemas de forjado tradicionales"
+msgstr "Discover an alternative to traditional forging systems"
+
+
+msgid "Inicio"
+msgstr "Home"
+
+msgid "Información técnica"
+msgstr "Technical Information"
+
+msgid "Índice"
+msgstr "Index"
+
+msgid "Sistema Mixto"
+msgstr "Mixed System"
+
+msgid "Sistema Seco"
+msgstr "Dry System"
+
+msgid "Detalles Constructivos"
+msgstr "Construction Details"
+
+msgid "Homologación: DAU"
+msgstr "Homologation: DAU"
+
+msgid "Notícias y Eventos"
+msgstr "News and Events"
+
+msgid "Contacto"
+msgstr "Contact"
+
+msgid "search"
+msgstr "search"
+
+msgid "Search"
+msgstr "Search"
+
+msgid "ES"
+msgstr "ES"
+
+msgid "EN"
+msgstr "EN"
+
+msgid "\"Lo más complejo es alcanzar lo sencillo\""
+msgstr "\"The most complex thing is to achieve simplicity\""
+
+msgid "By Joan Francesc García Beltrán"
+msgstr "By Joan Francesc García Beltrán"
+
+msgid "SES el nuevo sistema integrado de forjado preindustrializado que permite cubrir grandes luces sin apuntalar siendo hasta un 50% más ligero que otras soluciones"
+msgstr "SES, the new integrated pre-industrialized forging system that allows for large spans without shoring, being up to 50% lighter than other solutions"
+
+msgid "SENCILLEZ"
+msgstr "SIMPLICITY"
+
+msgid "LIGEREZA"
+msgstr "LIGHTNESS"
+
+msgid "RESISTENCIA"
+msgstr "STRENGTH"
+
+msgid "CALIDAD"
+msgstr "QUALITY"
+
+msgid "SOSTENIBILIDAD"
+msgstr "SUSTAINABILITY"
+
+msgid "RENTABILIDAD"
+msgstr "PROFITABILITY"
+
+msgid "PRECISIÓN"
+msgstr "PRECISION"
+
+msgid "Sencillez"
+msgstr "Simplicity"
+
+msgid "Ligereza"
+msgstr "Lightness"
+
+msgid "Resistencia"
+msgstr "Strength"
+
+msgid "Calidad"
+msgstr "Quality"
+
+msgid "Sostenibilidad"
+msgstr "Sustainability"
+
+msgid "Rentabilidad"
+msgstr "Profitability"
+
+msgid "Precisión"
+msgstr "Precision"
+
+msgid "Sistema integrado de forjado que combina inteligentemente el diseño de las piezas de madera OSB, chapa de acero galvanizada, poliestireno expandido EPS y hormigón.\n\nEl forjado presenta las variantes mixta, acabada con hormigón, o seca, sustituyendo el hormigón por otra placa de madera OSB en la cara superior, adaptándose a las necesidades del proyecto."
+msgstr "Integrated system of flooring that intelligently combines the design of OSB wood pieces, galvanized steel sheet, expanded polystyrene EPS, and concrete.\n\nThe flooring presents mixed variants, finished with concrete, or dry, replacing concrete with another OSB wood plate on the upper surface, adapting to the project's needs."
+
+msgid "El bajísimo peso propio del forjado resulta una opción muy atractiva para la ejecución de estructuras en las que el peso propio del forjado es determinante, como en remontas, edificios en altura, zonas sísmicas, o con cimentaciones en suelos con baja capacidad resistente.\n\nEl sistema es hasta un 33% más ligero que la solución equivalente en forjado colaborante, un 50% más ligero que el forjado reticular equivalente y hasta un 65% más ligero que una losa maciza con las mismas prestaciones."
+msgstr "The extremely low self-weight of the flooring is an attractive option for the construction of structures in which the self-weight of the flooring is crucial, such as lifts, high-rise buildings, seismic zones, or foundations on low-capacity soils.\n\nThe system is up to 33% lighter than the equivalent composite decking solution, 50% lighter than the equivalent ribbed slab, and up to 65% lighter than a solid slab with the same performance."
+
+msgid "El SES permite cubrir luces de hasta 7m con sobrecargas estáticas de 580kg/m² sin apuntalar, ideal para usos públicos, residenciales y aparcamiento.\n\nPara grandes luces de hasta 11,5m pueden alcanzarse sobrecargas de uso residencial con apuntalamiento en fase de montaje con cantos de forjado muy atractivos."
+msgstr "The SES allows spans of up to 7m to be covered with static overloads of 580kg/m² without propping, ideal for public, residential, and parking uses.\n\nFor large spans of up to 11.5m, residential overloads can be achieved with propping during the assembly phase, with very attractive flooring edges."
+
+msgid "Maximiza prestaciones en un único sistema: alto rendimiento estructural, protección frente a incendio acreditada RE-120'+REI90' y acabado visto limpio y pulido desde su puesta en obra."
+msgstr "Maximizes performance in a single system: high structural performance, accredited fire protection RE-120'+REI90', and a clean and polished visible finish from the start of construction."
+
+msgid "Incluso la versión mixta del forjado el sistema proporciona un ahorro de hasta un 20% en emisiones de fabricación respecto otras soluciones constructivas usuales.\n\nEl ahorro de CO₂ durante la fabricación del sistema SES equivale a haber plantado 3100 árboles en un año por cada edificio de 2500m²."
+msgstr "Even in the mixed version of the flooring, the system provides up to a 20% savings in manufacturing emissions compared to other common construction solutions.\n\nThe CO₂ savings during the manufacturing of the SES system is equivalent to planting 3100 trees in a year for each 2500m² building."
+
+msgid "EL SES permite optimizar costes indirectos de ejecución gracias a su implementación extremadamente rápida y mínima manipulación en obra.\n\nPermite cubrir en el mismo tiempo hasta 10 veces más superficie que la solución equivalente de forjado reticular."
+msgstr "The SES allows for optimizing indirect execution costs thanks to its extremely fast implementation and minimal handling on-site.\n\nIt can cover up to 10 times more area in the same time compared to the equivalent ribbed decking solution."
+
+msgid "Ancho adaptable de placas para ajustarse a la dimensión de la estructura. Apoyo simple sobre pórticos metálicos, de hormigón o paredes de carga nuevas y existentes.\n\nFácil ejecución en proyectos complejos como remontas, zonas sísmicas y estructuras provisionales que requieren desmontaje."
+msgstr "Adaptable width of plates to fit the structure's dimensions. Simple support on metal or concrete piers, or new and existing load-bearing walls.\n\nEasy execution in complex projects such as lifts, seismic zones, and temporary structures requiring dismantling."
+
+msgid "Nuestro objetivo"
+msgstr "Our objective"
+
+msgid "El sistema SES para forjados integra las funciones estructurales de resistencia al fuego y de apariencia limpia y pulida desde su puesta en obra. Este forjado está diseñado para obtener el máximo rendimiento de sus componentes. Reduce al mínimo el peso propio del forjado, así como el tiempo y equipo necesarios para su puesta en obra.\nDe geometría inteligente, reduce a la mínima expresión el material empleado para maximizar su rendimiento bajo la forma de un forjado plano o inclinado de muy fácil instalación."
+msgstr "The SES system for slabs integrates the structural functions of fire resistance and clean and polished appearance from its implementation. This slab is designed to achieve the maximum performance of its components. It minimizes the weight of the slab itself, as well as the time and equipment required for its implementation.\nWith intelligent geometry, it minimizes the use of materials to maximize its performance in the form of a flat or sloping slab that is very easy to install."
+
+msgid "Steel Embed System"
+msgstr "Steel Embed System"
+
+msgid "Componentes"
+msgstr "Components"
+
+msgid "Chapas metálicas galvanizadas"
+msgstr "Galvanized metal sheets"
+
+msgid "Casetones de EPS (Poliestireno expandido)"
+msgstr "EPS (Expanded Polystyrene) formwork blocks"
+
+msgid "Tableros de madera OSB/3"
+msgstr "OSB/3 (Oriented Strand Board) wooden panels"
+
+msgid "En qué consiste"
+msgstr "What it consists of"
+
+msgid "Pensado para forjados y cubiertas ligeras. Hemos diseñado un elemento resistente a los esfuerzos de flexión y cortante formado por varias chapas metálicas perfiladas en frío. Éstas, tienen forma de bandeja y se ensamblan entre ellas para formar placas de diferentes anchos. El conjunto se aligera con casetones de EPS, y se termina por su cara inferior con un tablero de madera OSB que confiere rigidez al conjunto. Si el sistema es SES-MIXTO la capa superior se termina con hormigón y si es SES-SECO con otro tablero de madera OSB igual que el inferior."
+msgstr "Designed for lightweight slabs and roofs. We have designed an element resistant to bending and shear forces, formed by several cold-formed metal sheets. These sheets have a tray-like shape and are assembled to form plates of different widths. The assembly is lightened with EPS formwork blocks and finished on the underside with an OSB wooden panel that provides rigidity to the assembly. If the system is SES-MIXTO, the top layer is finished with concrete, and if it is SES-SECO, it is finished with another OSB wooden panel, similar to the bottom one."
+
+msgid "¿Porqué elegir el sistema SES?"
+msgstr "Why choose the SES system?"
+
+msgid "Las imágenes y opiniones de expertos profesionales en la ejecución de obra es nuestra mejor carta de presentación."
+msgstr "The images and opinions of professional experts in construction execution are our best presentation."
+
+msgid "¡COMPRUÉBELO!"
+msgstr "CHECK IT OUT!"
+msgid "La mejor inversión, la mejor satisfacción personal<br> ¡Sé pionero con nosotros y<br>avancémonos al futuro!"
+msgstr "The best investment, the greatest personal satisfaction<br> Be a pioneer with us and<br>move forward to the future!"
+
+msgid "¿Qué ofrecemos?"
+msgstr "What do we offer?"
+
+msgid "DISEÑO:"
+msgstr "DESIGN:"
+
+msgid "Con nuestra experiencia estudiaremos la mejor opción entre nuestros sistemas."
+msgstr "With our experience, we will study the best option among our systems."
+
+msgid "Ofrecemos las soluciones alternativas más ecológicas, más avanzadas, simples y económicas, optimizando el tiempo de ejecución en obra mejorando la productividad."
+msgstr "We offer the most ecological, advanced, simple, and cost-effective alternative solutions, optimizing construction time and improving productivity."
+
+msgid "Diseñamos el mejor forjado para integrarlo y dar respuesta a las necesidades de su proyecto."
+msgstr "We design the best flooring to integrate it and meet the needs of your project."
+
+msgid "Además nuestra consultoría técnica de estructuras, con más de 30 años de experiencia, le ofrece el asesoramiento que sea requerido."
+msgstr "In addition, our structural technical consultancy, with over 30 years of experience, offers you the required advice."
+
+msgid "ANÁLISIS:"
+msgstr "ANALYSIS:"
+
+msgid "Nuestro equipo técnico desde la consultoría JFG Consultors, analiza detalladamente cada una de las propuestas para optimizar tanto el dimensionado de nuestros forjados como, si se desea, el de la totalidad de la estructura."
+msgstr "Our technical team at JFG Consultors analyzes each proposal in detail to optimize the sizing of our flooring and, if desired, the entire structure."
+
+msgid "Se verifican exhaustivamente nuestros productos para garantizar un estricto control de calidad."
+msgstr "Our products are thoroughly checked to ensure strict quality control."
+
+msgid "PUESTA EN OBRA:"
+msgstr "ON-SITE IMPLEMENTATION:"
+
+msgid "Además, le ofrecemos nuestra supervisión y colaboración con la Dirección de Obra para ofrecer el servicio más completo."
+msgstr "Furthermore, we offer our supervision and collaboration with the Directors of Construction to provide the most comprehensive service."
+
+msgid "Soporte y asesoramiento técnico personalizado para cualquier tipologia de edificación: rehabilitaciones, remontas y obra nueva."
+msgstr "Personalized technical support and advice for any type of building: renovations, additions, and new construction."
+
+msgid "Miembro de la Asociación de Consultores de Estructuras"
+msgstr "Member of the Association of Structural Consultants"
+
+msgid "Presentación del sistema SES en la<br>Asociación de Consultores de Estructuras"
+msgstr "Presentation of the SES system at the<br> Association of Structural Consultants"
+
+msgid "Un consultor de estructuras debe tener siempre una respuesta ante las posibles necesidades que genere el proyecto"
+msgstr "A structural consultant must always have a response to the possible needs generated by the project"
+
+msgid "Arquitecto colegiado y miembro de la Asociación de Consultores de Estructuras, fundador de la consultoria de estructuras"
+msgstr "Licensed architect and member of the Association of Structural Consultants, founder of the structural consultancy"
+
+msgid "fundada en 2007, ofrece"
+msgstr "founded in 2007, offers"
+
+msgid "SES"
+msgstr "SES"
+
+msgid "el nuevo sistema de forjado preindustrializado inteligente capaz de adaptarse a los requerimentos más duros de la construcción, pensado expresamente para forjados y cubiertas ligeras."
+msgstr "the new intelligent precast flooring system capable of adapting to the toughest requirements of construction, specifically designed for lightweight slabs and roofs."
+
+
+
+#: path/to/your/template/file.php:7
+msgid "Diseño de producto y control de calidad:"
+msgstr "Product design and quality control:"
+
+#: path/to/your/template/file.php:8
+msgid "Joan Francesc Garcia Beltrán"
+msgstr "Joan Francesc Garcia Beltrán"
+
+#: path/to/your/template/file.php:12
+msgid "Contacto:"
+msgstr "Contact:"
+
+#: path/to/your/template/file.php:14
+msgid "C/ Sant Antoni Maria Claret, 24, 3ªplanta"
+msgstr "C/ Sant Antoni Maria Claret, 24, 3rd floor"
+
+#: path/to/your/template/file.php:15
+msgid "08037 Barcelona"
+msgstr "08037 Barcelona"
+
+#: path/to/your/template/file.php:16
+msgid "Teléfono 93.011.54.64"
+msgstr "Phone 93.011.54.64"
+
+#: path/to/your/template/file.php:19
+msgid "info@ses.systems"
+msgstr "info@ses.systems"
+
+#: path/to/your/template/file.php:24
+msgid "Distribuidor en España:"
+msgstr "Distributor in Spain:"
+
+#: path/to/your/template/file.php:32
+msgid "Todos los derechos reservados"
+msgstr "All rights reserved"
+
+msgid "Systemas SES"
+msgstr "SES Systems"
+
+msgid "Detalles"
+msgstr "Details"
+
+msgid "El sistema SES constituye una solución de forjado de altísimas prestaciones en su tipo SES mixto y extremadamente ligero en su versión SES seco. El forjado integra las funciones estructurales así como de resistencia al fuego y de apariencia limpia y pulida desde su puesta en obra. De geometría inteligente, reduce a la mínima expresión el material empleado para maximizar su rendimiento bajo la forma de un forjado plano o inclinado de instalación ultrarrápida.<br>Diseñado para implementarse tanto en estructuras metálicas, de madera, de hormigón armado o de muros portantes."
+msgstr "The SES system is a high-performance flooring solution in its mixed SES type and extremely lightweight in its dry SES version. The flooring integrates structural functions as well as fire resistance and a clean, polished appearance from its installation. With intelligent geometry, it minimizes the material used to maximize its performance in the form of a flat or inclined flooring with ultra-fast installation. Designed to be implemented in metal, wood, reinforced concrete, or load-bearing wall structures."
+
+msgid "<b>Mixto</b>"
+msgstr "<b>Mixed</b>"
+
+msgid "Mixto"
+msgstr "Mixed"
+
+
+msgid "<b>Seco</b>"
+msgstr "<b>Dry</b>"
+
+msgid "Seco"
+msgstr "Dry"
+
+msgid "Información Técnica"
+msgstr "Technical Information"
+
+msgid "Modelo SWH-SEF"
+msgstr "Model SWH-SEF"
+
+msgid "Sandwich-Steel EPS Flat"
+msgstr "Sandwich-Steel EPS Flat"
+
+msgid "El forjado se construye mediante chapas metálicas galvanizadas conformadas en frio en forma de bandeja, ensamblando las unas con las otras.<br>El conjunto se protege por la cara inferior con una placa de madera tipo OSB/3 que facilita el transporte, el montaje, mejora el comportamiento a incendio y constituye un acabado liso y limpio en obra.<br>En el seno de las bandejas se incorpora, en taller, un casetón de EPS con la finalidad de aligerar el forjado."
+msgstr "The flooring is constructed using cold-formed galvanized metal sheets in the form of a tray, assembling them together. The assembly is protected on the underside with an OSB/3 type wood panel that facilitates transportation, installation, improves fire behavior, and provides a smooth and clean finish on site. In the trays, an EPS cassette is incorporated in the workshop to lighten the flooring."
+
+msgid "El sistema mixto se completa en obra con un armado longitudinal en los nervios de hormigón, un malllazo o una malla superior y el propio hormigón de la capa de compresión.<br>La sección resistente es la compuesta por hormigón y acero. Asimismo la armadura en los nervios es la que ofrece resistencia frente al fuego."
+msgstr "The mixed system is completed on site with longitudinal reinforcement in the concrete ribs, a mesh or an upper reinforcement, and the concrete for the compression layer. The resistant section is composed of concrete and steel. Likewise, the reinforcement in the ribs provides fire resistance."
+
+msgid "Documentación técnica"
+msgstr "Technical Documentation"
+
+msgid "Descargar"
+msgstr "Download"
+
+msgid "Documentación de Adecuación de Uso"
+msgstr "Documentation for Use Adaptation"
+
+msgid "Ficha Técnica"
+msgstr "Technical Datasheet"
+
+#: file.php:9
+msgid "Modelo SED"
+msgstr "Model SED"
+
+#: file.php:13
+msgid "(Steel EPS Dry)"
+msgstr "(Steel EPS Dry)"
+
+msgid "El forjado se construye mediante chapas metálicas galvanizadas conformadas en frio en forma de bandeja, ensamblando las unas con las otras. El conjunto se protege por la cara inferior con una placa de madera tipo OSB/3 que facilita el transporte, el montaje, mejora el comportamiento a incendio y constituye un acabado liso y limpio en obra. En el seno de las bandejas se incorpora, en taller, un casetón de EPS con la finalidad de aligerar el forjado.<br>En este sistema se confiere la capacidad resistente únicamente a la sección de chapas metálicas, de forma que deve garanticarse su protección frente al fuego."
+msgstr "The flooring is built using galvanized steel sheets cold-formed into trays, assembling them together. The assembly is protected on the underside with an OSB/3 wooden plate that facilitates transport, assembly, improves fire behavior, and provides a smooth and clean finish on-site. Inside the trays, an EPS cassette is incorporated in the workshop to lighten the flooring.<br>In this system, the load-bearing capacity is conferred solely to the section of steel sheets, so their fire protection must be ensured."
+
+
+msgid "Se completa con un tablero OSB en la cara superior y se instala directamente sobre la estructura portante mediante fijaciónes metálicas.<br>Opcionalmente se puede substituir el tablero superior de OSB por mortero ligero de forma que se obtiene un acabado superior cementoso. En este caso el mortero tampoco colabora en la función resistente del forjado."
+msgstr "It is completed with an OSB board on the top side and installed directly on the supporting structure using metal fixings.<br>Optionally, the upper OSB board can be replaced with lightweight mortar to obtain a cementitious top finish. In this case, the mortar also does not contribute to the load-bearing function of the flooring."
+
+#. Translators: This is the title for the news section.
+msgid "Notícias"
+msgstr "News"
+
+#. Translators: This is the heading for the Construmat news item.
+msgid "Construmat"
+msgstr "Construmat"
+
+#. Translators: This is the date for the Construmat news item.
+msgid "05/23"
+msgstr "05/23"
+
+#. Translators: This is the location for the Construmat news item.
+msgid "Feria de Barcelona"
+msgstr "Barcelona Fair"
+
+#. Translators: This is the date range for the Construmat news item.
+msgid "(del 23-25)"
+msgstr "(from 23-25)"
+
+#. Translators: This is the booth information for the Construmat news item.
+msgid "Stand A55"
+msgstr "Stand A55"
+
+#. Translators: This is the invitation text for the Construmat news item.
+msgid "Invitación"
+msgstr "Invitation"
+
+#. Translators: This is the invitation availability text for the Construmat news item.
+msgid "GRATUITA"
+msgstr "FREE"
+
+#. Translators: This is the invitation availability text for the Construmat news item.
+msgid "disponible para profesionales:"
+msgstr "available for professionals:"
+
+#. Translators: This is the button text for the Construmat invitation link.
+msgid "Invitacion Construmat"
+msgstr "Construmat Invitation"
+
+#. Translators: This is the heading for the ACE news item.
+msgid "ACE"
+msgstr "ACE"
+
+#. Translators: This is the date for the ACE news item.
+msgid "9/22"
+msgstr "9/22"
+
+#. Translators: This is the publication information for the ACE news item.
+msgid "Publicación en cuadernos de estructuras."
+msgstr "Publication in structure notebooks."
+
+#. Translators: This is the issue number for the ACE news item.
+msgid "Nº 75"
+msgstr "No. 75"
+
+#. Translators: This is the availability information for the ACE news item.
+msgid "A partir de julio 2023 estará disponible en tienda desde aquí."
+msgstr "Available in store from July 2023."
+
+#. Translators: This is the discount information for the ACE news item.
+msgid "Descuento para socios hasta el 80%."
+msgstr "Discount for members up to 80%."
+
+#. Translators: This is the button text for requesting the ACE magazine.
+msgid "Solicita la Revista"
+msgstr "Request the Magazine"
+
+#. Translators: This is the heading for the Rebuild 26 news item.
+msgid "Rebuild 26"
+msgstr "Rebuild 26"
+
+#. Translators: This is the date for the Rebuild 26 news item.
+msgid "5/22"
+msgstr "5/22"
+
+#. Translators: This is the location for the Rebuild 26 news item.
+msgid "Ifema Madrid"
+msgstr "Ifema Madrid"
+
+#. Translators: This is the product name for the Rebuild 26 news item.
+msgid "SES, Steel Embed System"
+msgstr "SES, Steel Embed System"
+
+#. Translators: This is the button text for viewing exhibitor details for Rebuild 26.
+msgid "Ver Detalles Expositor"
+msgstr "View Exhibitor Details"
+
+#. Translators: This is the date for the ACE training session news item.
+msgid "05/22"
+msgstr "05/22"
+
+#. Translators: This is the presentation information for the ACE training session news item.
+msgid "Presentación del sistema SES en una sesión de formación ACE."
+msgstr "Presentation of the SES Steel Embed System in an ACE training session."
+
+#. Translators: This is the product name for the ACE training session news item.
+msgid "SES Steel Embeed System"
+msgstr "SES Steel Embed System"
+
+#. Translators: This is the construction technique information for the ACE training session news item.
+msgid "Forjado preindustrializado"
+msgstr "Prefabricated flooring"
+
+#. Translators: This is the heading for the E-ficiencia news item.
+msgid "E-ficiencia"
+msgstr "E-ficiency"
+
+#. Translators: This is the system name for the E-ficiencia news item.
+msgid "SES, el nuevo sistema integrado de forjado que revoluciona la construcción"
+msgstr "SES, the new integrated flooring system that revolutionizes construction"
+
+#. Translators: This is the button text for viewing the article on E-ficiencia.
+msgid "Ver Articulo"
+msgstr "View Article"
+
+msgid "No dude en hacernos llegar sus proyectos a"
+msgstr "Feel free to send us your projects to"
+
+msgid "o contáctenos a través del formulario"
+msgstr "or contact us through the form"
+
+msgid "Contáctanos"
+msgstr "Contact Us"
+
+msgid "¿Dónde estamos?"
+msgstr "Where are we located?"
+
+msgid "¿Quiere saber más?"
+msgstr "Want to know more?"
+
+msgid "Nombre"
+msgstr "Name"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Consulta"
+msgstr "Inquiry"
+
+msgid "Archivos (Opcional)"
+msgstr "Attachments (Optional)"
+
+msgid "Al enviar este formulario aceptas nuestra"
+msgstr "By submitting this form, you accept our"
+
+msgid "política de privacidad"
+msgstr "privacy policy"
+
+msgid "Enviar"
+msgstr "Send"
+
+msgid "Seleccionar archivo"
+msgstr "Select file"
+
+msgid "Política de privacidad"
+msgstr "Privacy Policy"
+
+msgid "En cumplimiento del Reglamento UE 2016/679-RGPD, les informo que Joan Francesc García Beltrán garantiza el cumplimiento de la normativa vigente en materia de protección de datos personales."
+msgstr "In compliance with EU Regulation 2016/679-GDPR, I inform you that Joan Francesc García Beltrán guarantees compliance with current legislation regarding the protection of personal data."
+
+msgid "¿Quién es el Responsable del tratamiento de sus datos personales?"
+msgstr "Who is the Controller of your personal data?"
+
+msgid "¿Con qué finalidad tratará sus datos personales?"
+msgstr "For what purpose will your personal data be processed?"
+
+msgid "¿Durante cuánto tiempo conservará sus datos personales?"
+msgstr "How long will your personal data be retained?"
+
+msgid "¿Cuál es la legitimación para el tratamiento de sus datos personales?"
+msgstr "What is the legal basis for the processing of your personal data?"
+
+msgid "¿A qué destinatarios se comunicarán sus datos personales?"
+msgstr "Who will your personal data be disclosed to?"
+
+msgid "¿Cuáles son sus derechos cuando facilita sus datos personales?"
+msgstr "What are your rights when you provide your personal data?"
+
+msgid "¿Cómo ha obtenido sus datos?"
+msgstr "How did we obtain your data?"
+
+msgid "¿Qué responsabilidades adquieren los clientes/proveedores cuando facilitan sus datos personales?"
+msgstr "What responsibilities do clients/suppliers acquire when they provide their personal data?"
+
+msgid "¿Qué medidas de seguridad se utilizan para sus datos?"
+msgstr "What security measures are used for your data?"
+
+msgid "Los datos del Responsable del tratamiento es:\n\nJoan Francesc García Beltrán,\n\nCalle Sant Antoni Mª Claret, 24, 3ª planta, 08037 Barcelona,\n\nTeléfono: 930.115.464, e-mail: info@ses.systems"
+msgstr "The Controller's data is:\n\nJoan Francesc García Beltrán,\n\nCalle Sant Antoni Mª Claret, 24, 3rd floor, 08037 Barcelona,\n\nPhone: 930.115.464, e-mail: info@ses.systems"
+
+msgid "Joan Francesc García Beltrán realizará el tratamiento de sus datos personales con la finalidad de facilitar la prestación de servicios y la información solicitada."
+msgstr "Joan Francesc García Beltrán will process your personal data in order to provide the requested services and information."
+
+msgid "Los datos personales facilitados se conservarán mientras dure la relación contractual, o hasta la revocación del consentimiento, sin perjuicio de los años necesarios para el cumplimiento de las obligaciones legales."
+msgstr "The personal data provided will be kept for the duration of the contractual relationship or until the withdrawal of consent, without prejudice to the years necessary to comply with legal obligations."
+
+msgid "Joan Francesc García Beltrán realiza la legitimación del tratamiento con el consentimiento del titular de los datos."
+msgstr "Joan Francesc García Beltrán legitimizes the processing with the consent of the data subject."
+
+msgid "Sus datos personales no se comunicarán ni cederán a terceros, sólo para el cumplimiento de las obligaciones legales. Joan Francesc García Beltrán para realizar un servicio adecuado y gestionar la relación que mantiene con Usted, tiene contratado los servicios de asesoramiento contable y fiscal a la gestoría FABREGA CONSULTORS, S.L."
+msgstr "Your personal data will not be disclosed or transferred to third parties, except for legal obligations. Joan Francesc García Beltrán has contracted the services of FABREGA CONSULTORS, S.L. for proper service and management of the relationship with you."
+
+msgid "Cualquier persona tiene derecho a obtener confirmación sobre si Joan Francesc García Beltrán está tratando datos personales que le conciernan, o no. Las personas interesadas tienen derecho, en cualquier momento, a solicitar el acceso a los datos, la rectificación o la supresión de los datos, la limitación del tratamiento, la oposición al tratamiento y la portabilidad de los datos, o a retirar el consentimiento mediante escrito a Joan Francesc García Beltrán, calle Sant Antoni Mª Claret, 24, 3ª planta, 08037 Barcelona, o enviando un correo electrónico a info@ses.systems.\n\nSi lo cree necesario, podrá presentar una reclamación delante de la Autoridad de Control competente en materia de Protección de Datos.\n\nLos datos personales que trata Joan Francesc García Beltrán han sido recogidos directamente de las personas interesadas para la realización de la prestación de servicios."
+msgstr "Any person has the right to obtain confirmation as to whether Joan Francesc García Beltrán is processing personal data concerning them. Interested parties have the right, at any time, to request access to the data, rectification or erasure of the data, restriction of processing, objection to processing, and data portability, or to withdraw consent by writing to Joan Francesc García Beltrán, Calle Sant Antoni Mª Claret, 24, 3rd floor, 08037 Barcelona, or by sending an email to info@ses.systems.\n\nIf necessary, you may lodge a complaint with the competent Data Protection Authority.\n\nThe personal data processed by Joan Francesc García Beltrán has been collected directly from the data subjects for the provision of services."
+
+msgid "Excepcionalmente, se tratarán datos personales de terceras personas que le habrán facilitado sus clientes para el cumplimiento de los trabajos contratados. En estos casos, los datos que se tratarán serán los imprescindibles para la realización de la prestación de servicios:\n\n• Datos de identificación: nombre, apellidos y NIF/NIE.\n• Dirección postal y/o electrónica.\n• Datos económicos de la prestación de servicios.\n\nNo se tratarán datos especialmente protegidos."
+msgstr "Exceptionally, personal data of third parties provided by your clients for the performance of contracted work will be processed. In these cases, only the necessary data for the provision of services will be processed:\n\n• Identification data: name, surname, and ID number.\n• Postal and/or email address.\n• Economic data related to the provision of services.\n\nNo specially protected data will be processed."
+
+msgid "Los clientes/proveedores al facilitar sus datos personales adquieren la responsabilidad de informar a Joan Francesc García Beltrán de cualquier cambio y/o modificación de los mismos para su correcto tratamiento."
+msgstr "Clients/suppliers, when providing their personal data, acquire the responsibility to inform Joan Francesc García Beltrán of any changes and/or modifications to ensure their proper processing."
+
+msgid "Joan Francesc García Beltrán ha implantado las medidas de seguridad necesarias para garantizar un uso y tratamiento eficaz de los datos de carácter personal facilitados por sus clientes/proveedores, salvaguardando su intimidad, privacidad, confidencialidad e integridad de los mismos, cumpliendo con los requisitos normativos vigentes previstos en materia de protección de datos de carácter personal, haciendo uso de los medios técnicos necesarios para evitar la alteración, perdida, acceso no autorizado o tratamiento de sus datos, según el estado de la tecnología en cada momento, así como, el alcance de control de Joan Francesc García Beltrán.\n\nJoan Francesc García Beltrán podrá modificar el contenido de su Política de Protección de Datos Personales en cualquier momento según las modificaciones legislativas, jurisprudenciales o de interpretación de la AEPD que puedan producirse.\n\nPara cualquier consulta puede ponerse en contacto con nosotros a través del correo electrónico info@ses.systems."
+msgstr "Joan Francesc García Beltrán has implemented the necessary security measures to guarantee the effective use and processing of personal data provided by its clients/suppliers, safeguarding their privacy, confidentiality, and integrity, and complying with the current regulatory requirements regarding the protection of personal data. Joan Francesc García Beltrán uses the necessary technical means to prevent alteration, loss, unauthorized access, or processing of your data, in accordance with the state of the art and the scope of control.\n\nJoan Francesc García Beltrán may modify the content of its Personal Data Protection Policy at any time, in accordance with legislative, jurisprudential, or AEPD interpretation changes that may occur.\n\nFor any inquiries, please contact us via email at info@ses.systems."
+
+
+msgid "El sistema SES constituye una solución de forjado de altísimas prestaciones en su tipo SES mixto y extremadamente ligero en su versión SES seco. El forjado integra las funciones estructurales así como de resistencia al fuego y de apariencia limpia y pulida desde su puesta en obra. De geometría inteligente, reduce a la mínima expresión el material empleado para maximizar su rendimiento bajo la forma de un forjado plano o inclinado de instalación ultra rápida."
+msgstr "The SES system provides a high-performance flooring solution in its mixed SES type and an extremely lightweight solution in its dry SES version. The flooring integrates structural functions as well as fire resistance and a clean and polished appearance from its implementation. With intelligent geometry, it minimizes the use of materials to maximize performance in the form of a flat or inclined flooring with ultra-fast installation."
+
+msgid "Información Mixto"
+msgstr "Mixed Information"
+
+msgid "Información Seco"
+msgstr "Dry Information"
+
+

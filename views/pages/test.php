@@ -1,2 +1,2 @@
 <?php
-echo gettext("Hola Mundo");
+header('Location: https://ses.systems');

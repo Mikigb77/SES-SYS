@@ -1,6 +1,6 @@
 <div class="container MySection">
     <div style="text-align: center;">
-        <h1>Contacto</h1>
+        <h1><?php echo gettext("Contacto"); ?></h1>
         <hr>
     </div>
     <div class="row">
@@ -43,7 +43,6 @@
                     .hover {
                         max-width: 100%;
                         height: auto;
-
                     }
                 }
             </style>
@@ -55,31 +54,29 @@
 
                         <img src="/media/images/Logos/Logo_JFG_No_background.svg" alt="" style="width:40%; margin-bottom:5%; opacity:1;">
 
-                        <p>C/ Sant Antoni Maria Claret, 24, 3ªplanta</p>
-                        <p>08037 Barcelona</p>
-                        <p>Teléfono 93.011.54.64</p>
-                        <p>No dude en hacernos llegar sus proyectos a <a style="text-decoration: none; color:whitesmoke;" href="mailto: info@ses.systems"><b>info@ses.systems</b></a> o contáctenos a través del formulario</p>
+                        <p><?php echo gettext("C/ Sant Antoni Maria Claret, 24, 3ªplanta"); ?></p>
+                        <p><?php echo gettext("08037 Barcelona"); ?></p>
+                        <p><?php echo gettext("Teléfono 93.011.54.64"); ?></p>
+                        <p><?php echo gettext("No dude en hacernos llegar sus proyectos a"); ?> <a style="text-decoration: none; color:whitesmoke;" href="mailto: info@ses.systems"><b>info@ses.systems</b></a> <?php echo gettext("o contáctenos a través del formulario"); ?></p>
                         <br><br>
                         <a href="#form">
-                            <button type="button" class="btn btn-dark btn-lg">Contáctanos</button>
+                            <button type="button" class="btn btn-dark btn-lg"><?php echo gettext("Contáctanos"); ?></button>
                         </a>
                         <br>
                     </div>
                 </font>
             </div>
-
         </div>
     </div>
 </div>
 <br><br><br id="form"><br>
 <div class="container MySection">
     <div class="row" style="text-align: center;">
-
         <div class="col-md-6">
-            <h2>¿Dónde estamos?</h2>
+            <h2><?php echo gettext("¿Dónde estamos?"); ?></h2>
         </div>
         <div class="col-md-6">
-            <h2>¿Quiere saber más?</h2>
+            <h2><?php echo gettext("¿Quiere saber más?"); ?></h2>
         </div>
         <hr>
         <br>
@@ -91,43 +88,28 @@
             </div>
         </div>
         <div class="col-md-6">
-
             <form action="https://mailthis.to/SES-JFG" method="POST" encType="multipart/form-data">
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                    <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                    <label for="exampleFormControlInput1" class="form-label"><?php echo gettext("Nombre"); ?></label>
+                    <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="<?php echo gettext("Nombre"); ?>">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <label for="exampleFormControlInput1" class="form-label"><?php echo gettext("Email"); ?></label>
                     <input type="email" name="_replyto" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                    <label for="exampleFormControlTextarea1" class="form-label"><?php echo gettext("Consulta"); ?></label>
                     <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <div class="mb-3">
-                    <label for="formFile" class="form-label">Archivos (Opcional)</label>
+                    <label for="formFile" class="form-label"><?php echo gettext("Archivos (Opcional)"); ?></label>
                     <input class="form-control" type="file" name="file" id="formFile">
                 </div>
                 <div>
-                    <p>Al enviar este formulario aceptas nuestra <a href="/politica-de-privacidad/">política de privacidad</a>.</p>
+                    <p><?php echo gettext("Al enviar este formulario aceptas nuestra"); ?> <a href="<?php echo retainGET('/politica-de-privacidad/');  ?>"><?php echo gettext("política de privacidad"); ?></a>.</p>
                 </div>
-                <button type="submit" class="btn btn-success">Enviar</button>
+                <button type="submit" class="btn btn-success"><?php echo gettext("Enviar"); ?></button>
             </form>
         </div>
     </div>
 </div>
-<!--- all Camps:
-<form action="https://mailthis.to/you@mail.com"
-    method="POST" encType="multipart/form-data">
-    <input type="text" name="name" placeholder="Your name">
-    <input type="email" name="_replyto" placeholder="Your email">
-    <textarea name="message" placeholder="Enter your message here"></textarea>
-    <input type="file" name="file" placeholder="Attachments (optional)">
-    <input type="hidden" name="_subject" value="Contact form submitted">
-    <input type="hidden" name="_after" value="https://myhomepage.net/">
-    <input type="hidden" name="_honeypot" value="">
-    <input type="hidden" name="_confirmation" value="">
-    <input type="submit" value="Send">
-</form>
------>

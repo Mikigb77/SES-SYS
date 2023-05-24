@@ -10,37 +10,37 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="<?php echo retainGET("/"); ?>">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="<?php echo retainGET("/"); ?>"><?php echo gettext("Inicio"); ?></a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="<?php echo retainGET('/Documentation/'); ?>" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Información técnica
+                            <?php echo gettext("Información técnica"); ?>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="<?php echo retainGET("/informacion-tecnica/"); ?>">Índice</a></li>
-                            <li><a class="dropdown-item" href="<?php echo retainGET("/informacion-tecnica/mixto/"); ?>">Sistema Mixto</a></li>
-                            <li><a class="dropdown-item" href="<?php echo retainGET("/informacion-tecnica/seco/"); ?>">Sistema Seco</a></li>
+                            <li><a class="dropdown-item" href="<?php echo retainGET("/informacion-tecnica/"); ?>"><?php echo gettext("Índice"); ?></a></li>
+                            <li><a class="dropdown-item" href="<?php echo retainGET("/informacion-tecnica/mixto/"); ?>"><?php echo gettext("Sistema Mixto"); ?></a></li>
+                            <li><a class="dropdown-item" href="<?php echo retainGET("/informacion-tecnica/seco/"); ?>"><?php echo gettext("Sistema Seco"); ?></a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="<?php echo retainGET("/informacion-tecnica/detalles-constructivos/"); ?>">Detalles Constructivos</a></li>
-                            <li><a class="dropdown-item" href="<?php echo retainGET("/media/files/SES_SWH-SEF- DAU.pdf"); ?>" target="_blanck">Homologación: DAU</a></li>
+                            <li><a class="dropdown-item" href="<?php echo retainGET("/informacion-tecnica/detalles-constructivos/"); ?>"><?php echo gettext("Detalles Constructivos"); ?></a></li>
+                            <li><a class="dropdown-item" href="<?php echo retainGET("/media/files/SES_SWH-SEF- DAU.pdf"); ?>" target="_blanck"><?php echo gettext("Homologación: DAU"); ?></a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="<?php echo retainGET("/noticias/"); ?>">Notícias y Eventos</a>
+                        <a class="nav-link " aria-current="page" href="<?php echo retainGET("/noticias/"); ?>"><?php echo gettext("Notícias y Eventos"); ?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="<?php echo retainGET("/contacto/"); ?>">Contacto</a>
+                        <a class="nav-link " aria-current="page" href="<?php echo retainGET("/contacto/"); ?>"><?php echo gettext("Contacto"); ?></a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search" hidden aria-hidden="true">
-                    <input hidden id="searchInput" class="form-control me-2" type="search" placeholder="search" aria-label="Search" style="background-image:url(/media/images/lupa.png); background-size:35px; background-repeat:no-repeat; text-indent:20px;" onfocus="hideLupa();" onblur="showLupa();">
-                    <button hidden class="btn btn-outline-light" type="submit">Search</button>
+                    <input hidden id="searchInput" class="form-control me-2" type="search" placeholder="<?php echo gettext("search"); ?>" aria-label="<?php echo gettext("Search"); ?>" style="background-image:url(/media/images/lupa.png); background-size:35px; background-repeat:no-repeat; text-indent:20px;" onfocus="hideLupa();" onblur="showLupa();">
+                    <button hidden class="btn btn-outline-light" type="submit"><?php echo gettext("Search"); ?></button>
                 </form>
                 <div class="navbar-text">
-                    <a href="<?php echo changeLang('es_ES'); ?>">ES</a>
-                    <a href="<?php echo changeLang('en_US'); ?>">EN</a>
+                    <a href="<?php echo changeLang('es_ES'); ?>"><?php echo gettext("ES"); ?></a>
+                    <a href="<?php echo changeLang('en_US'); ?>"><?php echo gettext("EN"); ?></a>
                 </div>
             </div>
         </div>

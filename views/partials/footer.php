@@ -2,6 +2,7 @@
 for ($i = 0; $i < 5; ++$i)
     echo '<br>';
 ?>
+
 <article></article>
 
 <footer class="MyFooter container-fluid">
@@ -12,29 +13,29 @@ for ($i = 0; $i < 5; ++$i)
             </div>
             <br>
             <p style="text-align: center;">
-                Diseño de producto y control de calidad:<br>
-                Joan Francesc Garcia Beltrán<br>
+                <?php echo gettext('Diseño de producto y control de calidad:'); ?><br>
+                <?php echo gettext('Joan Francesc Garcia Beltrán'); ?><br>
                 <a href="https://www.jfgconsultors.com/" target="_blank"><img src="/media/images/Logos/Logo_JFG_No_background.svg" alt="JFG Consultors"></a>
             </p>
         </div>
         <div class="col-md-3">
             <div style="text-align: center;">
                 <p>
-                    Contacto:<br>
+                    <?php echo gettext('Contacto:'); ?><br>
                 </p>
                 <p>
-                    C/ Sant Antoni Maria Claret, 24, 3ªplanta<br>
-                    08037 Barcelona<br>
-                    Teléfono 93.011.54.64
+                    <?php echo gettext('C/ Sant Antoni Maria Claret, 24, 3ªplanta'); ?><br>
+                    <?php echo gettext('08037 Barcelona'); ?><br>
+                    <?php echo gettext('Teléfono 93.011.54.64'); ?>
                 </p>
                 <p>
-                    <a href="mailto: info@ses.systems">info@ses.systems</a>
+                    <a href="mailto: info@ses.systems"><?php echo gettext('info@ses.systems'); ?></a>
                 </p>
             </div>
         </div>
         <div class="col-md-3" style="text-align: center;">
             <p>
-                Distribuidor en España:<br><br>
+                <?php echo gettext('Distribuidor en España:'); ?><br><br>
                 <a href="https://planicer.com/es/" target="_blank">
                     <img class="FooterImg" src="/media/images/Logos/logo-planicer-construccions-metalliques.png" alt="" style="width:60%">
                 </a>
@@ -59,10 +60,9 @@ for ($i = 0; $i < 5; ++$i)
             </div>
             <br>
             <div>
-                <a href="/politica-de-privacidad/">Todos los derechos reservados</a>
+                <a href="<?php echo retainGET('/politica-de-privacidad/'); ?>"><?php echo gettext('Todos los derechos reservados'); ?></a>
             </div>
 
         </div>
     </div>
-
 </footer>
