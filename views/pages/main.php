@@ -1,5 +1,10 @@
 <?php
 $sectionID = 0;
+$inEN = $_GET['lang'] ?? false;
+if ($inEN == "en_US")
+    $inEN = true;
+else
+    $inEN = false;
 
 function section_end(&$sectionID)
 {
@@ -44,14 +49,8 @@ section_end($sectionID);
             </font>
         </div>
         <div class="col-md-6">
-            <video id="video-presentacio" controls style="border-radius:10%;" poster="/media/images/ses-steel.png" onended="load()" oncanplay="<?php
-                                                                                                                                                $inEN = $_GET['lang'] ?? false;
-                                                                                                                                                if ($inEN == "en_US")
-                                                                                                                                                    $inEN = true;
-                                                                                                                                                else
-                                                                                                                                                    $inEN = false;
-                                                                                                                                                echo ($inEN) ? "changeTextEN(1);" : "changeText(1);" ?> setVideoVolume('video-presentacio', 0.5);">
-                <source src="/media/videos/SES-Presentacion.mp4" type="video/mp4">
+            <video id="video-presentacio" controls style="border-radius:10%;" poster="/media/images/ses-steel.png" onended="load()" oncanplay="<?php echo ($inEN) ? "changeTextEN(1);" : "changeText(1);" ?> setVideoVolume('video-presentacio', 0.5);">
+                <source src="/media/videos/<?php echo ($inEN) ? 'CompleteVideoEN.mp4' : 'SES-Presentacion.mp4'; ?>" type="video/mp4">
                 <source src="/media/videos/SES-Presentacion_compressed.mp4" type="video/mp4">
                 <source src="/media/videos/SES_compressed.mp4" type="video/mp4">
             </video>
