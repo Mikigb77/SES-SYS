@@ -1,5 +1,8 @@
 <?php
 $sectionID = 0;
+if (!isset($lang)) {
+    $lang = $_GET['lang'] ?? 'es_ES';
+}
 $inEN = $_GET['lang'] ?? false;
 if ($inEN == "en_US")
     $inEN = true;
@@ -89,8 +92,7 @@ section_end($sectionID);
                 <h4><strong><?php echo gettext('Nuestro objetivo'); ?></strong></h4>
                 <hr>
                 <p>
-                    <?php echo gettext('El sistema SES para forjados integra las funciones estructurales de resistencia al fuego y de apariencia limpia y pulida desde su puesta en obra. Este forjado está diseñado para obtener el máximo rendimiento de sus componentes. Reduce al mínimo el peso propio del forjado, así como el tiempo y equipo necesarios para su puesta en obra.
-                    De geometría inteligente, reduce a la mínima expresión el material empleado para maximizar su rendimiento bajo la forma de un forjado plano o inclinado de muy fácil instalación.'); ?>
+                    <?php echo gettext('El sistema SES para forjados integra las funciones estructurales de resistencia al fuego y de apariencia limpia y pulida desde su puesta en obra. Este forjado está diseñado para obtener el máximo rendimiento de sus componentes. Reduce al mínimo el peso propio del forjado, así como el tiempo y equipo necesarios para su puesta en obra.<br>De geometría inteligente, reduce a la mínima expresión el material empleado para maximizar su rendimiento bajo la forma de un forjado plano o inclinado de muy fácil instalación.'); ?>
 
                 </p>
             </div>
@@ -183,15 +185,17 @@ section_end($sectionID);
             $directoryV = __DIR__ . '/../../media/videos/carrousel1/';
             $filesV = scandir($directoryV);
             $filesV = array_diff($filesV, array('.', '..'));
+            $filesI = array_values($filesI);
+            $filesV = array_values($filesV);
             $carrouselImages = array();
             $carrouselVideo = array();
             foreach ($filesI as $value) {
                 $carrouselImages[] =  '/media/images/carrousel1/' . $value;
             }
-            if (!$filesV)
-                foreach ($filesV as $value) {
+            foreach ($filesV as $value) {
+                if (strpos($value, $lang) !== false)
                     $carrouselVideo[] = '/media/videos/carrousel1/' . $value;
-                }
+            }
             ?>
 
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -206,11 +210,9 @@ section_end($sectionID);
                 </div>
                 <div class="carousel-inner">
                     <style>
-                        .carousel-video {
-                            max-width: 100%;
-                            height: auto;
-                            max-height: 300px;
-                            /* Adjust the height as desired */
+                        .carrousel-video {
+                            width: 100%;
+                            z-index: 2;
                         }
 
                         .carousel-control-prev,
@@ -222,7 +224,7 @@ section_end($sectionID);
                         <div style="text-align: center;" class="carousel-item <?php if ($key == 0) echo 'active'; ?>">
                             <video id="<?php $val = explode('/', $carrouselVideo[0]);
                                         $val = $val[sizeof($val) - 1];
-                                        echo $val; ?>" class="carrousel-video" src="<?php echo $value; ?>" oncanplay="setVideoVolume('<?php echo $val ?>', 0.5);" controls style="width: 50%;"></video>
+                                        echo $val; ?>" class="carrousel-video" src="<?php echo $value; ?>" oncanplay="setVideoVolume('<?php echo $val ?>', 0.5);" controls></video>
                         </div>
                     <?php endforeach; ?>
                     <?php foreach ($carrouselImages as $key => $value) : ?>
@@ -274,7 +276,7 @@ section_end($sectionID);
                     <br>
                     * <?php echo gettext('Diseñamos el mejor forjado para integrarlo y dar respuesta a las necesidades de su proyecto.'); ?>
                     <br>
-                    * <?php echo gettext('Además nuestra consultoria tecnica de estructuras, con más de 30 años de experiencia, le ofrece el asesoramiento que sea requerido.'); ?>
+                    * <?php echo gettext('Además nuestra consultoría técnica de estructuras, con más de 30 años de experiencia, le ofrece el asesoramiento que sea requerido.'); ?>
                     <br>
                 </p>
             </font>

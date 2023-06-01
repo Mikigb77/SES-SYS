@@ -31,7 +31,7 @@
                 <div class="col-md-6" style="text-align: center;">
                     <h3><?php echo gettext('ACE'); ?></h3>
                     <p>9/22</p>
-                    <p><?php echo gettext('Publicación en cuadrenos de estructuras.'); ?></p>
+                    <p><?php echo gettext('Publicación en cuadernos de estructuras.'); ?></p>
                     <p><?php echo gettext('Nº 75'); ?></p>
                     <div>
                         <p>* <?php echo gettext('A partir de julio 2023 estará disponible en tienda desde aquí.'); ?></p>

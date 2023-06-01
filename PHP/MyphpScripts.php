@@ -31,3 +31,22 @@ function changeLang($value)
 
     return $newURL;
 }
+
+function checkLanguage()
+{
+    $lang = $lang ?? 'es_ES';
+    if (!empty($_GET)) {
+        $lang = $_GET['lang'];
+        putenv("LANG=" . $lang);
+        setlocale(LC_ALL, $lang);
+        $domain = "messages";
+        $localeDir = '';
+        bindtextdomain($domain, $localeDir);
+        if ($lang == "en_US") {
+            $localeDir = __DIR__ . '/../locales';
+            bindtextdomain($domain, $localeDir);
+            bind_textdomain_codeset($domain, 'UTF-8');
+            textdomain($domain);
+        }
+    }
+}
