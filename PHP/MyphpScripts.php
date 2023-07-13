@@ -32,21 +32,57 @@ function changeLang($value)
     return $newURL;
 }
 
+/*
 function checkLanguage()
 {
     $lang = $lang ?? 'es_ES';
-    if (!empty($_GET)) {
-        $lang = $_GET['lang'];
-        putenv("LANG=" . $lang);
-        setlocale(LC_ALL, $lang);
-        $domain = "messages";
-        $localeDir = '';
+    $languages = array('en_US', 'pt_PT');
+    $lang = $_GET['lang'] ?? $lang;
+    putenv("LANG=" . $lang);
+    setlocale(LC_ALL, $lang);
+    $domain = "messages";
+    $localeDir = '';
+    bindtextdomain($domain, $localeDir);
+    if (in_array($lang, $languages)) {
+        $localeDir = __DIR__ . '/../locale';
         bindtextdomain($domain, $localeDir);
-        if ($lang == "en_US") {
-            $localeDir = __DIR__ . '/../locales';
-            bindtextdomain($domain, $localeDir);
-            bind_textdomain_codeset($domain, 'UTF-8');
-            textdomain($domain);
-        }
+        bind_textdomain_codeset($domain, 'UTF-8');
+        textdomain($domain);
+    }
+}
+*/
+function checkLanguage()
+{
+    // Set the default language
+    $lang = $lang ?? 'es_ES';
+
+    // Specify valid languages
+    $languages = array('es_ES', 'en_US', 'pt_PT');
+
+    // Get the targeted language from the query parameter, or use the default
+    $lang = $_GET['lang'] ?? $lang;
+
+    // Set the environment variable for the desired language
+    putenv("LANG=" . $lang);
+
+    // Set the locale for all categories
+    setlocale(LC_ALL, $lang);
+
+    // Specify the translation domain
+    $domain = "messages";
+
+    // Set the directory where the locale files are located
+    $localeDir = __DIR__ . '/../locale';
+
+    // Check if the desired language is valid
+    if (in_array($lang, $languages)) {
+        // Bind the translation domain to the locale directory
+        bindtextdomain($domain, $localeDir);
+
+        // Set the codeset for translations
+        bind_textdomain_codeset($domain, 'UTF-8');
+
+        // Activate the translation domain
+        textdomain($domain);
     }
 }

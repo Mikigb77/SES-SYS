@@ -1,0 +1,167 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Hola Mundo"
+msgstr "Olá Mundo"
+
+#: filename.php:1
+msgid "Inicio"
+msgstr "Inicio"
+
+#: filename.php:2
+msgid "Informacion tecnica"
+msgstr "Informacion tecnica"
+
+#: filename.php:3
+msgid "Indice"
+msgstr "Indice"
+
+#: filename.php:4
+msgid "Sistema Mixto"
+msgstr "Sistema Mixto"
+
+#: filename.php:5
+msgid "Sistema Seco"
+msgstr "Sistema Seco"
+
+#: filename.php:6
+msgid "Detalles Constructivos"
+msgstr "Detalles Constructivos"
+
+#: filename.php:7
+msgid "Homologacion: DAU"
+msgstr "Homologacion: DAU"
+
+#: filename.php:8
+msgid "Noticias y Eventos"
+msgstr "Noticias y Eventos"
+
+#: filename.php:9
+msgid "Contacto"
+msgstr "Contacto"
+
+#: filename.php:10
+msgid "Lo mas complejo es alcanzar lo sencillo"
+msgstr "Lo mas complejo es alcanzar lo sencillo"
+
+#: filename.php:11
+msgid "By Joan Francesc Garcia Beltran"
+msgstr "By Joan Francesc Garcia Beltran"
+
+#: filename.php:12
+msgid "Descubre otra alternativa a los sistemas de forjado tradicionales"
+msgstr "Descubre otra alternativa a los sistemas de forjado tradicionales"
+
+#: filename.php:13
+msgid "SES el nuevo sistema integrado de forjado preindustrializado que permite cubrir grandes luces sin apuntalar siendo hasta un 50% mas ligero que otras soluciones"
+msgstr "SES el nuevo sistema integrado de forjado preindustrializado que permite cubrir grandes luces sin apuntalar siendo hasta un 50% mas ligero que otras soluciones"
+
+#: filename.php:14
+msgid "Sencillez"
+msgstr "Sencillez"
+
+#: filename.php:15
+msgid "Sistema integrado de forjado que combina inteligentemente el diseño de las piezas de madera OSB, chapa de acero galvanizada, poliestireno expandido EPS y hormigón."
+msgstr "Sistema integrado de forjado que combina inteligentemente el diseño de las piezas de madera OSB, chapa de acero galvanizada, poliestireno expandido EPS y hormigon."
+
+#: filename.php:16
+msgid "El forjado presenta las variantes mixta, acabada con hormigón, o seca, sustituyendo el hormigón por otra placa de madera OSB en la cara superior, adaptándose a las necesidades del proyecto."
+msgstr "El forjado presenta las variantes mixta, acabada con hormigon, o seca, sustituyendo el hormigon por otra placa de madera OSB en la cara superior, adaptandose a las necesidades del proyecto."
+
+#: filename.php:17
+msgid "Sostenibilidad"
+msgstr "Sostenibilidad"
+
+#: filename.php:18
+msgid "Con una produccion limpia y altamente controlada, el sistema SES se convierte en la opcion mas sostenible y respetuosa con el medio ambiente para la ejecucion de forjados."
+msgstr "Con una produccion limpia y altamente controlada, el sistema SES se convierte en la opcion mas sostenible y respetuosa con el medio ambiente para la ejecucion de forjados."
+
+#: filename.php:19
+msgid "Ventajas"
+msgstr "Ventajas"
+
+#: filename.php:20
+msgid "Ventajas del sistema SES:"
+msgstr "Ventajas del sistema SES:"
+
+#: filename.php:21
+msgid "Gran ahorro de tiempo en la construccion."
+msgstr "Gran ahorro de tiempo en la construccion."
+
+#: filename.php:22
+msgid "Facil transporte y almacenaje."
+msgstr "Facil transporte y almacenaje."
+
+#: filename.php:23
+msgid "Montaje sencillo y rapido."
+msgstr "Montaje sencillo y rapido."
+
+#: filename.php:24
+msgid "Sistema adaptable a diferentes geometrias."
+msgstr "Sistema adaptable a diferentes geometrias."
+
+#: filename.php:25
+msgid "Reduccion del peso en un 50% en comparacion con otros sistemas."
+msgstr "Reduccion del peso en un 50% en comparacion con otros sistemas."
+
+#: filename.php:26
+msgid "Cubierta de grandes luces sin necesidad de apuntalamiento."
+msgstr "Cubierta de grandes luces sin necesidad de apuntalamiento."
+
+#: filename.php:27
+msgid "Maxima sostenibilidad y respeto al medio ambiente."
+msgstr "Maxima sostenibilidad y respeto al medio ambiente."
+
+#: filename.php:28
+msgid "Si desea obtener mas informacion acerca del sistema SES, no dude en ponerse en contacto con nosotros."
+msgstr "Si desea obtener mas informacion acerca del sistema SES, no dude en ponerse en contacto con nosotros."
+
+#: filename.php:29
+msgid "Formulario de contacto"
+msgstr "Formulario de contacto"
+
+#: filename.php:30
+msgid "Nombre"
+msgstr "Nombre"
+
+#: filename.php:31
+msgid "Correo electronico"
+msgstr "Correo electronico"
+
+#: filename.php:32
+msgid "Asunto"
+msgstr "Asunto"
+
+#: filename.php:33
+msgid "Mensaje"
+msgstr "Mensaje"
+
+#: filename.php:34
+msgid "Enviar"
+msgstr "Enviar"
+
+#: filename.php:35
+msgid "Ubicacion"
+msgstr "Ubicacion"
+
+#: filename.php:36
+msgid "Direccion"
+msgstr "Direccion"
+
+#: filename.php:37
+msgid "Telefono"
+msgstr "Telefono"
+
+#: filename.php:38
+msgid "Fax"
+msgstr "Fax"
+
+#: filename.php:39
+msgid "Correo"
+msgstr "Correo"
+
+#: filename.php:40
+msgid "Redes Sociales"
+msgstr "Redes Sociales"
