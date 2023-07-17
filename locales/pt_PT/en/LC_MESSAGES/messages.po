@@ -1,0 +1,248 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "Hola Mundo"
+msgstr "Olá Mundo"
+
+msgid "Lo más complejo es alcanzar lo sencillo"
+msgstr "O mais complexo é alcançar o simples"
+
+msgid "Descubre otra alternativa a los sistemas de forjado tradicionales"
+msgstr "Descubra outra alternativa para sistemas de forjamento tradicionais"
+
+msgid "Inicio"
+msgstr "Início"
+
+msgid "Información técnica"
+msgstr "Informação Técnica"
+
+msgid "Índice"
+msgstr "Índice"
+
+msgid "Sistema Mixto"
+msgstr "Sistema Misto"
+
+msgid "Sistema Seco"
+msgstr "Sistema Seco"
+
+msgid "Detalles Constructivos"
+msgstr "Detalhes Construtivos"
+
+msgid "Homologación: DAU"
+msgstr "Homologação: DAU"
+
+msgid "Notícias y Eventos"
+msgstr "Notícias e Eventos"
+
+msgid "Contacto"
+msgstr "Contato"
+
+msgid "search"
+msgstr "buscar"
+
+msgid "Search"
+msgstr "Buscar"
+
+msgid "ES"
+msgstr "ES"
+
+msgid "EN"
+msgstr "EN"
+
+msgid "\"Lo más complejo es alcanzar lo sencillo\""
+msgstr "\"O mais complexo é alcançar o simples\""
+
+msgid "By Joan Francesc García Beltrán"
+msgstr "Por Joan Francesc García Beltrán"
+
+msgid "SES el nuevo sistema integrado de forjado preindustrializado que permite cubrir grandes luces sin apuntalar siendo hasta un 50% más ligero que otras soluciones"
+msgstr "SES, o novo sistema integrado de forjamento pré-industrializado que permite cobrir grandes vãos sem escoramento, sendo até 50% mais leve que outras soluções"
+
+msgid "SENCILLEZ"
+msgstr "SIMPLICIDADE"
+
+msgid "LIGEREZA"
+msgstr "LEVEZA"
+
+msgid "RESISTENCIA"
+msgstr "RESISTÊNCIA"
+
+msgid "CALIDAD"
+msgstr "QUALIDADE"
+
+msgid "SOSTENIBILIDAD"
+msgstr "SUSTENTABILIDADE"
+
+msgid "RENTABILIDAD"
+msgstr "RENTABILIDADE"
+
+msgid "PRECISIÓN"
+msgstr "PRECISÃO"
+
+msgid "Sencillez"
+msgstr "Simplicidade"
+
+msgid "Ligereza"
+msgstr "Leveza"
+
+msgid "Resistencia"
+msgstr "Resistência"
+
+msgid "Calidad"
+msgstr "Qualidade"
+
+msgid "Sostenibilidad"
+msgstr "Sustentabilidade"
+
+msgid "Rentabilidad"
+msgstr "Rentabilidade"
+
+msgid "Precisión"
+msgstr "Precisão"
+
+msgid "Sistema integrado de forjado que combina inteligentemente el diseño de las piezas de madera OSB, chapa de acero galvanizada, poliestireno expandido EPS y hormigón.\n\nEl forjado presenta las variantes mixta, acabada con hormigón, o seca, sustituyendo el hormigón por otra placa de madera OSB en la cara superior, adaptándose a las necesidades del proyecto."
+msgstr "Sistema integrado de forjamento que combina inteligentemente o design de peças de madeira OSB, chapa de aço galvanizado, poliestireno expandido EPS e concreto.\n\nO forjamento apresenta as variantes mista, finalizada com concreto, ou seca, substituindo o concreto por outra placa de madeira OSB na face superior, adaptando-se às necessidades do projeto."
+
+msgid "El bajísimo peso propio del forjado resulta una opción muy atractiva para la ejecución de estructuras en las que el peso propio del forjado es determinante, como en remontas, edificios en altura, zonas sísmicas, o con cimentaciones en suelos con baja capacidad resistente.\n\nEl sistema es hasta un 33% más ligero que la solución equivalente en forjado colaborante, un 50% más ligero que el forjado reticular equivalente y hasta un 65% más ligero que una losa maciza con las mismas prestaciones."
+msgstr "O peso próprio muito baixo do forjamento resulta em uma opção muito atraente para a construção de estruturas em que o peso próprio do forjamento é determinante, como em elevadores, edifícios altos, zonas sísmicas ou com fundações em solos de baixa capacidade resistente.\n\nO sistema é até 33% mais leve que a solução equivalente em forjamento colaborante, 50% mais leve que o forjamento reticular equivalente e até 65% mais leve que uma laje maciça com o mesmo desempenho."
+
+msgid "El SES permite cubrir luces de hasta 7m con sobrecargas estáticas de 580kg/m² sin apuntalar, ideal para usos públicos, residenciales y aparcamiento.\n\nPara grandes luces de hasta 11,5m pueden alcanzarse sobrecargas de uso residencial con apuntalamiento en fase de montaje con cantos de forjado muy atractivos."
+msgstr "O SES permite cobrir vãos de até 7m com sobrecargas estáticas de 580kg/m² sem escoramento, ideal para uso público, residencial e estacionamento.\n\nPara vãos maiores de até 11,5m, sobrecargas residenciais podem ser alcançadas com escoramento durante a fase de montagem, com bordas de forjamento muito atraentes."
+
+msgid "Maximiza prestaciones en un único sistema: alto rendimiento estructural, protección frente a incendio acreditada RE-120'+REI90' y acabado visto limpio y pulido desde su puesta en obra."
+msgstr "Maximiza o desempenho em um único sistema: alto desempenho estrutural, proteção contra incêndio certificada RE-120'+REI90' e acabamento visível limpo e polido desde a instalação."
+
+msgid "Incluso la versión mixta del forjado el sistema proporciona un ahorro de hasta un 20% en emisiones de fabricación respecto otras soluciones constructivas usuales.\n\nEl ahorro de CO₂ durante la fabricación del sistema SES equivale a haber plantado 3100 árboles en un año por cada edificio de 2500m²."
+msgstr "Mesmo na versão mista do forjamento, o sistema proporciona uma economia de até 20% nas emissões de fabricação em comparação com outras soluções construtivas comuns.\n\nA economia de CO₂ durante a fabricação do sistema SES equivale a ter plantado 3100 árvores em um ano para cada edifício de 2500m²."
+
+msgid "EL SES permite optimizar costes indirectos de ejecución gracias a su implementación extremadamente rápida y mínima manipulación en obra.\n\nPermite cubrir en el mismo tiempo hasta 10 veces más superficie que la solución equivalente de forjado reticular."
+msgstr "O SES permite otimizar custos indiretos de execução devido à sua implementação extremamente rápida e manipulação mínima no local.\n\nPermite cobrir até 10 vezes mais área no mesmo tempo do que a solução equivalente de forjamento reticular."
+
+msgid "Ancho adaptable de placas para ajustarse a la dimensión de la estructura. Apoyo simple sobre pórticos metálicos, de hormigón o paredes de carga nuevas y existentes.\n\nFácil ejecución en proyectos complejos como remontas, zonas sísmicas y estructuras provisionales que requieren desmontaje."
+msgstr "Largura adaptável das placas para se ajustar à dimensão da estrutura. Apoio simples em pórticos metálicos, de concreto ou paredes de carga novas e existentes.\n\nExecução fácil em projetos complexos, como elevadores, zonas sísmicas e estruturas temporárias que requerem desmontagem."
+
+msgid "Nuestro objetivo"
+msgstr "Nosso objetivo"
+
+msgid "El sistema SES para forjados integra las funciones estructurales de resistencia al fuego y de apariencia limpia y pulida desde su puesta en obra. Este forjado está diseñado para obtener el máximo rendimiento de sus componentes. Reduce al mínimo el peso propio del forjado, así como el tiempo y equipo necesarios para su puesta en obra.<br>De geometría inteligente, reduce a la mínima expresión el material empleado para maximizar su rendimiento bajo la forma de un forjado plano o inclinado de muy fácil instalación."
+msgstr "O sistema SES para lajes integra as funções estruturais de resistência ao fogo e de aparência limpa e polida desde a instalação. Esta laje é projetada para obter o máximo desempenho de seus componentes. Reduz ao mínimo o peso próprio da laje, bem como o tempo e o equipamento necessários para a instalação.<br>Com geometria inteligente, reduz ao mínimo o material utilizado para maximizar o desempenho sob a forma de uma laje plana ou inclinada de instalação muito fácil."
+
+msgid "Steel Embed System"
+msgstr "Sistema de Incorporação de Aço"
+
+msgid "Componentes"
+msgstr "Componentes"
+
+msgid "Chapas metálicas galvanizadas"
+msgstr "Chapas metálicas galvanizadas"
+
+msgid "Casetones de EPS (Poliestireno expandido)"
+msgstr "Cofragens de EPS (Poliestireno Expandido)"
+
+msgid "Tableros de madera OSB/3"
+msgstr "Placas de madeira OSB/3"
+
+msgid "En qué consiste"
+msgstr "Em que consiste"
+
+msgid "Pensado para forjados y cubiertas ligeras. Hemos diseñado un elemento resistente a los esfuerzos de flexión y cortante formado por varias chapas metálicas perfiladas en frío. Éstas, tienen forma de bandeja y se ensamblan entre ellas para formar placas de diferentes anchos. El conjunto se aligera con casetones de EPS, y se termina por su cara inferior con un tablero de madera OSB que confiere rigidez al conjunto. Si el sistema es SES-MIXTO la capa superior se termina con hormigón y si es SES-SECO con otro tablero de madera OSB igual que el inferior."
+msgstr "Projetado para lajes e coberturas leves. Projetamos um elemento resistente a esforços de flexão e cisalhamento formado por várias chapas metálicas perfiladas a frio. Essas chapas têm forma de bandeja e são montadas entre si para formar placas de diferentes larguras. O conjunto é aliviado com cofragens de EPS e finalizado na face inferior com uma placa de madeira OSB que confere rigidez ao conjunto. Se o sistema for SES-MIXTO, a camada superior é finalizada com concreto e, se for SES-SECO, com outra placa de madeira OSB igual à inferior."
+
+msgid "¿Porqué elegir el sistema SES?"
+msgstr "Por que escolher o sistema SES?"
+
+msgid "Las imágenes y opiniones de expertos profesionales en la ejecución de obra es nuestra mejor carta de presentación."
+msgstr "As imagens e opiniões de especialistas profissionais na execução de obras são nosso melhor cartão de visitas."
+
+msgid "¡COMPRUÉBELO!"
+msgstr "VERIFIQUE!"
+
+msgid "La mejor inversión, la mejor satisfacción personal<br> ¡Sé pionero con nosotros y<br>avancémonos al futuro!"
+msgstr "O melhor investimento, a melhor satisfação pessoal<br> Seja pioneiro conosco e<br>avançemos para o futuro!"
+
+msgid "¿Qué ofrecemos?"
+msgstr "O que oferecemos?"
+
+msgid "DISEÑO:"
+msgstr "DESIGN:"
+
+msgid "Con nuestra experiencia estudiaremos la mejor opción entre nuestros sistemas."
+msgstr "Com nossa experiência, estudaremos a melhor opção entre nossos sistemas."
+
+msgid "Ofrecemos las soluciones alternativas más ecológicas, más avanzadas, simples y económicas, optimizando el tiempo de ejecución en obra mejorando la productividad."
+msgstr "Oferecemos as soluções alternativas mais ecológicas, avançadas, simples e econômicas, otimizando o tempo de execução na obra e melhorando a produtividade."
+
+msgid "Diseñamos el mejor forjado para integrarlo y dar respuesta a las necesidades de su proyecto."
+msgstr "Projetamos a melhor laje para integrá-la e atender às necessidades do seu projeto."
+
+msgid "Además nuestra consultoría técnica de estructuras, con más de 30 años de experiencia, le ofrece el asesoramiento que sea requerido."
+msgstr "Além disso, nossa consultoria técnica estrutural, com mais de 30 anos de experiência, oferece o suporte necessário."
+
+msgid "ANÁLISIS:"
+msgstr "ANÁLISE:"
+
+msgid "Nuestro equipo técnico desde la consultoría JFG Consultors, analiza detalladamente cada una de las propuestas para optimizar tanto el dimensionado de nuestros forjados como, si se desea, el de la totalidad de la estructura."
+msgstr "Nosso equipe técnico da consultoria JFG Consultors analisa detalhadamente cada uma das propostas para otimizar o dimensionamento de nossas lajes e, se desejado, de toda a estrutura."
+
+msgid "Se verifican exhaustivamente nuestros productos para garantizar un estricto control de calidad."
+msgstr "Nossos produtos são rigorosamente verificados para garantir um controle de qualidade estrito."
+
+msgid "PUESTA EN OBRA:"
+msgstr "IMPLEMENTAÇÃO:"
+
+msgid "Además, le ofrecemos nuestra supervisión y colaboración con la Dirección de Obra para ofrecer el servicio más completo."
+msgstr "Além disso, oferecemos supervisão e colaboração com a Direção da Obra para fornecer o serviço mais completo."
+
+msgid "Soporte y asesoramiento técnico personalizado para cualquier tipologia de edificación: rehabilitaciones, remontas y obra nueva."
+msgstr "Suporte e consultoria técnica personalizada para qualquer tipo de construção: renovações, adições e construção nova."
+
+msgid "Miembro de la Asociación de Consultores de Estructuras"
+msgstr "Membro da Associação de Consultores de Estruturas"
+
+msgid "Presentación del sistema SES en la<br>Asociación de Consultores de Estructuras"
+msgstr "Apresentação do sistema SES na<br>Associação de Consultores de Estruturas"
+
+msgid "Un consultor de estructuras debe tener siempre una respuesta ante las posibles necesidades que genere el proyecto"
+msgstr "Um consultor de estruturas sempre deve ter uma resposta para as possíveis necessidades geradas pelo projeto"
+
+msgid "Arquitecto colegiado y miembro de la Asociación de Consultores de Estructuras, fundador de la consultoria de estructuras"
+msgstr "Arquiteto registrado e membro da Associação de Consultores de Estruturas, fundador da consultoria de estruturas"
+
+msgid "fundada en 2007, ofrece"
+msgstr "fundada em 2007, oferece"
+
+msgid "SES"
+msgstr "SES"
+
+msgid "el nuevo sistema de forjado preindustrializado inteligente capaz de adaptarse a los requerimentos más duros de la construcción, pensado expresamente para forjados y cubiertas ligeras."
+msgstr "o novo sistema de forjamento pré-industrializado inteligente capaz de se adaptar às demandas mais rigorosas da construção, projetado especificamente para lajes e coberturas leves."
+
+
+#: path/to/your/template/file.php:7
+msgid "Diseño de producto y control de calidad:"
+msgstr "Design de produto e controle de qualidade:"
+
+#: path/to/your/template/file.php:8
+msgid "Joan Francesc Garcia Beltrán"
+msgstr "Joan Francesc Garcia Beltrán"
+
+#: path/to/your/template/file.php:12
+msgid "Contacto:"
+msgstr "Contato:"
+
+#: path/to/your/template/file.php:14
+msgid "C/ Sant Antoni Maria Claret, 24, 3ªplanta"
+msgstr "C/ Sant Antoni Maria Claret, 24, 3º andar"
+
+#: path/to/your/template/file.php:15
+msgid "08037 Barcelona"
+msgstr "08037 Barcelona"
+
+#: path/to/your/template/file.php:16
+msgid "Teléfono 93.011.54.64"
+msgstr "Telefone 93.011.54.64"
+
+#: path/to/your/template/file.php:19
+msgid "info@ses.systems"
+msgstr "info@ses.systems"

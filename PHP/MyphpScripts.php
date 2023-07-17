@@ -32,11 +32,11 @@ function changeLang($value)
     return $newURL;
 }
 
-/*
+
 function checkLanguage()
 {
     $lang = $lang ?? 'es_ES';
-    $languages = array('en_US', 'pt_PT');
+    $languages = array('en_US', 'pt_PT', 'es_ES');
     $lang = $_GET['lang'] ?? $lang;
     putenv("LANG=" . $lang);
     setlocale(LC_ALL, $lang);
@@ -44,20 +44,22 @@ function checkLanguage()
     $localeDir = '';
     bindtextdomain($domain, $localeDir);
     if (in_array($lang, $languages)) {
-        $localeDir = __DIR__ . '/../locale';
+        $localeDir = __DIR__ . '/../locales/' . $lang;
+        echo $localeDir . '<br>';
         bindtextdomain($domain, $localeDir);
         bind_textdomain_codeset($domain, 'UTF-8');
         textdomain($domain);
     }
 }
-*/
+
+/*
 function checkLanguage()
 {
     // Set the default language
     $lang = $lang ?? 'es_ES';
 
     // Specify valid languages
-    $languages = array('es_ES', 'en_US', 'pt_PT');
+    $languages = array('en_US', 'pt_PT');
 
     // Get the targeted language from the query parameter, or use the default
     $lang = $_GET['lang'] ?? $lang;
@@ -86,3 +88,4 @@ function checkLanguage()
         textdomain($domain);
     }
 }
+*/

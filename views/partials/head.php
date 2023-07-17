@@ -2,7 +2,7 @@
 header('Content-Type: text/html; charset=UTF-8');
 ?>
 <!doctype html>
-<html lang="es">
+<html lang="es_ES">
 
 <head>
     <meta charset="utf-8">
