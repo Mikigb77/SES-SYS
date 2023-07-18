@@ -45,7 +45,6 @@ function checkLanguage()
     bindtextdomain($domain, $localeDir);
     if (in_array($lang, $languages)) {
         $localeDir = __DIR__ . '/../locales/' . $lang;
-        echo $localeDir . '<br>';
         bindtextdomain($domain, $localeDir);
         bind_textdomain_codeset($domain, 'UTF-8');
         textdomain($domain);

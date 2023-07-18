@@ -41,7 +41,7 @@
                 <div class="navbar-text">
                     <a href="<?php echo changeLang('es_ES'); ?>"><?php echo gettext("ES"); ?></a>
                     <a href="<?php echo changeLang('en_US'); ?>"><?php echo gettext("EN"); ?></a>
-                    <a href="<?php echo changeLang('pt_PT'); ?>"><?php echo gettext("PT"); ?></a>
+                    <!---<a href="<?php echo changeLang('pt_PT'); ?>"><?php echo gettext("PT"); ?></a> --->
                 </div>
             </div>
         </div>

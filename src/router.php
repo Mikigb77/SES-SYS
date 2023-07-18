@@ -20,6 +20,9 @@ class Router
 
     public function resolve()
     {
+        // Erase when the web can be up
+        header('Location: https://ses.systems/working_on_it');
+
         $currURL = $_SERVER['REQUEST_URI'];
         if (strpos($currURL, '?'))
             $currURL = substr($currURL, 0, strpos($currURL, '?'));
